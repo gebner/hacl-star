@@ -1,9 +1,6 @@
 {
   "fstar_exe": "fstar.exe",
   "options": [
-    "--use_hints",
-    "--use_hint_hashes",
-    "--record_hints",
     "--odir", "../obj",
     "--cmi",
     "--already_cached", "Prims FStar LowStar C Spec.Loops TestLib WasmSupport",
@@ -17,8 +14,7 @@
     "--initial_ifuel", "0",
     "--smtencoding.elim_box", "true",
     "--smtencoding.l_arith_repr", "native",
-    "--smtencoding.nl_arith_repr", "wrapped",
-    "--hint_dir", "../hints"
+    "--smtencoding.nl_arith_repr", "wrapped"
   ],
   "include_dirs": [
     "../lib",

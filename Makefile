@@ -401,7 +401,6 @@ endif
 	  $(FSTAR) --dump_module $(subst prims,Prims,$(basename $(notdir $*))) \
 	    --print_implicits --print_universes --print_effect_args --print_full_names \
 	    --print_bound_var_types --ugly --admit_smt_queries true \
-	    --hint_dir hints/ \
 	    $(notdir $*) > $@ \
 	  ,[DUMP] $(notdir $(patsubst %.fst,%,$*)),$(call to-obj-dir,$@))
 
@@ -458,18 +457,14 @@ $(call only-for,$(HACL_HOME)/vale/code/%.checked): \
 $(addsuffix .checked,$(VALE_FSTS)): \
   FSTAR_FLAGS=$(VALE_FSTAR_FLAGS)
 
-hints:
-	mkdir -p $@
-
 # The actual default invocation. Note that the FSTAR_FLAGS= definition allows
 # making sure prerequisites of a given rule (e.g. CanonCommMonoid) don't inherit
 # the variable assignment of their parent rule.
 
 %.checked: FSTAR_FLAGS=
-%.checked: | hints
+%.checked:
 	$(call run-with-log,\
 	  $(FSTAR) $(FSTAR_FLAGS) \
-	    --hint_dir hints \
 	    $< \
 	    && \
 	    touch -c $@ \

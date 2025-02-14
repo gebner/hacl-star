@@ -134,10 +134,6 @@ AddOptYesNo('Z3-MY-VERSION', dest = 'z3_my_version', default = False,
   help = 'Use version of Z3 that does not necessarily match .tested_z3_version')
 AddOptYesNo('VALE-MY-VERSION', dest = 'vale_my_version', default = False,
   help = 'Use version of Vale that does not necessarily match .vale_version')
-AddOptYesNo('RECORD-HINTS', dest = 'record_hints', default = False,
-  help = 'Record new F* .hints files into the hints directory')
-AddOptYesNo('USE-HINTS', dest = 'use_hints', default = True,
-  help = 'Use F* .hints files from the hints directory')
 AddOption('--FARGS', dest = 'fstar_user_args', type = 'string', default = [], action = 'append',
   help = 'Supply temporary additional arguments to the F* compiler')
 AddOption('--VARGS', dest = 'vale_user_args', type = 'string', default = [], action = 'append',
@@ -178,8 +174,6 @@ fstar_my_version = GetOption('fstar_my_version')
 z3_my_version = GetOption('z3_my_version')
 vale_my_version = GetOption('vale_my_version')
 fstar_extract = GetOption('fstar_extract')
-record_hints = GetOption('record_hints')
-use_hints = GetOption('use_hints')
 do_color = GetOption('do_color')
 dump_args = GetOption('dump_args')
 single_vaf = GetOption('single_vaf')
@@ -256,9 +250,7 @@ def fstar_default_args_nosmtencoding(relative=True):
   # The main purpose of --z3cliopt smt.QI.EAGER_THRESHOLD=100 is to make sure that matching loops get caught
   # Don't remove unless you're sure you've used the axiom profiler to make sure you have no matching loops
   + ' --z3cliopt smt.arith.nl=false --z3cliopt smt.QI.EAGER_THRESHOLD=100 --z3cliopt smt.CASE_SPLIT=3'
-  + ' --hint_info'
-  + (' --use_hints --use_hint_hashes' if use_hints else '')
-  + (' --cache_off' if record_hints else ' --cache_checked_modules')
+  + ' --cache_checked_modules'
   + ' --cache_dir ' + cache_dir
   + ' --use_extracted_interfaces true'
   + ' --ext context_pruning'
@@ -268,8 +260,6 @@ def fstar_default_args(relative=True):
   return (fstar_default_args_nosmtencoding(relative)
   + ' --smtencoding.elim_box true --smtencoding.l_arith_repr native --smtencoding.nl_arith_repr wrapped'
   )
-
-fstar_record_hints = ' --record_hints' if record_hints else ''
 
 vale_scons_args = '-disableVerify -omitUnverified' if is_single_vaf else ''
 vale_includes = f'-include {File("code/lib/util/Vale.Lib.Operator.vaf")}'
@@ -511,9 +501,6 @@ def to_obj_dir(file):
     return file
   else:
     return File(f'obj/{file}')
-
-def to_hint_file(file):
-  return File(f'../hints/{file.name}.hints')
 
 def ml_out_file(sourcefile, suffix):
   module_name = file_module_name(sourcefile).replace('.', '_')
@@ -765,16 +752,11 @@ def verify_fstar_file(options, targetfile, sourcefile, fstar_includes):
   temptargetfile = File(f'{targetfile}.tmp')
   temptargetfiles = [temptargetfile]
   dumptargetfile = File(re.sub('\.verified$', '.dump', str(targetfile)))
-  hintfile = to_hint_file(sourcefile)
   if min_test and on_black_list(sourcefile, min_test_suite_blacklist):
     print(f'Skipping {sourcefile} because it is on min_test_suite_blacklist')
-  if record_hints:
-    temptargetfiles.append(hintfile)
-  elif use_hints and os.path.isfile(str(hintfile)):
-    Depends(temptargetfiles, hintfile)
   env.Command(temptargetfiles, sourcefile,
     f'{fstar_exe} {sourcefile} {options.verifier_flags} {fstar_z3_path} {fstar_no_verify}' +
-    f' {fstar_includes} {" ".join(fstar_user_args)} --hint_dir ../hints {fstar_record_hints}' +
+    f' {fstar_includes} {" ".join(fstar_user_args)} ' +
     (f' --debug {file_module_name(File(sourcefile))} --debug_level print_normalized_terms' if profile else '') +
     f' 1> {temptargetfile} 2> {stderrfile}')
   CopyFile(targetfile, temptargetfile)
