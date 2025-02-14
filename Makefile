@@ -336,7 +336,7 @@ ifndef MAKE_RESTARTS
 # install`) We need to remove such detours by hand, which is done by
 # that `sed` invocation below
 
-.fstar-depend-%: .FORCE
+.fstar-depend-%:
 	@if ! [ -f .didhelp ]; then echo "ℹ️  This is F* version $(shell $(FSTAR_NO_FLAGS) --version)"; touch .didhelp; fi
 	@if ! [ -f .didhelp ]; then echo "💡 Did you know? If your dependency graph didn't change (e.g. no files added or removed, no reference to a new module in your code), run NODEPEND=1 make <your-target> to skip dependency graph regeneration!"; touch .didhelp; fi
 	@rm -f $@.rsp
@@ -348,7 +348,7 @@ ifndef MAKE_RESTARTS
 	  $(SED) 's!$(HACL_HOME)/obj/\(.*.checked\)!obj/\1!;s!/bin/\.\./!/!g' $@.tmp && mv $@.tmp $@ \
 	  ,[FSTAR-DEPEND ($*)],$(call to-obj-dir,$@))
 
-.vale-depend: .fstar-depend-make .FORCE
+.vale-depend: .fstar-depend-make
 	$(call run-with-log,\
 	  "$(PYTHON3)" tools/valedepend.py \
 	    $(addprefix -include ,$(INCLUDES)) \
