@@ -19,13 +19,13 @@ let fill_elems_impl_ty
   (#a:Type0)
   (n:size_t)
   (output:AP.ptr t) //lbuffer t n
-  (spec: (i:size_nat{i < v n} -> a -> a & t))
+  (spec: erased (i:size_nat{i < v n} -> a -> a & t))
   (refl: (i:size_nat{i <= v n} -> a -> slprop)) =
-  (i:size_t{v i < v n} -> #vr: a -> #vo: erased (Seq.seq t) { Seq.length vo == v n } -> stt unit
+  (i:size_t{v i < v n} -> #vr: erased a -> #vo: erased (Seq.seq t) { Seq.length vo == v n } -> stt unit
       (requires refl (v i) vr ** pts_to output vo)
       (ensures fun _ ->
-        refl (v i + 1) (fst (spec (v i) vr)) **
-        pts_to output (Seq.upd vo (v i) (snd (spec (v i) vr)))))
+        refl (v i + 1) (fst (reveal spec (v i) vr)) **
+        pts_to output (Seq.upd vo (v i) (snd (reveal spec (v i) vr)))))
 
 inline_for_extraction noextract
 let fill_elems_st =
@@ -34,8 +34,7 @@ let fill_elems_st =
   -> n:size_t
   -> output:AP.ptr t //lbuffer t n
   -> refl: (i:size_nat{i <= v n} -> a -> slprop)
-  // TODO erase
-  -> spec: (i:size_nat{i < v n} -> a -> a & t)
+  -> spec: erased (i:size_nat{i < v n} -> a -> a & t)
   -> impl: fill_elems_impl_ty n output spec refl ->
   #vr: a ->
   stt unit
@@ -53,9 +52,10 @@ fn fill_elems' () : fill_elems_st = #t #a n output refl spec impl #vr {
 
   while (let vi = !i; (lt vi n))
     invariant b. exists* (vi: size_t { v vi <= v n })
-        (voutput: Seq.seq t { Seq.length voutput == v n }).
+        (voutput: Seq.seq t { Seq.length voutput == v n }) vr'.
       pts_to i vi ** pts_to output voutput **
-      refl (v vi) (S.generate_elems (v n) (v vi) spec vr)._1 **
+      refl (v vi) vr' **
+      pure (vr' == (S.generate_elems (v n) (v vi) spec vr)._1) **
       pure (forall (j: nat { j < v vi }).
         Seq.index voutput j ==
           Seq.index (snd (S.generate_elems (v n) (v vi) spec vr)) j) **
@@ -64,20 +64,15 @@ fn fill_elems' () : fill_elems_st = #t #a n output refl spec impl #vr {
     let vi = !i;
     with vi'. assert pts_to i vi'; rewrite each vi' as vi;
     S.generate_elems_unfold (v n) (v n) spec vr (v vi);
-    let x = impl vi #((S.generate_elems (v n) (v vi) spec vr)._1);
-    rewrite
-      refl (v vi + 1)
-        (fst (spec (v vi) (S.generate_elems (v n) (v vi) spec vr)._1))
-    as
-      refl (v (add vi (mk_int 1)))
-        (S.generate_elems (v n) (v (add vi (mk_int 1))) spec vr)._1;
+    with voutput. assert pts_to output voutput;
+    with vr'. assert refl (v vi) vr';
+    let x = impl vi;
+    with vr''. rewrite refl (v vi + 1) vr'' as refl (v (add vi (mk_int 1))) vr'';
     i := add vi (uint 1);
   };
   with vi. assert pts_to i vi;
   with voutput. assert pts_to output voutput ** pure (voutput `Seq.equal` snd (S.generate_elems (v n) (v n) spec vr));
-  rewrite
-    refl (v vi) (S.generate_elems (v n) (v vi) spec vr)._1
-  as
+  with vr'. rewrite refl (v vi) vr' as
     refl (v n) (fst (S.generate_elems (v n) (v n) spec vr));
 }
 
