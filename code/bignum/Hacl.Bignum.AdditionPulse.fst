@@ -31,12 +31,12 @@ fn bn_sub_carry
   (res:lbignum t aLen)
   (#a0: (SD.lbignum t (v aLen)))
   // FIXME: eq_or_disjoint
-  requires pts_to a #pra a0 ** (exists* res0. pts_to res res0)
+  requires pts_to a #pra a0
+  requires exists* res0. pts_to res res0
   returns c_out : carry t
-  ensures
-    pts_to res (snd (S.bn_sub_carry a0 c_in)) **
-    pts_to a #pra a0 **
-    pure (c_out == fst (S.bn_sub_carry a0 c_in))
+  ensures pts_to res (snd (S.bn_sub_carry a0 c_in))
+  ensures pts_to a #pra a0
+  ensures pure (c_out == fst (S.bn_sub_carry a0 c_in))
 {
   let mut c = c_in;
 
