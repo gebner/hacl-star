@@ -21,18 +21,6 @@ inline_for_extraction let sizet_of_size_t (x: size_t) : y:SizeT.t { v x == SizeT
   assume SizeT.fits_u32;
   SizeT.uint32_to_sizet x
 
-[@@pulse_unfold]
-let bn_sub_carry_refl
-  #t
-  (aLen:size_t)
-  (a:lbignum t aLen)
-  (pra: perm)
-  (a0: (SD.lbignum t (v aLen)))
-  (c: ref (carry t))
-  (i: size_nat{i <= v aLen}) (x: carry t)
-  : slprop =
-  pts_to c x ** pts_to a #pra a0
-
 inline_for_extraction noextract
 fn bn_sub_carry
   (#t:limb_t)
@@ -53,7 +41,9 @@ fn bn_sub_carry
   let mut c = c_in;
 
   let spec = S.bn_sub_carry_f a0;
-  fn body () : fill_elems_impl_ty #(limb t) #(carry t) aLen res (bn_sub_carry_refl aLen a pra a0 c) spec = i #vr #vo {
+  with refl. assert pure (refl ==
+    (fun (i: size_nat { i <= v aLen }) (x: carry t) -> pts_to c x ** pts_to a #pra a0));
+  fn body () : fill_elems_impl_ty #(limb t) #(carry t) aLen res refl spec = i #vr #vo {
     let t1 = AP.(a.(sizet_of_size_t i));
     let res_i = AR.from_array_ptr res (sizet_of_size_t i);
     let c0 = !c;
@@ -84,24 +74,14 @@ let bn_sub_eq_len_st (t:limb_t) (aLen:size_t) =
     pure (c_out == fst (SL.generate_elems (v aLen) (v aLen) (S.bn_sub_f va vb) (uint #t 0))) **
     lbignum_pts_to res (snd (SL.generate_elems (v aLen) (v aLen) (S.bn_sub_f va vb) (uint #t 0))))
 
-[@@pulse_unfold]
-let bn_sub_eq_len_refl (t:limb_t) (aLen:size_t)
-  (a: lbignum t aLen)
-  (b: lbignum t aLen)
-  (va: (SD.lbignum t (v aLen)))
-  (vb: (SD.lbignum t (v aLen)))
-  (pra prb: perm)
-  (c: ref (carry t))
-  (i: size_nat{i <= v aLen}) (x: carry t)
-  : slprop =
-  pts_to c x ** pts_to a #pra va ** pts_to b #prb vb
-
 inline_for_extraction noextract
 fn bn_sub_eq_len #t aLen : bn_sub_eq_len_st t aLen = a b res #va #vb #pra #prb {
   let mut c = (uint #t 0 <: carry t);
 
   let spec = S.bn_sub_f va vb;
-  fn body () : fill_elems_impl_ty #(limb t) #(carry t) aLen res (bn_sub_eq_len_refl t aLen a b va vb pra prb c) spec = i #vr #vo {
+  with refl. assert pure (refl == (fun (i: size_nat{i <= v aLen}) (x: carry t) ->
+    pts_to c x ** pts_to a #pra va ** pts_to b #prb vb));
+  fn body () : fill_elems_impl_ty #(limb t) #(carry t) aLen res refl spec = i #vr #vo {
     let t1 = AP.(a.(sizet_of_size_t i));
     let t2 = AP.(b.(sizet_of_size_t i));
     let res_i = AR.from_array_ptr res (sizet_of_size_t i);
@@ -200,17 +180,6 @@ fn bn_sub1
   }
 }
 
-[@@pulse_unfold]
-let bn_add_carry_refl
-  (#t:limb_t)
-  (aLen:size_t)
-  (a:lbignum t aLen)
-  va pra
-  (c: ref (carry t))
-  (i: size_nat{i <= v aLen}) (x: carry t)
-  : slprop =
-  pts_to c x ** pts_to a #pra va
-
 inline_for_extraction noextract
 fn bn_add_carry
     (#t:limb_t)
@@ -229,7 +198,9 @@ fn bn_add_carry
   let mut c = c_in;
 
   let spec = S.bn_add_carry_f va;
-  fn body () : fill_elems_impl_ty #(limb t) #(carry t) aLen res (bn_add_carry_refl aLen a va pra c) spec = i #vr #vo {
+  with refl. assert (pure (refl == fun (i: size_nat{i <= v aLen}) (x: carry t) ->
+    pts_to c x ** pts_to a #pra va));
+  fn body () : fill_elems_impl_ty #(limb t) #(carry t) aLen res refl spec = i #vr #vo {
     let t1 = AP.(a.(sizet_of_size_t i));
     let res_i = AR.from_array_ptr res (sizet_of_size_t i);
     let c' = !c;
@@ -260,26 +231,14 @@ let bn_add_eq_len_st (t:limb_t) (aLen:size_t) =
       pure (c_out == fst s) ** pts_to res (snd s))
 
 
-[@@pulse_unfold]
-let bn_add_eq_len_refl
-  (#t:limb_t)
-  (aLen:size_t)
-  (a:lbignum t aLen)
-  (b:lbignum t aLen)
-  (res:lbignum t aLen)
-  va pra
-  vb prb
-  (c: ref (carry t))
-  (i: size_nat{i <= v aLen}) (x: carry t)
-  : slprop =
-  pts_to c x ** pts_to a #pra va ** pts_to b #prb vb
-
 inline_for_extraction noextract
 fn bn_add_eq_len (#t:limb_t) (aLen:size_t) : bn_add_eq_len_st t aLen = a b res #va #vb #pra #prb {
   let mut c: carry t = uint #t 0;
 
   let spec = S.bn_add_f va vb;
-  fn body () : fill_elems_impl_ty #(limb t) #(carry t) aLen res (bn_add_eq_len_refl aLen a b res va pra vb prb c) spec = i #vr #vo {
+  with refl. assert pure (refl == fun (i: size_nat{i <= v aLen}) (x: carry t) ->
+    pts_to c x ** pts_to a #pra va ** pts_to b #prb vb);
+  fn body () : fill_elems_impl_ty #(limb t) #(carry t) aLen res refl spec = i #vr #vo {
     let t1 = AP.(a.(sizet_of_size_t i));
     let t2 = AP.(b.(sizet_of_size_t i));
     let res_i = AR.from_array_ptr res (sizet_of_size_t i);
