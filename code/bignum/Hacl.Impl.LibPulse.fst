@@ -19,8 +19,8 @@ let fill_elems_impl_ty
   (#a:Type0)
   (n:size_t)
   (output:AP.ptr t) //lbuffer t n
-  (refl: (i:size_nat{i <= v n} -> a -> slprop))
-  (spec: (i:size_nat{i < v n} -> a -> a & t)) =
+  (spec: (i:size_nat{i < v n} -> a -> a & t))
+  (refl: (i:size_nat{i <= v n} -> a -> slprop)) =
   (i:size_t{v i < v n} -> #vr: a -> #vo: erased (Seq.seq t) { Seq.length vo == v n } -> stt unit
       (requires refl (v i) vr ** pts_to output vo)
       (ensures fun _ ->
@@ -36,7 +36,7 @@ let fill_elems_st =
   -> refl: (i:size_nat{i <= v n} -> a -> slprop)
   // TODO erase
   -> spec: (i:size_nat{i < v n} -> a -> a & t)
-  -> impl: fill_elems_impl_ty n output refl spec ->
+  -> impl: fill_elems_impl_ty n output spec refl ->
   #vr: a ->
   stt unit
     (requires refl 0 vr ** (exists* vo. pts_to output vo ** pure (Seq.length vo == v n)))

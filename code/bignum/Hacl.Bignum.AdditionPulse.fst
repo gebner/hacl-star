@@ -40,10 +40,10 @@ fn bn_sub_carry
 {
   let mut c = c_in;
 
-  let spec = S.bn_sub_carry_f a0;
-  with refl. assert pure (refl ==
-    (fun (i: size_nat { i <= v aLen }) (x: carry t) -> pts_to c x ** pts_to a #pra a0));
-  fn body () : fill_elems_impl_ty #(limb t) #(carry t) aLen res refl spec = i #vr #vo {
+  with body_ty. assert pure (body_ty ==
+    fill_elems_impl_ty aLen res (S.bn_sub_carry_f a0)
+      fun i x -> pts_to c x ** pts_to a #pra a0);
+  fn body () : body_ty = i #vr #vo {
     let t1 = AP.(a.(sizet_of_size_t i));
     let res_i = AR.from_array_ptr res (sizet_of_size_t i);
     let c0 = !c;
@@ -53,7 +53,7 @@ fn bn_sub_carry
     AR.from_array_ptr_return res_i;
   };
 
-  fill_elems4 aLen res _ spec (body ());
+  fill_elems4 aLen res _ _ (body ());
   !c;
 }
 
@@ -78,10 +78,9 @@ inline_for_extraction noextract
 fn bn_sub_eq_len #t aLen : bn_sub_eq_len_st t aLen = a b res #va #vb #pra #prb {
   let mut c = (uint #t 0 <: carry t);
 
-  let spec = S.bn_sub_f va vb;
-  with refl. assert pure (refl == (fun (i: size_nat{i <= v aLen}) (x: carry t) ->
-    pts_to c x ** pts_to a #pra va ** pts_to b #prb vb));
-  fn body () : fill_elems_impl_ty #(limb t) #(carry t) aLen res refl spec = i #vr #vo {
+  with body_ty. assert pure (body_ty == fill_elems_impl_ty aLen res (S.bn_sub_f va vb)
+    fun i x -> pts_to c x ** pts_to a #pra va ** pts_to b #prb vb);
+  fn body () : body_ty = i #vr #vo {
     let t1 = AP.(a.(sizet_of_size_t i));
     let t2 = AP.(b.(sizet_of_size_t i));
     let res_i = AR.from_array_ptr res (sizet_of_size_t i);
@@ -90,8 +89,7 @@ fn bn_sub_eq_len #t aLen : bn_sub_eq_len_st t aLen = a b res #va #vb #pra #prb {
     c := c';
     AR.from_array_ptr_return res_i;
   };
-
-  fill_elems4 aLen res _ spec (body ());
+  fill_elems4 aLen res _ _ (body ());
   !c
 }
 
@@ -197,10 +195,10 @@ fn bn_add_carry
 {
   let mut c = c_in;
 
-  let spec = S.bn_add_carry_f va;
-  with refl. assert (pure (refl == fun (i: size_nat{i <= v aLen}) (x: carry t) ->
-    pts_to c x ** pts_to a #pra va));
-  fn body () : fill_elems_impl_ty #(limb t) #(carry t) aLen res refl spec = i #vr #vo {
+  with body_ty. assert pure (body_ty ==
+    fill_elems_impl_ty aLen res (S.bn_add_carry_f va)
+      fun i x -> pts_to c x ** pts_to a #pra va);
+  fn body () : body_ty = i #vr #vo {
     let t1 = AP.(a.(sizet_of_size_t i));
     let res_i = AR.from_array_ptr res (sizet_of_size_t i);
     let c' = !c;
@@ -209,7 +207,7 @@ fn bn_add_carry
     AR.from_array_ptr_return res_i;
   };
   
-  fill_elems4 aLen res _ spec (body ());
+  fill_elems4 aLen res _ _ (body ());
   !c
 }
 
@@ -235,10 +233,10 @@ inline_for_extraction noextract
 fn bn_add_eq_len (#t:limb_t) (aLen:size_t) : bn_add_eq_len_st t aLen = a b res #va #vb #pra #prb {
   let mut c: carry t = uint #t 0;
 
-  let spec = S.bn_add_f va vb;
-  with refl. assert pure (refl == fun (i: size_nat{i <= v aLen}) (x: carry t) ->
-    pts_to c x ** pts_to a #pra va ** pts_to b #prb vb);
-  fn body () : fill_elems_impl_ty #(limb t) #(carry t) aLen res refl spec = i #vr #vo {
+  with body_ty. assert pure (body_ty ==
+    fill_elems_impl_ty aLen res (S.bn_add_f va vb)
+      fun i x -> pts_to c x ** pts_to a #pra va ** pts_to b #prb vb);
+  fn body () : body_ty = i #vr #vo {
     let t1 = AP.(a.(sizet_of_size_t i));
     let t2 = AP.(b.(sizet_of_size_t i));
     let res_i = AR.from_array_ptr res (sizet_of_size_t i);
@@ -248,7 +246,7 @@ fn bn_add_eq_len (#t:limb_t) (aLen:size_t) : bn_add_eq_len_st t aLen = a b res #
     AR.from_array_ptr_return res_i;
   };
 
-  fill_elems4 aLen res _ spec (body ());
+  fill_elems4 aLen res _ _ (body ());
   !c
 }
 
