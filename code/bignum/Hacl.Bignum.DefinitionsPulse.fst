@@ -27,3 +27,11 @@ let limb (t:limb_t) = S.limb t
 
 inline_for_extraction noextract
 let lbignum (t:limb_t) (len: size_t) = AP.ptr (limb t)
+
+[@@pulse_unfold]
+let lbignum_pts_to #t #len (x: lbignum t len) (#[full_default()] f : perm) (v: S.lbignum t (v len)) =
+  AP.pts_to x #f v
+
+[@@pulse_unfold]
+instance lbignum_pts_to_inst #t #len : has_pts_to (lbignum t len) (S.lbignum t (v len)) =
+  { pts_to = lbignum_pts_to }

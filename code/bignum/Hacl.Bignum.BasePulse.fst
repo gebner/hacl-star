@@ -45,7 +45,7 @@ inline_for_extraction noextract
 fn subborrow_st (#t:limb_t) (c_in:carry t) (a:limb t) (b:limb t) (out:AR.ref (limb t))
   requires exists* s. pts_to out s
   returns c_out: carry t
-  ensures exists* c0. pts_to out c0 ** pure ((c_out, c0) == subborrow c_in a b)
+  ensures pts_to out (snd (subborrow c_in a b)) ** pure (c_out == fst (subborrow c_in a b))
 {
   let c_out = Lib.IntTypes.IntrinsicsPulse.sub_borrow #t c_in a b out;
   c_out

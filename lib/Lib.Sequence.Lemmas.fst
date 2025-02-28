@@ -13,6 +13,8 @@ let rec repeati_extensionality #a n f g acc0 =
   else begin
     Loops.unfold_repeati n f acc0 (n-1);
     Loops.unfold_repeati n g acc0 (n-1);
+    assert Loops.repeati n f acc0 == f (n-1) (Loops.repeati (n-1) f acc0);
+    assert Loops.repeati n g acc0 == g (n-1) (Loops.repeati (n-1) g acc0);
     repeati_extensionality #a (n-1) f g acc0 end
 
 
@@ -23,6 +25,7 @@ let rec repeat_right_extensionality n lo a_f a_g f g acc0 =
   else begin
     Loops.unfold_repeat_right lo (lo + n) a_f f acc0 (lo + n - 1);
     Loops.unfold_repeat_right lo (lo + n) a_g g acc0 (lo + n - 1);
+    assert Loops.repeat_right lo (lo + n) a_f f acc0 == f (lo + n-1) (Loops.repeat_right lo (lo + n-1) a_f f acc0);
     repeat_right_extensionality (n - 1) lo a_f a_g f g acc0 end
 
 
@@ -32,6 +35,7 @@ let rec repeat_gen_right_extensionality n lo_g a_f a_g f g acc0 =
     Loops.eq_repeat_right lo_g (lo_g+n) a_g g acc0 end
   else begin
     Loops.unfold_repeat_right 0 n a_f f acc0 (n-1);
+    assert Loops.repeat_right 0 n a_f f acc0 == f (n-1) (Loops.repeat_right 0 (n-1) a_f f acc0);
     Loops.unfold_repeat_right lo_g (lo_g+n) a_g g acc0 (lo_g+n-1);
     repeat_gen_right_extensionality (n-1) lo_g a_f a_g f g acc0 end
 
