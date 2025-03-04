@@ -10,6 +10,7 @@ module LSeq = Lib.Sequence
 module Loops = Lib.LoopCombinators
 
 module S = Hacl.Spec.Lib
+module T = FStar.Tactics.V2
 
 module AP = Pulse.Lib.ArrayPtr
 
@@ -19,10 +20,12 @@ let fill_elems_impl_ty
   (#a:Type0)
   (n:size_t)
   (output:AP.ptr t) //lbuffer t n
+  (#[T.exact_with_ref (`(fun j x -> True))] output_spec: (j:nat { j < v n } -> t -> prop))
   (spec: erased (i:size_nat{i < v n} -> a -> a & t))
   (refl: (i:size_nat{i <= v n} -> a -> slprop)) =
   (i:size_t{v i < v n} -> #vr: erased a -> #vo: erased (Seq.seq t) { Seq.length vo == v n } -> stt unit
-      (requires refl (v i) vr ** pts_to output vo)
+      (requires refl (v i) vr ** pts_to output vo **
+        pure (forall j. v i <= j /\ j < v n ==> output_spec j (Seq.index vo j)))
       (ensures fun _ ->
         refl (v i + 1) (fst (reveal spec (v i) vr)) **
         pts_to output (Seq.upd vo (v i) (snd (reveal spec (v i) vr)))))
@@ -33,18 +36,21 @@ let fill_elems_st =
   -> #a:Type0
   -> n:size_t
   -> output:AP.ptr t //lbuffer t n
+  -> #output_spec: _
   -> refl: (i:size_nat{i <= v n} -> a -> slprop)
   -> spec: erased (i:size_nat{i < v n} -> a -> a & t)
-  -> impl: fill_elems_impl_ty n output spec refl ->
+  -> impl: fill_elems_impl_ty n output #output_spec spec refl ->
   #vr: a ->
   stt unit
-    (requires refl 0 vr ** (exists* vo. pts_to output vo ** pure (Seq.length vo == v n)))
+    (requires refl 0 vr **
+      (exists* vo. pts_to output vo ** pure (Seq.length vo == v n) **
+        pure (forall j. output_spec j (Seq.index vo j))))
     (ensures fun _ ->
       refl (v n) (fst (S.generate_elems (v n) (v n) spec vr)) **
       pts_to output (snd (S.generate_elems (v n) (v n) spec vr)))
 
 inline_for_extraction noextract
-fn fill_elems' () : fill_elems_st = #t #a n output refl spec impl #vr {
+fn fill_elems' () : fill_elems_st = #t #a n output #output_spec refl spec impl #vr {
   let mut i = (uint 0 <: size_t);
   S.eq_generate_elems0 (v n) 0 spec vr;
   rewrite refl 0 vr as 
@@ -59,6 +65,7 @@ fn fill_elems' () : fill_elems_st = #t #a n output refl spec impl #vr {
       pure (forall (j: nat { j < v vi }).
         Seq.index voutput j ==
           Seq.index (snd (S.generate_elems (v n) (v vi) spec vr)) j) **
+      pure (forall j. v vi <= j /\ j < v n ==> output_spec j (Seq.index voutput j)) **
       pure (b == (lt vi n))
   {
     let vi = !i;

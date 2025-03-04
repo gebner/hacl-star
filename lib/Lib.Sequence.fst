@@ -55,6 +55,9 @@ let lemma_update_sub #a #len dst start n src res =
   Seq.lemma_split res1 (start + n);
   Seq.lemma_eq_intro res (update_sub dst start n src)
 
+let lemma_update_sub' dst start n src res =
+  lemma_update_sub dst start n src res
+
 let lemma_concat2 #a len0 s0 len1 s1 s =
   Seq.Properties.lemma_split s len0;
   Seq.Properties.lemma_split (concat s0 s1) len0;

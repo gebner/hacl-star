@@ -29,7 +29,7 @@ fn bn_sub_carry
   (#pra: perm)
   (c_in:carry t)
   (res:lbignum t aLen)
-  (#a0: (SD.lbignum t (v aLen)))
+  (#a0: erased (SD.lbignum t (v aLen)))
   // FIXME: eq_or_disjoint
   requires pts_to a #pra a0
   requires exists* res0. pts_to res res0
@@ -63,8 +63,8 @@ let bn_sub_eq_len_st (t:limb_t) (aLen:size_t) =
     a:lbignum t aLen
   -> b:lbignum t aLen
   -> res:lbignum t aLen
-  -> #va: (SD.lbignum t (v aLen))
-  -> #vb: (SD.lbignum t (v aLen))
+  -> #va: erased (SD.lbignum t (v aLen))
+  -> #vb: erased (SD.lbignum t (v aLen))
   -> #pra: perm
   -> #prb: perm
   -> stt (carry t)
@@ -111,7 +111,9 @@ fn bn_sub
   (bLen:size_t{v bLen <= v aLen})
   (b:lbignum t bLen)
   (res:lbignum t aLen)
-  #va #vb #pra #prb
+  (#va: erased (SD.lbignum t (v aLen)))
+  (#vb: erased (SD.lbignum t (v bLen)))
+  #pra #prb
   requires pts_to a #pra va
   requires pts_to b #prb vb
   requires exists* vres. pts_to res vres
@@ -185,7 +187,8 @@ fn bn_add_carry
     (a:lbignum t aLen)
     (c_in:carry t)
     (res:lbignum t aLen)
-    #va #pra
+    (#va: erased (SD.lbignum t (v aLen)))
+    #pra
   requires pts_to a #pra va
   requires exists* vres. pts_to res vres
   returns c_out: carry t
@@ -217,8 +220,8 @@ let bn_add_eq_len_st (t:limb_t) (aLen:size_t) =
     a:lbignum t aLen
   -> b:lbignum t aLen
   -> res:lbignum t aLen
-  -> #va: _
-  -> #vb: _
+  -> #va: erased (SD.lbignum t (v aLen))
+  -> #vb: erased (SD.lbignum t (v aLen))
   -> #pra: perm
   -> #prb: perm
   -> stt (carry t)
@@ -262,6 +265,93 @@ let bn_add_eq_len_u (#t:limb_t) (aLen:size_t) : bn_add_eq_len_st t aLen =
 
 
 inline_for_extraction noextract
+let bn_add_eq_len_inplace_st (t:limb_t) (aLen:size_t) =
+    a:lbignum t aLen
+  -> res:lbignum t aLen
+  -> #va: erased (SD.lbignum t (v aLen))
+  -> #vres: erased (SD.lbignum t (v aLen))
+  -> #pra: perm
+  -> stt (carry t)
+    (requires pts_to a #pra va ** pts_to res vres)
+    (ensures fun c_out ->
+      pts_to a #pra va **
+      pure (c_out == fst (S.bn_add vres va)) **
+      pts_to res (snd (S.bn_add vres va)))
+
+inline_for_extraction noextract
+fn bn_add_eq_len_inplace (#t:limb_t) (aLen:size_t) : bn_add_eq_len_inplace_st t aLen = a res #va #vres #pra {
+  let mut c: carry t = uint #t 0;
+
+  with body_ty. assert pure (body_ty ==
+    fill_elems_impl_ty aLen res #(fun j x -> Seq.index vres j == x) (S.bn_add_f vres va)
+      fun i x -> pts_to c x ** pts_to a #pra va);
+  fn body () : body_ty = i #vr #vo {
+    let t1 = AP.(a.(sizet_of_size_t i));
+    let t2 = AP.(res.(sizet_of_size_t i));
+    let res_i = AR.from_array_ptr res (sizet_of_size_t i);
+    let c' = !c;
+    let c' = addcarry_st c' t2 t1 res_i;
+    c := c';
+    AR.from_array_ptr_return res_i;
+  };
+
+  fill_elems4 aLen res _ _ (body ());
+  !c
+}
+
+
+let bn_add_eq_len_inplace_u32 (aLen:size_t) : bn_add_eq_len_inplace_st U32 aLen = bn_add_eq_len_inplace aLen
+let bn_add_eq_len_inplace_u64 (aLen:size_t) : bn_add_eq_len_inplace_st U64 aLen = bn_add_eq_len_inplace aLen
+
+inline_for_extraction noextract
+let bn_add_eq_len_inplace_u (#t:limb_t) (aLen:size_t) : bn_add_eq_len_inplace_st t aLen =
+  match t with
+  | U32 -> bn_add_eq_len_inplace_u32 aLen
+  | U64 -> bn_add_eq_len_inplace_u64 aLen
+
+
+inline_for_extraction noextract
+let bn_dbl_st (t:limb_t) (aLen:size_t) =
+     res:lbignum t aLen
+  -> #vres: erased (SD.lbignum t (v aLen))
+  -> stt (carry t)
+    (requires pts_to res vres)
+    (ensures fun c_out ->
+      pure (c_out == fst (S.bn_add vres vres)) **
+      pts_to res (snd (S.bn_add vres vres)))
+
+inline_for_extraction noextract
+fn bn_dbl (#t:limb_t) (aLen:size_t) : bn_dbl_st t aLen = res #vres {
+  let mut c: carry t = uint #t 0;
+
+  with body_ty. assert pure (body_ty ==
+    fill_elems_impl_ty aLen res #(fun j x -> Seq.index vres j == x) (S.bn_add_f vres vres)
+      fun i x -> pts_to c x);
+  fn body () : body_ty = i #vr #vo {
+    let t = AP.(res.(sizet_of_size_t i));
+    let res_i = AR.from_array_ptr res (sizet_of_size_t i);
+    let c' = !c;
+    let c' = addcarry_st c' t t res_i;
+    c := c';
+    AR.from_array_ptr_return res_i;
+  };
+
+  fill_elems4 aLen res _ _ (body ());
+  !c
+}
+
+
+let bn_dbl_u32 (aLen:size_t) : bn_dbl_st U32 aLen = bn_dbl aLen
+let bn_dbl_u64 (aLen:size_t) : bn_dbl_st U64 aLen = bn_dbl aLen
+
+inline_for_extraction noextract
+let bn_dbl_u (#t:limb_t) (aLen:size_t) : bn_dbl_st t aLen =
+  match t with
+  | U32 -> bn_dbl_u32 aLen
+  | U64 -> bn_dbl_u64 aLen
+
+
+inline_for_extraction noextract
 fn bn_add
   (#t:limb_t)
   (aLen:size_t)
@@ -269,7 +359,8 @@ fn bn_add
   (bLen:size_t{v bLen <= v aLen})
   (b:lbignum t bLen)
   (res:lbignum t aLen)
-  #va #vb
+  (#va: erased (SD.lbignum t (v aLen)))
+  (#vb: erased (SD.lbignum t (v bLen)))
   #pra #prb
   requires pts_to a #pra va
   requires pts_to b #prb vb
@@ -310,7 +401,7 @@ fn bn_add1
   (a:lbignum t aLen)
   (b1:limb t)
   (res:lbignum t aLen)
-  #va #pra
+  (#va: erased (SD.lbignum t (v aLen))) #pra
   requires pts_to a #pra va
   requires exists* vres. pts_to res vres
   returns c_out: carry t

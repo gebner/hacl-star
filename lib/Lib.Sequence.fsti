@@ -168,6 +168,23 @@ val lemma_update_sub:
     (ensures
       res == update_sub dst start n src)
 
+val lemma_update_sub':
+    #a:Type
+  -> #len:size_nat
+  -> dst:lseq a len
+  -> start:size_nat
+  -> n:size_nat{start + n <= len}
+  -> src:lseq a n
+  -> res:lseq a len ->
+  Lemma
+    (requires
+      sub res 0 start `Seq.equal` sub dst 0 start /\
+      sub res start n `Seq.equal` src /\
+      sub res (start + n) (len - start - n) `Seq.equal`
+      sub dst (start + n) (len - start - n))
+    (ensures
+      res == update_sub dst start n src)
+
 val lemma_concat2:
     #a:Type0
   -> len0:size_nat
