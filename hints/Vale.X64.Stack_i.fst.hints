@@ -1,5 +1,5 @@
 [
-  "\u001b¬ö\u000b\u0005<‰=£èú1‘&.v",
+  "1bacf60b053c893da3e8fa3191262e76",
   [
     [
       "Vale.X64.Stack_i.lemma_store_stack_same_valid64",
@@ -10,7 +10,7 @@
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented",
         "@fuel_irrelevance_Prims.pow2.fuel_instrumented",
-        "@kick_partial_app_a667e82563cb9a70e6534657974456b6", "@query",
+        "@kick_partial_app_d6ed11ed102bf1de4a4f88e6502ec73d", "@query",
         "Prims_pretyping_ae567c2fb75be05905677af440075565", "bool_inversion",
         "bool_typing",
         "data_elim_Vale.X64.Machine_Semantics_s.Machine_stack",
@@ -65,7 +65,7 @@
         "typing_Vale.X64.Stack_i.valid_src_stack64"
       ],
       0,
-      "10b2542e6dd5b298a6d03e8cd763c761"
+      "d809438e9c3dcdc0daf92fee8e1d132d"
     ],
     [
       "Vale.X64.Stack_i.lemma_free_stack_same_valid64",
@@ -97,7 +97,7 @@
         "typing_Vale.X64.Stack_i.valid_src_stack64"
       ],
       0,
-      "d2d6d9f71d8bc25f063b6a848b6720bb"
+      "8ebeb4a7c1c7288cc9a969ba70dfe881"
     ],
     [
       "Vale.X64.Stack_i.lemma_store_new_valid64",
@@ -108,7 +108,7 @@
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented",
         "@fuel_irrelevance_Prims.pow2.fuel_instrumented",
-        "@kick_partial_app_a667e82563cb9a70e6534657974456b6", "@query",
+        "@kick_partial_app_d6ed11ed102bf1de4a4f88e6502ec73d", "@query",
         "Prims_pretyping_ae567c2fb75be05905677af440075565",
         "data_elim_Vale.X64.Machine_Semantics_s.Machine_stack",
         "equation_Prims.nat", "equation_Prims.pos",
@@ -161,7 +161,7 @@
         "typing_Vale.Def.Words_s.nat8"
       ],
       0,
-      "2c8605c1dde6fe9138d4f358883004d6"
+      "ceff15627969d697d4d93eea61188900"
     ],
     [
       "Vale.X64.Stack_i.lemma_correct_store_load_stack64",
@@ -175,7 +175,7 @@
         "projection_inverse_Vale.X64.Machine_Semantics_s.Machine_stack_@stack_mem"
       ],
       0,
-      "e9570290a9d9fef0ff3998af06297b38"
+      "8a95255d3336918511dafa203c32ae9f"
     ],
     [
       "Vale.X64.Stack_i.lemma_frame_store_load_stack64",
@@ -194,7 +194,7 @@
         "token_correspondence_Vale.Arch.MachineHeap_s.get_heap_val64_def"
       ],
       0,
-      "282c039f05ddfd60773fe769781f19ef"
+      "b3a91d3bf929ab4e5048ba41d2b3c90d"
     ],
     [
       "Vale.X64.Stack_i.lemma_free_stack_same_load64",
@@ -219,7 +219,7 @@
         "typing_Vale.Def.Words_s.nat8", "typing_Vale.Lib.Set.remove_between"
       ],
       0,
-      "e211ae25637e3b8e1f0587b9a5d75592"
+      "ab15001ec99842296b98825bb486f721"
     ],
     [
       "Vale.X64.Stack_i.lemma_compose_free_stack64",
@@ -249,7 +249,7 @@
         "typing_Vale.Def.Words_s.nat8", "typing_Vale.Lib.Set.remove_between"
       ],
       0,
-      "969f15ef6182586f184f985d58953659"
+      "d1022b5ce6a35fe078e427798cb8be73"
     ],
     [
       "Vale.X64.Stack_i.lemma_same_init_rsp_free_stack64",
@@ -258,7 +258,7 @@
       0,
       [ "@query" ],
       0,
-      "b0a840bddb86adbe93ccbcee65648115"
+      "fdfaa9b7b571b28786f5959d5c2618d9"
     ],
     [
       "Vale.X64.Stack_i.lemma_same_init_rsp_free_stack64",
@@ -277,7 +277,7 @@
         "projection_inverse_Vale.X64.Machine_Semantics_s.Machine_stack_@initial_rsp"
       ],
       0,
-      "0f4abb20786bbbee1ad3579bcba50208"
+      "655f2c41c1f4b96b20d5e0170c124e7a"
     ],
     [
       "Vale.X64.Stack_i.lemma_same_init_rsp_store_stack64",
@@ -286,7 +286,7 @@
       0,
       [ "@query" ],
       0,
-      "c2ade86931f8627ab03324717f630cf2"
+      "62275e3851717fbb4aa7e6d6c5bc23e9"
     ],
     [
       "Vale.X64.Stack_i.lemma_same_init_rsp_store_stack64",
@@ -303,7 +303,7 @@
         "projection_inverse_Vale.X64.Machine_Semantics_s.Machine_stack_@initial_rsp"
       ],
       0,
-      "05fc8f01290facce456a701393a9c18f"
+      "721fbb2e92fdfcf919b69d756970e266"
     ],
     [
       "Vale.X64.Stack_i.lemma_valid_taint_stack64",
@@ -317,7 +317,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "26bc467642117b471d871c14852963ad"
+      "91fe58a794749369e09795af51aab276"
     ],
     [
       "Vale.X64.Stack_i.lemma_valid_taint_stack128",
@@ -336,7 +336,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Secret@tok"
       ],
       0,
-      "ae70e599977ff6751991cbc6714f3546"
+      "7b23008f21a29049cfaa83d727cb293b"
     ],
     [
       "Vale.X64.Stack_i.lemma_valid_taint_stack64_reveal",
@@ -354,7 +354,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Secret@tok"
       ],
       0,
-      "8b5cff7095080875c264ade4cc2cc489"
+      "a544ac6ae1c209f6236a0c4a1f9665a2"
     ],
     [
       "Vale.X64.Stack_i.lemma_correct_store_load_taint_stack64",
@@ -371,13 +371,13 @@
         "int_typing", "primitive_Prims.op_AmpAmp",
         "primitive_Prims.op_Equality", "projection_inverse_BoxBool_proj_0",
         "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_33ea1d836bd8ce2e1a69d9f66f67b343",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_dfa1b5bd70709f6e907f6ceb13530f0e",
         "typing_Vale.X64.Machine_Semantics_s.update_n",
         "typing_tok_Vale.Arch.HeapTypes_s.Secret@tok"
       ],
       0,
-      "9b0d77caaccbf91e42f8bef615d85524"
+      "f1642483fc674b9c135138bd17b0b8cb"
     ],
     [
       "Vale.X64.Stack_i.lemma_frame_store_load_taint_stack64",
@@ -390,12 +390,12 @@
         "equation_Vale.X64.Stack_i.store_taint_stack64",
         "equation_Vale.X64.Stack_i.valid_taint_stack64", "int_inversion",
         "int_typing", "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_33ea1d836bd8ce2e1a69d9f66f67b343",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_dfa1b5bd70709f6e907f6ceb13530f0e",
         "typing_Vale.X64.Machine_Semantics_s.update_n"
       ],
       0,
-      "e37666c7fd11c3653d68f191d356301c"
+      "7bfa8126a3eaf5494859a37e0dcd57cc"
     ]
   ]
 ]

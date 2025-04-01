@@ -1,5 +1,5 @@
 [
-  "a4„ƒp6½ V¥ô\u0014aûWà",
+  "613484837036bda056a5f41461fb57e0",
   [
     [
       "Vale.Math.Poly2_s.coerce",
@@ -8,10 +8,10 @@
       0,
       [
         "@MaxIFuel_assumption", "@query",
-        "refinement_interpretation_Tm_refine_d59c13a2193ae551e5680ebefb786b84"
+        "refinement_interpretation_Tm_refine_754b00004f4a881ff74d076ab276dfe1"
       ],
       0,
-      "0a87a010319ee9752c753bc0a49f0d27"
+      "8b9f5c6ebb08548812881eb523824783"
     ],
     [
       "Vale.Math.Poly2_s.of_poly",
@@ -20,7 +20,7 @@
       0,
       [ "@query" ],
       0,
-      "9f7681c23067f1ff023fcf09447a60df"
+      "954464ff5828d4b317a18f7ce5ecc095"
     ],
     [
       "Vale.Math.Poly2_s.reveal_defs",
@@ -42,8 +42,8 @@
         "primitive_Prims.op_BarBar", "primitive_Prims.op_Equality",
         "projection_inverse_BoxBool_proj_0",
         "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_160fe7faad9a466b3cae8455bac5be60",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_93ab65736391883123761d1ec2c7d4b6",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "typing_FStar.Seq.Base.index", "typing_Prims.bool",
@@ -52,7 +52,7 @@
         "typing_Vale.Math.Poly2.Defs_s.zero"
       ],
       0,
-      "6c8c2e129a7f1f46b2e2f644a0ebefd3"
+      "d48acc1f3ec65d9930e278249d3a8700"
     ]
   ]
 ]

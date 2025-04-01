@@ -1,5 +1,5 @@
 [
-  "WÂòø‹ÎÖã£˝îó%èq\u0003",
+  "57e598bfdceb858ba3fd9497258f7103",
   [
     [
       "Hacl.Spec.Karatsuba.Lemmas.abs",
@@ -15,7 +15,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "ea0628b696edacdf2475d5e01eb20130"
+      "b2ed7e1a46630d40f958fd09fd35fb98"
     ],
     [
       "Hacl.Spec.Karatsuba.Lemmas.sign_abs",
@@ -38,7 +38,7 @@
         "typing_tok_Hacl.Spec.Karatsuba.Lemmas.Positive@tok"
       ],
       0,
-      "2a360988b85bf463a9afd6a1a19a5882"
+      "08bc8e9795fe6b1ddae0563b1a33b9b5"
     ],
     [
       "Hacl.Spec.Karatsuba.Lemmas.lemma_double_p",
@@ -55,7 +55,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "a5ffad64d3160a3a908f1a6a94c73d3c"
+      "037fa43eb4637648feb0f476cb3fe208"
     ],
     [
       "Hacl.Spec.Karatsuba.Lemmas.lemma_double_p",
@@ -73,7 +73,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "4645b2268abe089998d1263dd62d5a15"
+      "51340bc03bfb723f7339f2026796c637"
     ],
     [
       "Hacl.Spec.Karatsuba.Lemmas.lemma_bn_halves",
@@ -90,7 +90,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "b3480be31513ad30db5daade17337273"
+      "da501dfba623e3ec933986c738cd1f83"
     ],
     [
       "Hacl.Spec.Karatsuba.Lemmas.lemma_bn_halves",
@@ -107,11 +107,11 @@
         "refinement_interpretation_Tm_refine_148be657e3a342509cd0bb35055d7a4f",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
-        "refinement_interpretation_Tm_refine_ff8b9d78ccef547b1d7e26768962dc88",
+        "refinement_interpretation_Tm_refine_99f5449c4823d8d777941bfed2e627ef",
         "typing_Prims.pow2"
       ],
       0,
-      "c246dc9fca90bc4d681ac2888896c2e5"
+      "472bddb44b536ad7b490889655eecbab"
     ],
     [
       "Hacl.Spec.Karatsuba.Lemmas.lemma_bn_halves",
@@ -127,7 +127,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "16b35878289ced53d1bfa8eca3ec99f2"
+      "ecaeec5e06bd262f816c6e1818211fda"
     ],
     [
       "Hacl.Spec.Karatsuba.Lemmas.lemma_middle_karatsuba",
@@ -136,7 +136,7 @@
       0,
       [ "@query", "assumption_Hacl.Spec.Karatsuba.Lemmas.sign__uu___haseq" ],
       0,
-      "3eb881af9986efbc994bbfb4c51da72a"
+      "8d7d8c368755c9d5ed7b4112c54f17ad"
     ],
     [
       "Hacl.Spec.Karatsuba.Lemmas.lemma_middle_karatsuba",
@@ -165,7 +165,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "b8b73393146fd1fff264ec61a8d7def4"
+      "8ad5f44bb2659df193a629d8b5ae6e6d"
     ],
     [
       "Hacl.Spec.Karatsuba.Lemmas.lemma_karatsuba",
@@ -182,7 +182,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "024d1ddbac748d34b737dd286fc6ef55"
+      "f4194576800cf2b235fbfee8548faa8a"
     ],
     [
       "Hacl.Spec.Karatsuba.Lemmas.lemma_karatsuba",
@@ -200,7 +200,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "cc451415264380d9cbec447c39bd7117"
+      "d2e9f6319dec4ce330ba8c9f1a215f74"
     ],
     [
       "Hacl.Spec.Karatsuba.Lemmas.karatsuba",
@@ -215,7 +215,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "0519beb4cc0121522cf07008eff465ee"
+      "75a0ea7f9d4a79b00335b0172ac0ea0c"
     ],
     [
       "Hacl.Spec.Karatsuba.Lemmas.karatsuba",
@@ -247,15 +247,15 @@
         "projection_inverse_FStar.Pervasives.Native.Mktuple2_@_2",
         "refinement_interpretation_Tm_refine_4eaf001a34bc51ce30dba519d403e8f8",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_5d97588b416691e9283ecd8fac5cbce8",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
         "refinement_interpretation_Tm_refine_7c8eef06be33cc20ad1cfa950554835a",
+        "refinement_interpretation_Tm_refine_87f61a1c9454204cabed82a4561b9462",
         "refinement_interpretation_Tm_refine_e02132138d2fba71c560ea9586868258",
         "typing_tok_Hacl.Spec.Karatsuba.Lemmas.Positive@tok",
         "well-founded-ordering-on-nat"
       ],
       0,
-      "53d641446134a5b100838ae1aa218dcb"
+      "4442bc16532a87867b582a1d4d4b3b40"
     ],
     [
       "Hacl.Spec.Karatsuba.Lemmas.karatsuba",
@@ -270,7 +270,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "77c7d0e47a989b0a96e94d3260aa6ce5"
+      "8262aaccb05372d0367a986f4cd599ad"
     ]
   ]
 ]

@@ -1,8 +1,6 @@
 {
   "fstar_exe": "fstar.exe",
   "options": [
-    "--use_hints",
-    "--use_hint_hashes",
     "--record_hints",
     "--odir", "obj",
     "--cmi",

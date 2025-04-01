@@ -1,5 +1,5 @@
 [
-  "•O?E\u001a›s\bñ\u001f¢FÕ¨€ò",
+  "954f3f451a9b7308f11fa246d5a880f2",
   [
     [
       "Vale.X64.Stack_Sems.lemma_stack_from_to",
@@ -11,7 +11,7 @@
         "equation_Vale.X64.Stack_Sems.stack_to_s"
       ],
       0,
-      "51a19fa8fab01333a0e5f324a2a91e8a"
+      "6b3961a18f415589932bb0ae72cc0145"
     ],
     [
       "Vale.X64.Stack_Sems.lemma_stack_to_from",
@@ -23,7 +23,7 @@
         "equation_Vale.X64.Stack_Sems.stack_to_s"
       ],
       0,
-      "77e36f0fb22ee74e832bead5841aee40"
+      "b7b8bc8c6f6ef9885f6278d1c226d0b9"
     ],
     [
       "Vale.X64.Stack_Sems.equiv_valid_src_stack64",
@@ -35,7 +35,7 @@
         "equation_Vale.X64.Stack_i.valid_src_stack64"
       ],
       0,
-      "13c75d7b30c7daacabdab6d544ec937f"
+      "88e198a25f5ba0249dc5dff125ed5beb"
     ],
     [
       "Vale.X64.Stack_Sems.equiv_load_stack64",
@@ -47,7 +47,7 @@
         "equation_Vale.X64.Stack_i.load_stack64"
       ],
       0,
-      "fdc3959878c058cae233df07bf746e54"
+      "862fd8934c4b2dbc9c0b1711f80e9b02"
     ],
     [
       "Vale.X64.Stack_Sems.free_stack_same_load",
@@ -70,7 +70,7 @@
         "typing_Vale.Def.Words_s.nat8", "typing_Vale.Lib.Set.remove_between"
       ],
       0,
-      "1630de048e59830e041fdb39c656e8ea"
+      "2f206c5367479d312de706b3f274061b"
     ],
     [
       "Vale.X64.Stack_Sems.equiv_store_stack64",
@@ -83,7 +83,7 @@
         "equation_Vale.X64.Stack_i.store_stack64"
       ],
       0,
-      "df9d6011608b5a39235a7e0ea8818197"
+      "2562da8f45739dad18f67531c065222c"
     ],
     [
       "Vale.X64.Stack_Sems.equiv_init_rsp",
@@ -92,7 +92,7 @@
       0,
       [ "@query" ],
       0,
-      "8be508b7f38f836061d8abf91ee09679"
+      "305bdf33501b0082d2c000edd813550d"
     ],
     [
       "Vale.X64.Stack_Sems.equiv_init_rsp",
@@ -104,7 +104,7 @@
         "equation_Vale.X64.Stack_i.init_rsp"
       ],
       0,
-      "c6a4fe2775eda30c9abeb109e90bae8d"
+      "5df1eb6be44c9dde9d2f4d6aa30d484d"
     ],
     [
       "Vale.X64.Stack_Sems.equiv_free_stack",
@@ -117,7 +117,7 @@
         "equation_Vale.X64.Stack_i.free_stack64"
       ],
       0,
-      "0f24e0065c9f74eef3d34f52e1833ce5"
+      "8da24338525dc3ee1a8f2884152c7002"
     ],
     [
       "Vale.X64.Stack_Sems.equiv_valid_src_stack128",
@@ -129,7 +129,7 @@
         "equation_Vale.X64.Stack_i.valid_src_stack128"
       ],
       0,
-      "4963008fd613004296adc949717bb6b3"
+      "83efc5d11d056db1ff444f01f1fbf201"
     ],
     [
       "Vale.X64.Stack_Sems.equiv_load_stack128",
@@ -141,7 +141,7 @@
         "equation_Vale.X64.Stack_i.load_stack128"
       ],
       0,
-      "73af06f9ba8e2baf4ba2988b03d79376"
+      "4c517b1683c5e0acad521f2b4973a0d4"
     ],
     [
       "Vale.X64.Stack_Sems.free_stack_same_load128",
@@ -167,7 +167,7 @@
         "typing_Vale.Def.Words_s.nat8", "typing_Vale.Lib.Set.remove_between"
       ],
       0,
-      "ef1b25545b4a43cafaaa23f104f72468"
+      "29f584741b4234fc88accf0dcaeac798"
     ],
     [
       "Vale.X64.Stack_Sems.equiv_store_stack128",
@@ -180,7 +180,7 @@
         "equation_Vale.X64.Stack_i.store_stack128"
       ],
       0,
-      "c2e8163e958de6e46fd97263f7bdde66"
+      "3a64d8d7aee7e5443a20f426b4cc148b"
     ]
   ]
 ]

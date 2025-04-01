@@ -1,5 +1,5 @@
 [
-  "õ¿Â~›µÚÍ±âº·\u0014hi\u001a",
+  "f5bfc27e9bb5dacdb1e2bab71468691a",
   [
     [
       "Hacl.Hash.SHA3.Simd256.absorb_inner_256",
@@ -48,17 +48,17 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_596e8dcd58b59478e672686efc8de5db",
         "refinement_interpretation_Tm_refine_609674d96c81c962549b0076055bf213",
+        "refinement_interpretation_Tm_refine_6f103c03e5671a0851326d053bc36578",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
         "refinement_interpretation_Tm_refine_7acf795d50ec256996534a97e12bfa61",
         "refinement_interpretation_Tm_refine_83845a86f2550cdf941eeb1d9b59602b",
-        "refinement_interpretation_Tm_refine_99c78a51d023055695c3741e118cac2a",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_9fd3021b4d5cdf7489ec853f37af62d3",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_baa3bbda12da34c394fe50c641a72dd6",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_c15445eda9f661ac3cb227f709ce803c",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
-        "refinement_interpretation_Tm_refine_ff4b80de3ebd0c9a047b81c3edc3a42d",
-        "refinement_kinding_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_fdbf24c5cf5d8c31bd7e932788e9acdf",
+        "refinement_kinding_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "token_correspondence_Prims.pow2.fuel_instrumented",
         "typing_FStar.UInt.fits", "typing_FStar.UInt32.uint_to_t",
         "typing_FStar.UInt32.v",
@@ -72,7 +72,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "98b719e137e6d9395da0f7b162739af8"
+      "bafcab5ae1df3f50bcab82d911d0538f"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.absorb_inner_256",
@@ -88,14 +88,14 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_596e8dcd58b59478e672686efc8de5db",
         "refinement_interpretation_Tm_refine_7acf795d50ec256996534a97e12bfa61",
-        "refinement_interpretation_Tm_refine_99c78a51d023055695c3741e118cac2a",
+        "refinement_interpretation_Tm_refine_805e243dc937aa61492dcc656c219692",
         "refinement_interpretation_Tm_refine_9fd3021b4d5cdf7489ec853f37af62d3",
-        "refinement_interpretation_Tm_refine_c15445eda9f661ac3cb227f709ce803c",
-        "refinement_interpretation_Tm_refine_d35a35145207f36e9c16f2d1ffa833a8",
-        "refinement_interpretation_Tm_refine_fc1bb6b662170cafa1e4c9a0190fcc83"
+        "refinement_interpretation_Tm_refine_baa3bbda12da34c394fe50c641a72dd6",
+        "refinement_interpretation_Tm_refine_dcd94e64eb82add9c0080520bf60af59",
+        "refinement_interpretation_Tm_refine_fdbf24c5cf5d8c31bd7e932788e9acdf"
       ],
       0,
-      "ff468008caf0e9e3554825af161ef76b"
+      "cf320066cab2ad2d5855785adf6a0dba"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.shake128",
@@ -120,7 +120,7 @@
         "projection_inverse_BoxBool_proj_0",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
         "typing_FStar.UInt32.v", "typing_Lib.Buffer.length",
         "typing_Lib.IntTypes.int_t",
@@ -130,7 +130,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "5bea76afa1b33d1d4cd463805ccb511c"
+      "f6b275327e7c9097c0f8226d15873f8b"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.shake128",
@@ -204,21 +204,21 @@
         "refinement_interpretation_Tm_refine_05e15190c946858f68c69156f585f95a",
         "refinement_interpretation_Tm_refine_0ea1fba779ad5718e28476faeef94d56",
         "refinement_interpretation_Tm_refine_1821bb125f421b67809195ad37eb533a",
-        "refinement_interpretation_Tm_refine_2e639b271273f8aff9994e7685912996",
+        "refinement_interpretation_Tm_refine_42dc1f70ada2bb04e8026d0b041c2e37",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_596e8dcd58b59478e672686efc8de5db",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
         "refinement_interpretation_Tm_refine_7acf795d50ec256996534a97e12bfa61",
+        "refinement_interpretation_Tm_refine_805e243dc937aa61492dcc656c219692",
         "refinement_interpretation_Tm_refine_83845a86f2550cdf941eeb1d9b59602b",
-        "refinement_interpretation_Tm_refine_99c78a51d023055695c3741e118cac2a",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_9fd3021b4d5cdf7489ec853f37af62d3",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_baa3bbda12da34c394fe50c641a72dd6",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_c15445eda9f661ac3cb227f709ce803c",
-        "refinement_interpretation_Tm_refine_d35a35145207f36e9c16f2d1ffa833a8",
+        "refinement_interpretation_Tm_refine_dcd94e64eb82add9c0080520bf60af59",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
-        "refinement_interpretation_Tm_refine_fc1bb6b662170cafa1e4c9a0190fcc83",
-        "refinement_kinding_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_fdbf24c5cf5d8c31bd7e932788e9acdf",
+        "refinement_kinding_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "typing_FStar.Ghost.reveal", "typing_FStar.Map.contains",
         "typing_FStar.Monotonic.Heap.heap",
         "typing_FStar.Monotonic.HyperHeap.rid",
@@ -227,16 +227,17 @@
         "typing_FStar.UInt.fits", "typing_FStar.UInt32.uint_to_t",
         "typing_FStar.UInt32.v", "typing_Lib.Buffer.lbuffer_t",
         "typing_Lib.Buffer.length", "typing_Lib.Buffer.loc",
-        "typing_Lib.Buffer.op_Bar_Plus_Bar", "typing_Lib.IntTypes.int_t",
-        "typing_Lib.IntTypes.minint", "typing_Lib.IntTypes.v",
-        "typing_Lib.NTuple.index", "typing_LowStar.Buffer.trivial_preorder",
+        "typing_Lib.Buffer.op_Bar_Plus_Bar", "typing_Lib.Buffer.union",
+        "typing_Lib.IntTypes.int_t", "typing_Lib.IntTypes.minint",
+        "typing_Lib.IntTypes.v", "typing_Lib.NTuple.index",
+        "typing_LowStar.Buffer.trivial_preorder",
         "typing_LowStar.Monotonic.Buffer.len",
         "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.PUB@tok",
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U32@tok",
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "1ab294f50f36f5fab84f23741c34deea"
+      "37675f641cee5569445b8de08bb43341"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.shake256",
@@ -261,7 +262,7 @@
         "projection_inverse_BoxBool_proj_0",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
         "typing_FStar.UInt32.v", "typing_Lib.Buffer.length",
         "typing_Lib.IntTypes.int_t",
@@ -271,7 +272,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "b65215c1a9f8760fff5d02e46a79bc1a"
+      "5b2ac35016955e774701b32948c21536"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.shake256",
@@ -345,21 +346,21 @@
         "refinement_interpretation_Tm_refine_05e15190c946858f68c69156f585f95a",
         "refinement_interpretation_Tm_refine_0ea1fba779ad5718e28476faeef94d56",
         "refinement_interpretation_Tm_refine_1821bb125f421b67809195ad37eb533a",
-        "refinement_interpretation_Tm_refine_2e639b271273f8aff9994e7685912996",
+        "refinement_interpretation_Tm_refine_42dc1f70ada2bb04e8026d0b041c2e37",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_596e8dcd58b59478e672686efc8de5db",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
         "refinement_interpretation_Tm_refine_7acf795d50ec256996534a97e12bfa61",
+        "refinement_interpretation_Tm_refine_805e243dc937aa61492dcc656c219692",
         "refinement_interpretation_Tm_refine_83845a86f2550cdf941eeb1d9b59602b",
-        "refinement_interpretation_Tm_refine_99c78a51d023055695c3741e118cac2a",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_9fd3021b4d5cdf7489ec853f37af62d3",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_baa3bbda12da34c394fe50c641a72dd6",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_c15445eda9f661ac3cb227f709ce803c",
-        "refinement_interpretation_Tm_refine_d35a35145207f36e9c16f2d1ffa833a8",
+        "refinement_interpretation_Tm_refine_dcd94e64eb82add9c0080520bf60af59",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
-        "refinement_interpretation_Tm_refine_fc1bb6b662170cafa1e4c9a0190fcc83",
-        "refinement_kinding_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_fdbf24c5cf5d8c31bd7e932788e9acdf",
+        "refinement_kinding_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "typing_FStar.Ghost.reveal", "typing_FStar.Map.contains",
         "typing_FStar.Monotonic.Heap.heap",
         "typing_FStar.Monotonic.HyperHeap.rid",
@@ -368,16 +369,17 @@
         "typing_FStar.UInt.fits", "typing_FStar.UInt32.uint_to_t",
         "typing_FStar.UInt32.v", "typing_Lib.Buffer.lbuffer_t",
         "typing_Lib.Buffer.length", "typing_Lib.Buffer.loc",
-        "typing_Lib.Buffer.op_Bar_Plus_Bar", "typing_Lib.IntTypes.int_t",
-        "typing_Lib.IntTypes.minint", "typing_Lib.IntTypes.v",
-        "typing_Lib.NTuple.index", "typing_LowStar.Buffer.trivial_preorder",
+        "typing_Lib.Buffer.op_Bar_Plus_Bar", "typing_Lib.Buffer.union",
+        "typing_Lib.IntTypes.int_t", "typing_Lib.IntTypes.minint",
+        "typing_Lib.IntTypes.v", "typing_Lib.NTuple.index",
+        "typing_LowStar.Buffer.trivial_preorder",
         "typing_LowStar.Monotonic.Buffer.len",
         "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.PUB@tok",
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U32@tok",
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "73106a3676a1a96491df7f9f8ebfba71"
+      "86fb8be00fe18080550e7fca0e9d72bf"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.sha3_224",
@@ -411,10 +413,10 @@
         "projection_inverse_BoxBool_proj_0",
         "refinement_interpretation_Tm_refine_460ce49837473aafb58331137146734e",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
-        "refinement_interpretation_Tm_refine_5fd79cf63e55e0e4c8259f463df0f0ca",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
+        "refinement_interpretation_Tm_refine_e4cc2b14e307b539f2503066b229517d",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
         "typing_FStar.UInt32.v", "typing_Lib.Buffer.as_seq",
         "typing_Lib.Buffer.length", "typing_Lib.IntTypes.int_t",
@@ -425,7 +427,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "2141c4652ed396fb8bfa3f5c20511ea6"
+      "18c3a2b2941c85e138047f0ba3edc837"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.sha3_224",
@@ -506,17 +508,17 @@
         "refinement_interpretation_Tm_refine_1821bb125f421b67809195ad37eb533a",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_596e8dcd58b59478e672686efc8de5db",
-        "refinement_interpretation_Tm_refine_5fd79cf63e55e0e4c8259f463df0f0ca",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
         "refinement_interpretation_Tm_refine_7acf795d50ec256996534a97e12bfa61",
-        "refinement_interpretation_Tm_refine_99c78a51d023055695c3741e118cac2a",
+        "refinement_interpretation_Tm_refine_805e243dc937aa61492dcc656c219692",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_9fd3021b4d5cdf7489ec853f37af62d3",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_baa3bbda12da34c394fe50c641a72dd6",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_c15445eda9f661ac3cb227f709ce803c",
-        "refinement_interpretation_Tm_refine_d35a35145207f36e9c16f2d1ffa833a8",
+        "refinement_interpretation_Tm_refine_dcd94e64eb82add9c0080520bf60af59",
+        "refinement_interpretation_Tm_refine_e4cc2b14e307b539f2503066b229517d",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
-        "refinement_interpretation_Tm_refine_fc1bb6b662170cafa1e4c9a0190fcc83",
+        "refinement_interpretation_Tm_refine_fdbf24c5cf5d8c31bd7e932788e9acdf",
         "typing_FStar.Ghost.reveal", "typing_FStar.Map.contains",
         "typing_FStar.Monotonic.Heap.heap",
         "typing_FStar.Monotonic.HyperHeap.rid",
@@ -533,7 +535,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "44b4d00ed1b80654ebad459659e61d77"
+      "b7d65735691b3fc5679de1299b9fd7e4"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.sha3_256",
@@ -568,10 +570,10 @@
         "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_460ce49837473aafb58331137146734e",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
-        "refinement_interpretation_Tm_refine_8ec3a56583e53680b8052aafe8ca8287",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
+        "refinement_interpretation_Tm_refine_9b3ba9c0ff643ce6bc2825cde9ebe5de",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
         "typing_FStar.UInt32.v", "typing_Lib.Buffer.as_seq",
         "typing_Lib.Buffer.length", "typing_Lib.IntTypes.int_t",
@@ -582,7 +584,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "ab081a3aa1178fce8b766a35194add99"
+      "9e512f7b566ac24c2b9f9b81ad82c1d9"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.sha3_256",
@@ -661,29 +663,32 @@
         "projection_inverse_FStar.Pervasives.Native.Mktuple2_@_b",
         "refinement_interpretation_Tm_refine_05e15190c946858f68c69156f585f95a",
         "refinement_interpretation_Tm_refine_1821bb125f421b67809195ad37eb533a",
+        "refinement_interpretation_Tm_refine_365abba901205a01d0ef28ebf2198c47",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_596e8dcd58b59478e672686efc8de5db",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
         "refinement_interpretation_Tm_refine_7acf795d50ec256996534a97e12bfa61",
-        "refinement_interpretation_Tm_refine_8ec3a56583e53680b8052aafe8ca8287",
-        "refinement_interpretation_Tm_refine_99c78a51d023055695c3741e118cac2a",
+        "refinement_interpretation_Tm_refine_805e243dc937aa61492dcc656c219692",
+        "refinement_interpretation_Tm_refine_9b3ba9c0ff643ce6bc2825cde9ebe5de",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_9fd3021b4d5cdf7489ec853f37af62d3",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_baa3bbda12da34c394fe50c641a72dd6",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_c15445eda9f661ac3cb227f709ce803c",
-        "refinement_interpretation_Tm_refine_d35a35145207f36e9c16f2d1ffa833a8",
+        "refinement_interpretation_Tm_refine_dcd94e64eb82add9c0080520bf60af59",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
-        "refinement_interpretation_Tm_refine_fc1bb6b662170cafa1e4c9a0190fcc83",
+        "refinement_interpretation_Tm_refine_fdbf24c5cf5d8c31bd7e932788e9acdf",
         "typing_FStar.Ghost.reveal", "typing_FStar.Map.contains",
         "typing_FStar.Monotonic.Heap.heap",
         "typing_FStar.Monotonic.HyperHeap.rid",
+        "typing_FStar.Monotonic.HyperHeap.rid_freeable",
+        "typing_FStar.Monotonic.HyperHeap.root",
         "typing_FStar.Monotonic.HyperStack.get_hmap",
         "typing_FStar.Monotonic.HyperStack.get_tip",
         "typing_FStar.UInt.fits", "typing_FStar.UInt32.v",
         "typing_Lib.Buffer.lbuffer_t", "typing_Lib.Buffer.length",
         "typing_Lib.Buffer.loc", "typing_Lib.Buffer.op_Bar_Plus_Bar",
         "typing_Lib.IntTypes.bits", "typing_Lib.IntTypes.int_t",
-        "typing_Lib.IntTypes.minint",
+        "typing_Lib.IntTypes.minint", "typing_Lib.MultiBuffer.loc_multi",
         "typing_LowStar.Buffer.trivial_preorder",
         "typing_LowStar.Monotonic.Buffer.len",
         "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.PUB@tok",
@@ -691,7 +696,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "1fe0dcd897fb4959c61fbd92c564a316"
+      "db582ac20965b5f85928d992e16255c0"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.sha3_384",
@@ -725,10 +730,10 @@
         "projection_inverse_BoxBool_proj_0",
         "refinement_interpretation_Tm_refine_460ce49837473aafb58331137146734e",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
-        "refinement_interpretation_Tm_refine_e8c3549ca0ea3534c6a22ffc966e00ee",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
+        "refinement_interpretation_Tm_refine_c27531a52610b8fc9a598b4a8b80c097",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
         "typing_FStar.UInt32.v", "typing_Lib.Buffer.as_seq",
         "typing_Lib.Buffer.length", "typing_Lib.IntTypes.int_t",
@@ -739,7 +744,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "0b2aad082a7a932e80157e42fd737038"
+      "a48f2b482e62400a4dcc13a72a6c1b57"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.sha3_384",
@@ -822,15 +827,15 @@
         "refinement_interpretation_Tm_refine_596e8dcd58b59478e672686efc8de5db",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
         "refinement_interpretation_Tm_refine_7acf795d50ec256996534a97e12bfa61",
-        "refinement_interpretation_Tm_refine_99c78a51d023055695c3741e118cac2a",
+        "refinement_interpretation_Tm_refine_805e243dc937aa61492dcc656c219692",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_9fd3021b4d5cdf7489ec853f37af62d3",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_baa3bbda12da34c394fe50c641a72dd6",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_c15445eda9f661ac3cb227f709ce803c",
-        "refinement_interpretation_Tm_refine_d35a35145207f36e9c16f2d1ffa833a8",
-        "refinement_interpretation_Tm_refine_e8c3549ca0ea3534c6a22ffc966e00ee",
+        "refinement_interpretation_Tm_refine_c27531a52610b8fc9a598b4a8b80c097",
+        "refinement_interpretation_Tm_refine_dcd94e64eb82add9c0080520bf60af59",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
-        "refinement_interpretation_Tm_refine_fc1bb6b662170cafa1e4c9a0190fcc83",
+        "refinement_interpretation_Tm_refine_fdbf24c5cf5d8c31bd7e932788e9acdf",
         "typing_FStar.Ghost.reveal", "typing_FStar.Map.contains",
         "typing_FStar.Monotonic.Heap.heap",
         "typing_FStar.Monotonic.HyperHeap.rid",
@@ -847,7 +852,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "ba883128267c31b767ec1186b5f9ed90"
+      "596479d2dd81b1e29a32f563dd71aa3a"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.sha3_512",
@@ -879,13 +884,13 @@
         "lemma_LowStar.Monotonic.Buffer.length_as_seq",
         "primitive_Prims.op_AmpAmp", "primitive_Prims.op_LessThanOrEqual",
         "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_31a442494713bd0e5e0706d160a12bbc",
         "refinement_interpretation_Tm_refine_460ce49837473aafb58331137146734e",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
-        "refinement_interpretation_Tm_refine_f1a38116f383e713c97a441198407a21",
         "typing_FStar.UInt32.v", "typing_Lib.Buffer.as_seq",
         "typing_Lib.Buffer.length", "typing_Lib.IntTypes.int_t",
         "typing_LowStar.Buffer.trivial_preorder",
@@ -895,7 +900,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "a8f2e5de921cae88327332230853e3dc"
+      "33c30008164cd1d7194f8bd58ebe663c"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.sha3_512",
@@ -974,19 +979,19 @@
         "projection_inverse_FStar.Pervasives.Native.Mktuple2_@_b",
         "refinement_interpretation_Tm_refine_05e15190c946858f68c69156f585f95a",
         "refinement_interpretation_Tm_refine_1821bb125f421b67809195ad37eb533a",
+        "refinement_interpretation_Tm_refine_31a442494713bd0e5e0706d160a12bbc",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_596e8dcd58b59478e672686efc8de5db",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
         "refinement_interpretation_Tm_refine_7acf795d50ec256996534a97e12bfa61",
-        "refinement_interpretation_Tm_refine_99c78a51d023055695c3741e118cac2a",
+        "refinement_interpretation_Tm_refine_805e243dc937aa61492dcc656c219692",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_9fd3021b4d5cdf7489ec853f37af62d3",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_baa3bbda12da34c394fe50c641a72dd6",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_c15445eda9f661ac3cb227f709ce803c",
-        "refinement_interpretation_Tm_refine_d35a35145207f36e9c16f2d1ffa833a8",
+        "refinement_interpretation_Tm_refine_dcd94e64eb82add9c0080520bf60af59",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
-        "refinement_interpretation_Tm_refine_f1a38116f383e713c97a441198407a21",
-        "refinement_interpretation_Tm_refine_fc1bb6b662170cafa1e4c9a0190fcc83",
+        "refinement_interpretation_Tm_refine_fdbf24c5cf5d8c31bd7e932788e9acdf",
         "typing_FStar.Ghost.reveal", "typing_FStar.Map.contains",
         "typing_FStar.Monotonic.Heap.heap",
         "typing_FStar.Monotonic.HyperHeap.rid",
@@ -1003,7 +1008,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "6e1c6ae2b25638856d2ab93877ab02a9"
+      "5311d64ba14226ced6828cf869786516"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.state_malloc",
@@ -1022,7 +1027,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "83ee683d43f01831acf2eeea1d337200"
+      "3ece6b3c6e5d3dda86d1cb0614dc83d9"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.state_malloc",
@@ -1064,7 +1069,7 @@
         "typing_LowStar.Monotonic.Buffer.as_addr", "typing_Prims.int"
       ],
       0,
-      "92158e975cb1d491bc0e6c8e72dcace9"
+      "29f06015365ae1e1a1b0dd39b5088c53"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.state_free",
@@ -1083,7 +1088,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "d614b9abc8e3f5b641901aa0b7bd2de5"
+      "b59b2ddb0dbcce6df96d5d806418865a"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.state_free",
@@ -1105,14 +1110,14 @@
         "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_05e15190c946858f68c69156f585f95a",
         "refinement_interpretation_Tm_refine_365abba901205a01d0ef28ebf2198c47",
-        "refinement_interpretation_Tm_refine_3b13687183b2ac17fd7ca1ce613a7a73",
-        "refinement_interpretation_Tm_refine_3c9a49a82d2d9f000eb9d1ac2db4ca7d",
+        "refinement_interpretation_Tm_refine_3bb00cbca115944f8126d37cce2b58bc",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_f0256646a8bf4ba8142ae98d3f6d7f24",
         "typing_FStar.Monotonic.HyperHeap.rid_freeable",
         "typing_FStar.Monotonic.HyperHeap.root"
       ],
       0,
-      "6890721dd1009e149f7485cad78e5c5f"
+      "2354fa90dec9a8f41ccc0718df77da94"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.state_free",
@@ -1131,7 +1136,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "7f566a2f469b7982eb3b2a4b4557de19"
+      "7a09d315b030d999121dd53a71096e08"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.shake128_absorb_nblocks",
@@ -1181,8 +1186,8 @@
         "refinement_interpretation_Tm_refine_609674d96c81c962549b0076055bf213",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_a8311023c26a6fa735301d89c0b899b9",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
         "typing_FStar.Ghost.reveal", "typing_FStar.Map.contains",
         "typing_FStar.Monotonic.Heap.heap",
@@ -1198,7 +1203,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "0b0a5e462291292fcc56702face63731"
+      "ce60f015539b77a5cf6bf3d90448b6b0"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.shake128_absorb_nblocks",
@@ -1253,21 +1258,20 @@
         "projection_inverse_FStar.Pervasives.Native.Mktuple2_@_1",
         "projection_inverse_FStar.Pervasives.Native.Mktuple2_@_2",
         "refinement_interpretation_Tm_refine_05e15190c946858f68c69156f585f95a",
-        "refinement_interpretation_Tm_refine_139c6c8d3cbe17eca4b7675dec0df353",
         "refinement_interpretation_Tm_refine_1821bb125f421b67809195ad37eb533a",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_5793410eb1b55dd3ab7f134c60338b8c",
         "refinement_interpretation_Tm_refine_596e8dcd58b59478e672686efc8de5db",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
         "refinement_interpretation_Tm_refine_7acf795d50ec256996534a97e12bfa61",
-        "refinement_interpretation_Tm_refine_99c78a51d023055695c3741e118cac2a",
+        "refinement_interpretation_Tm_refine_805e243dc937aa61492dcc656c219692",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
+        "refinement_interpretation_Tm_refine_9d903827b9f6dd0bc2a1c360d2c84388",
         "refinement_interpretation_Tm_refine_9fd3021b4d5cdf7489ec853f37af62d3",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
-        "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_c15445eda9f661ac3cb227f709ce803c",
-        "refinement_interpretation_Tm_refine_d35a35145207f36e9c16f2d1ffa833a8",
-        "refinement_interpretation_Tm_refine_e93396ff9b78ca3b16b365db0bcd06c6",
+        "refinement_interpretation_Tm_refine_baa3bbda12da34c394fe50c641a72dd6",
+        "refinement_interpretation_Tm_refine_dcd94e64eb82add9c0080520bf60af59",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
-        "refinement_interpretation_Tm_refine_fc1bb6b662170cafa1e4c9a0190fcc83",
+        "refinement_interpretation_Tm_refine_fdbf24c5cf5d8c31bd7e932788e9acdf",
         "typing_FStar.Ghost.reveal", "typing_FStar.Map.contains",
         "typing_FStar.Monotonic.Heap.heap",
         "typing_FStar.Monotonic.HyperHeap.rid",
@@ -1282,7 +1286,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "f93e2774daa0d0a2631dc63e62e0803c"
+      "7c2652fb04afeb37a6c7a85fe4f130a9"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.shake128_absorb_nblocks",
@@ -1301,7 +1305,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "7ca604f824d17256e1c4baaba7eca6c2"
+      "af43cb94cc22b37170493d23b696f65c"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.shake128_absorb_final",
@@ -1351,8 +1355,8 @@
         "refinement_interpretation_Tm_refine_609674d96c81c962549b0076055bf213",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_a8311023c26a6fa735301d89c0b899b9",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
         "typing_FStar.Ghost.reveal", "typing_FStar.Map.contains",
         "typing_FStar.Monotonic.Heap.heap",
@@ -1368,7 +1372,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "1743d8de72990618805a4381ff84d454"
+      "0daebe19574cbf2929f64a2fa0e53393"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.shake128_absorb_final",
@@ -1423,20 +1427,20 @@
         "projection_inverse_FStar.Pervasives.Native.Mktuple2_@_1",
         "projection_inverse_FStar.Pervasives.Native.Mktuple2_@_2",
         "refinement_interpretation_Tm_refine_05e15190c946858f68c69156f585f95a",
-        "refinement_interpretation_Tm_refine_139c6c8d3cbe17eca4b7675dec0df353",
         "refinement_interpretation_Tm_refine_1821bb125f421b67809195ad37eb533a",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_5793410eb1b55dd3ab7f134c60338b8c",
         "refinement_interpretation_Tm_refine_596e8dcd58b59478e672686efc8de5db",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
         "refinement_interpretation_Tm_refine_7acf795d50ec256996534a97e12bfa61",
-        "refinement_interpretation_Tm_refine_99c78a51d023055695c3741e118cac2a",
+        "refinement_interpretation_Tm_refine_805e243dc937aa61492dcc656c219692",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
+        "refinement_interpretation_Tm_refine_9d903827b9f6dd0bc2a1c360d2c84388",
         "refinement_interpretation_Tm_refine_9fd3021b4d5cdf7489ec853f37af62d3",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
-        "refinement_interpretation_Tm_refine_c15445eda9f661ac3cb227f709ce803c",
-        "refinement_interpretation_Tm_refine_d35a35145207f36e9c16f2d1ffa833a8",
-        "refinement_interpretation_Tm_refine_e93396ff9b78ca3b16b365db0bcd06c6",
+        "refinement_interpretation_Tm_refine_baa3bbda12da34c394fe50c641a72dd6",
+        "refinement_interpretation_Tm_refine_dcd94e64eb82add9c0080520bf60af59",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
-        "refinement_interpretation_Tm_refine_fc1bb6b662170cafa1e4c9a0190fcc83",
+        "refinement_interpretation_Tm_refine_fdbf24c5cf5d8c31bd7e932788e9acdf",
         "typing_FStar.Ghost.reveal", "typing_FStar.Map.contains",
         "typing_FStar.Monotonic.Heap.heap",
         "typing_FStar.Monotonic.HyperHeap.rid",
@@ -1451,7 +1455,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "af1bb81d3a501e8ab6cddd4966800585"
+      "d2b534ffe8cb060130ccf6d9a1e14557"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.shake128_absorb_final",
@@ -1470,7 +1474,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "7ca604f824d17256e1c4baaba7eca6c2"
+      "af43cb94cc22b37170493d23b696f65c"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.shake128_squeeze_nblocks",
@@ -1511,7 +1515,7 @@
         "refinement_interpretation_Tm_refine_05e15190c946858f68c69156f585f95a",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
         "typing_FStar.Ghost.reveal", "typing_FStar.Map.contains",
         "typing_FStar.Monotonic.Heap.heap",
@@ -1525,7 +1529,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "e15344c21e9b47a9b07ae0894817d6f5"
+      "1f2735f0e531d5568bc9dabe9c9d4b46"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.shake128_squeeze_nblocks",
@@ -1601,14 +1605,15 @@
         "refinement_interpretation_Tm_refine_05e15190c946858f68c69156f585f95a",
         "refinement_interpretation_Tm_refine_1821bb125f421b67809195ad37eb533a",
         "refinement_interpretation_Tm_refine_335e5bfc9edee38d58c934e23a4de7eb",
-        "refinement_interpretation_Tm_refine_486b7b382688ab079387d3cf2aede119",
+        "refinement_interpretation_Tm_refine_528b876405e78507cc8ed31848385919",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_609674d96c81c962549b0076055bf213",
         "refinement_interpretation_Tm_refine_6aae1175c48eddd48f5b82b3cf7842a4",
-        "refinement_interpretation_Tm_refine_88f2ec30dfe087b07712821621ce8709",
         "refinement_interpretation_Tm_refine_9920ad7fdb83d776ac74c5ec84d5fe0e",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
+        "refinement_interpretation_Tm_refine_afa9f7afb0c76df9c5a94078690a674a",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
+        "refinement_interpretation_Tm_refine_e635114fe9cee111712f6c7de70c4c03",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
         "token_correspondence_Prims.pow2.fuel_instrumented",
         "typing_FStar.Ghost.reveal", "typing_FStar.Map.contains",
@@ -1620,7 +1625,7 @@
         "typing_Lib.Buffer.lbuffer_t", "typing_Lib.Buffer.loc",
         "typing_Lib.Buffer.op_Bar_Plus_Bar", "typing_Lib.IntTypes.int_t",
         "typing_Lib.IntTypes.unsigned", "typing_Lib.IntVector.vec_t",
-        "typing_Lib.MultiBuffer.loc_multi", "typing_Lib.NTuple.index",
+        "typing_Lib.MultiBuffer.loc_multi",
         "typing_LowStar.Buffer.trivial_preorder",
         "typing_LowStar.Monotonic.Buffer.len",
         "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.PUB@tok",
@@ -1628,7 +1633,7 @@
         "typing_tok_Lib.IntTypes.U64@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "8d98616d101b8c0b9639189296a1eab2"
+      "bbcebd4373d291eb7b64280cbc1e4077"
     ],
     [
       "Hacl.Hash.SHA3.Simd256.shake128_squeeze_nblocks",
@@ -1647,7 +1652,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "7ca604f824d17256e1c4baaba7eca6c2"
+      "af43cb94cc22b37170493d23b696f65c"
     ]
   ]
 ]

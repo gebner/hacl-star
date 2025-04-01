@@ -1,5 +1,5 @@
 [
-  "π,t(ù2Œ\u001cƒ$îÜm6\u0003¸",
+  "b92c74289d32ce1cc42494866d3603fc",
   [
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_reduction_st",
@@ -18,13 +18,13 @@
         "primitive_Prims.op_Addition", "primitive_Prims.op_Subtraction",
         "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_83845a86f2550cdf941eeb1d9b59602b",
-        "refinement_interpretation_Tm_refine_a83a2bc49fabb1589d86577509bc9ec9",
         "refinement_interpretation_Tm_refine_e3ded11399906ea5b50c3100ae0e94aa",
+        "refinement_interpretation_Tm_refine_feb9bb9f35b4e580b5c2b388310d192a",
         "typing_Lib.IntTypes.v", "typing_tok_Lib.IntTypes.PUB@tok",
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "323a5b9eb93310e02c43149fd3bcc860"
+      "2dd85105584c6ba7fa45bc1da736cf7a"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_reduction",
@@ -50,7 +50,7 @@
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92"
       ],
       0,
-      "3ab62eac07442d91e1b50090cc720479"
+      "31fd3292da397af1c9abfdfb3a9a99e1"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_reduction",
@@ -161,17 +161,17 @@
         "projection_inverse_FStar.Pervasives.Native.Mktuple2_@_1",
         "projection_inverse_FStar.Pervasives.Native.Mktuple2_@_2",
         "refinement_interpretation_Tm_refine_05e15190c946858f68c69156f585f95a",
-        "refinement_interpretation_Tm_refine_0fa16661e2c0d1847c912562ec8fbfd1",
         "refinement_interpretation_Tm_refine_156c49afb7e1e070fbb2e47dc0e3d4b2",
         "refinement_interpretation_Tm_refine_1bdbbaeacf9e08440a899967571fe9f7",
-        "refinement_interpretation_Tm_refine_354eeffcab1d5e6efb0b54cf7da53d84",
         "refinement_interpretation_Tm_refine_365abba901205a01d0ef28ebf2198c47",
+        "refinement_interpretation_Tm_refine_655e83de8036ea135847ef01123a71ae",
         "refinement_interpretation_Tm_refine_83845a86f2550cdf941eeb1d9b59602b",
         "refinement_interpretation_Tm_refine_9c7687f042133ab0c6f674a635e3f076",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
+        "refinement_interpretation_Tm_refine_ae357b5bf23561ccc3fc8cce7e20fa5b",
+        "refinement_interpretation_Tm_refine_b63f51d3c485657574e68524b0b2e046",
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92",
-        "refinement_interpretation_Tm_refine_ed67888e145c2e76cf1c3f11d76f8530",
         "refinement_kinding_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "typing_FStar.Map.contains", "typing_FStar.Map.domain",
         "typing_FStar.Map.restrict", "typing_FStar.Map.sel",
@@ -204,7 +204,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "a9423d83decdd4aac5c5ecdc12d2bdb1"
+      "862f5e564c6183562094f5d4abd04b05"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_reduction",
@@ -241,7 +241,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "8e53a8a3b6b07e03995fe9af8885b622"
+      "9c393f8417f04d7c89173224295dd190"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_mul_st",
@@ -273,7 +273,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "a207eafaeea80cc74d235f1b94b7bba8"
+      "540c40811ce19eee7ddbe99658881132"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_mul",
@@ -299,7 +299,7 @@
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92"
       ],
       0,
-      "26b5b78640589dde76d5333a555a60ae"
+      "e32b36f297509d4479325d5b224a030e"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_mul",
@@ -405,21 +405,21 @@
         "proj_equation_Hacl.Bignum.Mkbn_@len",
         "projection_inverse_BoxBool_proj_0",
         "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_056bb07d3dc322870def2ab91bc1ca41",
         "refinement_interpretation_Tm_refine_05e15190c946858f68c69156f585f95a",
-        "refinement_interpretation_Tm_refine_0fa16661e2c0d1847c912562ec8fbfd1",
         "refinement_interpretation_Tm_refine_156c49afb7e1e070fbb2e47dc0e3d4b2",
         "refinement_interpretation_Tm_refine_1bdbbaeacf9e08440a899967571fe9f7",
         "refinement_interpretation_Tm_refine_365abba901205a01d0ef28ebf2198c47",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_6065f173033e10a9ea94570e4e669b17",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
+        "refinement_interpretation_Tm_refine_7c2a1f6a381c1aa36b3eeae83ec91477",
         "refinement_interpretation_Tm_refine_83845a86f2550cdf941eeb1d9b59602b",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
-        "refinement_interpretation_Tm_refine_a83a2bc49fabb1589d86577509bc9ec9",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
-        "refinement_interpretation_Tm_refine_c08ab6f5b0b9f988754575383d96bc2e",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
+        "refinement_interpretation_Tm_refine_ae357b5bf23561ccc3fc8cce7e20fa5b",
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92",
-        "refinement_interpretation_Tm_refine_dbc25f324d88fad5434f65d448c84b86",
+        "refinement_interpretation_Tm_refine_dee324e30cc2dfe40298ec9a5806deaf",
+        "refinement_interpretation_Tm_refine_feb9bb9f35b4e580b5c2b388310d192a",
         "refinement_kinding_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "typing_FStar.Map.contains", "typing_FStar.Map.domain",
         "typing_FStar.Map.restrict", "typing_FStar.Monotonic.Heap.emp",
@@ -450,7 +450,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "bfb203f60e4d8e531e05bfd9805f3249"
+      "c7381c6527a0e5d9187cfb17647a55ac"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_mul",
@@ -476,7 +476,7 @@
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92"
       ],
       0,
-      "84c23bf1f0b39a80adb4e0129c610067"
+      "34489d4c394f70d2f02f3f06a2e0f87d"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_sqr_st",
@@ -508,7 +508,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "8202ab54c5a159ceb5e6e57c32b4ce06"
+      "57be069283192a5f88a85e4a2b2cba86"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_sqr",
@@ -524,17 +524,22 @@
         "equality_tok_Lib.IntTypes.U32@tok",
         "equality_tok_Lib.IntTypes.U64@tok",
         "equation_Hacl.Bignum.Definitions.limb_t",
+        "equation_Hacl.Bignum.meta_len",
         "equation_Hacl.Spec.Bignum.Definitions.limb_t",
         "equation_Lib.IntTypes.bits", "equation_Lib.IntTypes.minint",
-        "equation_Lib.IntTypes.unsigned", "equation_Prims.nat", "int_typing",
+        "equation_Lib.IntTypes.unsigned", "equation_Prims.nat",
+        "fuel_guarded_inversion_Hacl.Bignum.bn", "int_typing",
         "lemma_FStar.Int.pow2_values", "primitive_Prims.op_Addition",
         "primitive_Prims.op_Multiply", "primitive_Prims.op_Subtraction",
+        "proj_equation_Hacl.Bignum.Mkbn_@len",
         "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_1bdbbaeacf9e08440a899967571fe9f7",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92"
+        "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92",
+        "typing_Hacl.Bignum.__proj__Mkbn__item__len"
       ],
       0,
-      "c89dc4096b8cdb6cd11f9efe5db2f227"
+      "44b62dffeb73183caabea7a2de130e00"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_sqr",
@@ -641,20 +646,20 @@
         "projection_inverse_BoxBool_proj_0",
         "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_05e15190c946858f68c69156f585f95a",
-        "refinement_interpretation_Tm_refine_0fa16661e2c0d1847c912562ec8fbfd1",
         "refinement_interpretation_Tm_refine_156c49afb7e1e070fbb2e47dc0e3d4b2",
         "refinement_interpretation_Tm_refine_1bdbbaeacf9e08440a899967571fe9f7",
         "refinement_interpretation_Tm_refine_365abba901205a01d0ef28ebf2198c47",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
-        "refinement_interpretation_Tm_refine_7967cceb0998350922cb138625db93c4",
+        "refinement_interpretation_Tm_refine_7b8c16c5d24024d13413b65d51ef286c",
         "refinement_interpretation_Tm_refine_83845a86f2550cdf941eeb1d9b59602b",
+        "refinement_interpretation_Tm_refine_8f116650038cb4d28e9a3fe457286927",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
-        "refinement_interpretation_Tm_refine_a83a2bc49fabb1589d86577509bc9ec9",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
+        "refinement_interpretation_Tm_refine_ae357b5bf23561ccc3fc8cce7e20fa5b",
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92",
-        "refinement_interpretation_Tm_refine_dbc25f324d88fad5434f65d448c84b86",
-        "refinement_interpretation_Tm_refine_e05262bf922cf124751eaefee82982ac",
+        "refinement_interpretation_Tm_refine_dee324e30cc2dfe40298ec9a5806deaf",
+        "refinement_interpretation_Tm_refine_feb9bb9f35b4e580b5c2b388310d192a",
         "refinement_kinding_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "typing_FStar.Map.contains", "typing_FStar.Map.domain",
         "typing_FStar.Map.restrict", "typing_FStar.Monotonic.Heap.emp",
@@ -685,7 +690,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "49cf5ba9ee0bd8ff29f4f41b5f3c64c6"
+      "f5bd177c9d42feea71f92db3056d77cc"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_sqr",
@@ -711,7 +716,7 @@
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92"
       ],
       0,
-      "84c23bf1f0b39a80adb4e0129c610067"
+      "34489d4c394f70d2f02f3f06a2e0f87d"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.almost_mont",
@@ -737,7 +742,7 @@
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92"
       ],
       0,
-      "416260beae3d74f5769b94368f6354d5"
+      "56619643f9b3ac6fe289d27870fd7b5f"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.__proj__Mkalmost_mont__item__reduction",
@@ -762,7 +767,7 @@
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92"
       ],
       0,
-      "607d6967a4fb27aeec0e2536921cd528"
+      "13bf475e2b45b857e5706950fc2c14d5"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.__proj__Mkalmost_mont__item__reduction",
@@ -796,7 +801,7 @@
         "typing_Hacl.Bignum.__proj__Mkbn__item__len"
       ],
       0,
-      "df2935754d31ee818de2c480b89045ed"
+      "639fe5ac6358cfea16a9c0adc719e92a"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.reduction",
@@ -830,7 +835,7 @@
         "typing_Hacl.Bignum.__proj__Mkbn__item__len"
       ],
       0,
-      "fb576b7c1038e67f13be87ea8496f11b"
+      "850cfec364a298d374c64f683624823a"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_reduction_u32",
@@ -853,7 +858,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "ef5f69b1e80b8e5f3c8a2bbcbefd5c05"
+      "ad27c0d048ea5e63250a413ae8a01678"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_mul_u32",
@@ -872,13 +877,13 @@
         "equation_Lib.Buffer.as_seq",
         "lemma_Hacl.Bignum.mk_runtime_bn_len_lemma",
         "proj_equation_Hacl.Bignum.Mkbn_@len",
-        "refinement_interpretation_Tm_refine_c0321721aee42916cf86f67ab7e474e5",
+        "refinement_interpretation_Tm_refine_b2fab458cc7b39072654a6e22c1934a1",
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92",
-        "refinement_interpretation_Tm_refine_d445f86581ed53cbb7dfe9d660b11707",
+        "refinement_interpretation_Tm_refine_e64d73f168f024f8ffab9691904ee99c",
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "ec81841dfdf56ee0b73f903ea1901450"
+      "8974ff2beb27a05dacd81e25493bec78"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_sqr_u32",
@@ -897,13 +902,13 @@
         "equation_Lib.Buffer.as_seq",
         "lemma_Hacl.Bignum.mk_runtime_bn_len_lemma",
         "proj_equation_Hacl.Bignum.Mkbn_@len",
-        "refinement_interpretation_Tm_refine_219d467b5655eaf64bead9d8433497a9",
-        "refinement_interpretation_Tm_refine_59cd2fe9d861b4aa21949ac20061362c",
+        "refinement_interpretation_Tm_refine_0d70c9dbb3a63c2fd42fc2644bd7cc90",
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92",
+        "refinement_interpretation_Tm_refine_e738fdb3b438f7ad232678bf4a8c4a5f",
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "b883223310b9c16b7619b62526470d16"
+      "0efc2d4865eddfb3eebee10b77e9ba9d"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.mk_runtime_almost_mont_u32",
@@ -921,15 +926,15 @@
         "equation_Lib.Buffer.as_seq",
         "lemma_Hacl.Bignum.mk_runtime_bn_len_lemma",
         "proj_equation_Hacl.Bignum.Mkbn_@len",
-        "refinement_interpretation_Tm_refine_219d467b5655eaf64bead9d8433497a9",
-        "refinement_interpretation_Tm_refine_59cd2fe9d861b4aa21949ac20061362c",
-        "refinement_interpretation_Tm_refine_c0321721aee42916cf86f67ab7e474e5",
+        "refinement_interpretation_Tm_refine_0d70c9dbb3a63c2fd42fc2644bd7cc90",
+        "refinement_interpretation_Tm_refine_b2fab458cc7b39072654a6e22c1934a1",
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92",
-        "refinement_interpretation_Tm_refine_d445f86581ed53cbb7dfe9d660b11707",
+        "refinement_interpretation_Tm_refine_e64d73f168f024f8ffab9691904ee99c",
+        "refinement_interpretation_Tm_refine_e738fdb3b438f7ad232678bf4a8c4a5f",
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "0f0edfdfca6c615707afb63f60609fec"
+      "a7c11eda025bf8af7cade05098d9934f"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_reduction_u64",
@@ -953,7 +958,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "c06b1d46f0c191d3ded413e407e2f7d1"
+      "673c78395a71ae4c9c3ada0f00d94d6b"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_mul_u64",
@@ -973,13 +978,13 @@
         "equation_Lib.Buffer.as_seq",
         "lemma_Hacl.Bignum.mk_runtime_bn_len_lemma",
         "proj_equation_Hacl.Bignum.Mkbn_@len",
-        "refinement_interpretation_Tm_refine_17b5ae8972faa026e5ccadf28d172de3",
-        "refinement_interpretation_Tm_refine_ce0196c1ef75856fd3f4e09e2d79a993",
+        "refinement_interpretation_Tm_refine_6d050200b21453f1af05aefd82cfa144",
+        "refinement_interpretation_Tm_refine_c544fa11fc4fceb92a0f66b0e3776e90",
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92",
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "efdb22cefaa1e68179a40446a3419aea"
+      "a9c27dc17d47e614e337e623a300af1f"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.bn_almost_mont_sqr_u64",
@@ -999,13 +1004,13 @@
         "equation_Lib.Buffer.as_seq",
         "lemma_Hacl.Bignum.mk_runtime_bn_len_lemma",
         "proj_equation_Hacl.Bignum.Mkbn_@len",
-        "refinement_interpretation_Tm_refine_52824248b39956f2c928fcce874fc6e2",
-        "refinement_interpretation_Tm_refine_54799866b6d22058f99e414ca84d1a8e",
+        "refinement_interpretation_Tm_refine_5877972965cc05178329e3ea477ab9f8",
+        "refinement_interpretation_Tm_refine_6cc98b86d5d3c16f8bbb8e2a48c16bd5",
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92",
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "f4f9f4f343d068bc078c14403ba0a215"
+      "dcc5b3eca3550b69d099cde96d4329af"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.mk_runtime_almost_mont_u64",
@@ -1023,15 +1028,15 @@
         "equation_Lib.Buffer.as_seq",
         "lemma_Hacl.Bignum.mk_runtime_bn_len_lemma",
         "proj_equation_Hacl.Bignum.Mkbn_@len",
-        "refinement_interpretation_Tm_refine_17b5ae8972faa026e5ccadf28d172de3",
-        "refinement_interpretation_Tm_refine_52824248b39956f2c928fcce874fc6e2",
-        "refinement_interpretation_Tm_refine_54799866b6d22058f99e414ca84d1a8e",
-        "refinement_interpretation_Tm_refine_ce0196c1ef75856fd3f4e09e2d79a993",
+        "refinement_interpretation_Tm_refine_5877972965cc05178329e3ea477ab9f8",
+        "refinement_interpretation_Tm_refine_6cc98b86d5d3c16f8bbb8e2a48c16bd5",
+        "refinement_interpretation_Tm_refine_6d050200b21453f1af05aefd82cfa144",
+        "refinement_interpretation_Tm_refine_c544fa11fc4fceb92a0f66b0e3776e90",
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92",
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "3b81cc342e22ce458e5edd9c7e83f4e2"
+      "21ca81a08cb4ec5903e74df82c6f8ff3"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.mk_runtime_almost_mont",
@@ -1055,7 +1060,7 @@
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92"
       ],
       0,
-      "a544cd27c8ae7b965486b37593d1d16f"
+      "2cd32b3e99f23b77c289838d7eca374e"
     ],
     [
       "Hacl.Bignum.AlmostMontgomery.mk_runtime_almost_mont_len_lemma",
@@ -1081,7 +1086,7 @@
         "typing_Hacl.Bignum.AlmostMontgomery.mk_runtime_almost_mont"
       ],
       0,
-      "35e66282cc963149e7369767bf5901df"
+      "d9dcec060a8bc0df30e7d0ea46ae452e"
     ]
   ]
 ]

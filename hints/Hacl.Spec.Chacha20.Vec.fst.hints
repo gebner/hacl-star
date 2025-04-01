@@ -1,5 +1,5 @@
 [
-  "¢è¾\u0007ÆG:± Ç¿«áì$q",
+  "a2e8be07c6473ab120c7bfabe1ec2471",
   [
     [
       "Hacl.Spec.Chacha20.Vec.key",
@@ -15,7 +15,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "137bfc1f593153513ca63796e2ec2bbe"
+      "013d1c86a3e797d925671d0fad262964"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.block1",
@@ -31,7 +31,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "101743297ca9a318c5ca53616222f6ba"
+      "b46cf052572692c4bfef51fe5eba471b"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.nonce",
@@ -47,7 +47,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "3cfd10f17fbf789f49cb06b1adf2f3bf"
+      "0a558becd2df44034996660756f52ae2"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.uint32xN",
@@ -60,7 +60,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "e3975c3f36134fbe2a8dbf2132886a6b"
+      "a5219bebe4946625aba8d8321a24786e"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.state",
@@ -75,7 +75,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "51f9a5d32958e380ddcc927df38caffa"
+      "0c60fbcea79d1e5b994e73373041761a"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.blocks",
@@ -95,7 +95,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "a2dc476a4cc3272b2162e3af05f11da2"
+      "f608c6f20fc6d1be9d90047807a15285"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.transpose_state",
@@ -119,7 +119,7 @@
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c"
       ],
       0,
-      "01b224a834534995cfe70ac4d4f06626"
+      "86f60d35642dc3e2ee96e7f3c77a0c79"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.line",
@@ -144,18 +144,18 @@
         "primitive_Prims.op_Subtraction",
         "projection_inverse_BoxBool_proj_0",
         "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_17a62dfd7a7e60838b33b793b678487e",
         "refinement_interpretation_Tm_refine_335e5bfc9edee38d58c934e23a4de7eb",
         "refinement_interpretation_Tm_refine_50745f4abd3b1f3a36148d2dfd3f8dde",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
+        "refinement_interpretation_Tm_refine_79c30e418298fa5c904762cbd4b74813",
         "refinement_interpretation_Tm_refine_7c4161c9505fe096ba66623182cf5f6d",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
         "refinement_interpretation_Tm_refine_c8dd98bb91cb1ba6963e5299b3babaa4",
         "typing_Prims.int"
       ],
       0,
-      "3812df35dd75b91b1904d16ddc25cf55"
+      "8a5ffe5650352976d95a120ff5e6f282"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.quarter_round",
@@ -174,13 +174,13 @@
         "lemma_FStar.Int.pow2_values", "lemma_Lib.IntTypes.v_mk_int",
         "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55adfa9be630cfb71b973b0871f4f9b2",
         "refinement_interpretation_Tm_refine_83845a86f2550cdf941eeb1d9b59602b",
+        "refinement_interpretation_Tm_refine_9d3fd79fd314167f1a9c213a188da3ec",
         "typing_Lib.IntTypes.mk_int", "typing_Lib.IntTypes.v",
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "cc833c6d1b3b93f82b8719d4b1a7c50c"
+      "42024fed1d32cb56e1c1766bd972ffbc"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.column_round",
@@ -199,7 +199,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "648e7a06993fb749e500e2f2f770becc"
+      "39a110c7be4430de7c398baa82dedd50"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.diagonal_round",
@@ -218,7 +218,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "a8b27bb037e16a0b7b83deb5b5bcd81b"
+      "9a75fa0ee1fc3ea8f368411d60cbefa0"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.sum_state",
@@ -237,7 +237,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "ca4eda4422684aae674d6923e4a7c6f6"
+      "cc14bca75867762bcbf78e54021df225"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.add_counter",
@@ -269,7 +269,7 @@
         "refinement_interpretation_Tm_refine_c8dd98bb91cb1ba6963e5299b3babaa4"
       ],
       0,
-      "ad65f0c42af73b14f8fb8305b4d8a54c"
+      "fe8eb84b071471e1fa6420fa6623dfe2"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.chacha20_constants",
@@ -284,7 +284,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "5865f77c726b88d949ca643c3baac190"
+      "ba16a2c1b2907544ad531985a35fad0c"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.setup1",
@@ -306,12 +306,12 @@
         "equation_Lib.Sequence.lseq", "equation_Lib.Sequence.seq",
         "lemma_FStar.Int.pow2_values", "primitive_Prims.op_Subtraction",
         "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "typing_FStar.Seq.Base.length", "typing_Lib.IntTypes.int_t",
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "0d26da469e00241fb25316183fe63515"
+      "2d5a1b60bd655d9183e1b42b720d02ad"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.vec_load_i",
@@ -320,7 +320,7 @@
       0,
       [ "@query" ],
       0,
-      "3fd3c74f132b1526eb7a22719c43a115"
+      "52b20942cd9dce480284d889c2f94a8d"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.chacha20_init",
@@ -347,12 +347,12 @@
         "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_335e5bfc9edee38d58c934e23a4de7eb",
         "refinement_interpretation_Tm_refine_50745f4abd3b1f3a36148d2dfd3f8dde",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "typing_FStar.Seq.Base.length", "typing_Lib.IntTypes.int_t",
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "7e9b3f5f415cc0e9df0caa628d486fbc"
+      "55276c490ddc556781d8f44b3bc09b04"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.transpose1",
@@ -367,7 +367,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "243c3e844ea7aedbbc863617593a7ecf"
+      "3a8aafa45166b72cdc25809648934c70"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.transpose1",
@@ -382,7 +382,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "0f61a777a14506402c5ebde23a4e9acd"
+      "ac3a6a0f074df03a815507096d457634"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.transpose4",
@@ -402,7 +402,7 @@
         "typing_Hacl.Spec.Chacha20.Vec.size_key"
       ],
       0,
-      "740e5e104336989e2a0ba90f780029a6"
+      "08121f43319b55ddd8d26483a17af423"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.transpose4",
@@ -417,7 +417,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "b40d038875de1add60f00bf3bae22d00"
+      "247f5638388669875e51c17b5401dbb5"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.transpose8",
@@ -437,7 +437,7 @@
         "typing_Hacl.Spec.Chacha20.Vec.size_key"
       ],
       0,
-      "6e98dabc4057eb113c5c259a78445964"
+      "0a209703fe838c7199697b91135e2192"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.transpose8",
@@ -452,7 +452,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "1d610d693a48caf4b524734dc50167c7"
+      "00af375cb493851cec203e35c31b11dc"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.transpose",
@@ -466,10 +466,10 @@
         "equation_Hacl.Spec.Chacha20.Vec.uint32xN",
         "equation_Lib.Sequence.lseq",
         "refinement_interpretation_Tm_refine_50745f4abd3b1f3a36148d2dfd3f8dde",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2"
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3"
       ],
       0,
-      "3da4234b92b25ffe684b39b24857ddd1"
+      "8ff6bd3bd747ebcc07a206ac191f1520"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.xor_block_f",
@@ -494,12 +494,12 @@
         "refinement_interpretation_Tm_refine_335e5bfc9edee38d58c934e23a4de7eb",
         "refinement_interpretation_Tm_refine_50745f4abd3b1f3a36148d2dfd3f8dde",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "refinement_interpretation_Tm_refine_f4ec0a04344e7130939ebe4f31f6bd8f",
         "typing_Hacl.Spec.Chacha20.Vec.size_key"
       ],
       0,
-      "4d6fca2c4d1b86e9a734691fd1c3206d"
+      "13b7c2e83a99328cd9508636c495861a"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.xor_block_f",
@@ -521,7 +521,7 @@
         "typing_Hacl.Spec.Chacha20.Vec.size_key"
       ],
       0,
-      "52ab9a7efd32d4a8c9e66c276aab10d4"
+      "8c7f6a116db21f645e36894129da82e7"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.xor_block",
@@ -544,11 +544,11 @@
         "refinement_interpretation_Tm_refine_335e5bfc9edee38d58c934e23a4de7eb",
         "refinement_interpretation_Tm_refine_50745f4abd3b1f3a36148d2dfd3f8dde",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "typing_Hacl.Spec.Chacha20.Vec.size_key"
       ],
       0,
-      "8bc20fd6d35388d91466029005cd8357"
+      "877411c08b4d6328518d86cd990b3bf8"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.chacha20_encrypt_block",
@@ -557,7 +557,7 @@
       0,
       [ "@query", "primitive_Prims.op_Multiply" ],
       0,
-      "22adbbf5e1c21d60a9a77e4edf479b78"
+      "208cd28222ae451f84f5d29b37753ef9"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.chacha20_encrypt_last",
@@ -582,18 +582,18 @@
         "primitive_Prims.op_Addition", "primitive_Prims.op_Multiply",
         "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_335e5bfc9edee38d58c934e23a4de7eb",
-        "refinement_interpretation_Tm_refine_480367c66aad6b7033f05a4dbc9d8550",
         "refinement_interpretation_Tm_refine_50745f4abd3b1f3a36148d2dfd3f8dde",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
         "refinement_interpretation_Tm_refine_6b84940c37200b702c331453229ae759",
         "refinement_interpretation_Tm_refine_6c1ead74174df94a46c805979f61b0e0",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
+        "refinement_interpretation_Tm_refine_987ec92934a1458a26b143023b853451",
         "typing_Hacl.Spec.Chacha20.Vec.size_key", "typing_Lib.IntTypes.bits",
         "typing_Prims.pow2", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "2f160881180976baebffe105275199d0"
+      "1003a5fd2f6cf103c116ebe749667b63"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.chacha20_update",
@@ -620,7 +620,7 @@
         "typing_Hacl.Spec.Chacha20.Vec.size_key"
       ],
       0,
-      "4c21ac613a8facca35ec53256897d345"
+      "038916b645255cb18ffc3fda96e5753e"
     ],
     [
       "Hacl.Spec.Chacha20.Vec.chacha20_decrypt_bytes",
@@ -629,7 +629,7 @@
       0,
       [ "@query" ],
       0,
-      "511b708fc9fa0c592a018879fceb9c2f"
+      "439c948f8f2a5544383d678b9701e84a"
     ]
   ]
 ]

@@ -1,5 +1,5 @@
 [
-  "Å\u0013‰hÐw\u001ayz£œVyø{ý",
+  "c5138968d0771a797aa39c5679f87bfd",
   [
     [
       "Hacl.Spec.Montgomery.Lemmas.eea_pow2_odd_k_lemma_d",
@@ -14,7 +14,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "47fca57becb9acaa018ef03ce038499e"
+      "7683dd3465834e0ff4763502bc8cee43"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.eea_pow2_odd_k_lemma_d",
@@ -37,7 +37,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "7243371acb6c8aa833e83dd507540e40"
+      "bdd1ed454106ce3e76a6f55b9e227383"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.eea_pow2_odd_k_lemma",
@@ -51,7 +51,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "01f699b7120f061cdad7c8e52a08baae"
+      "a8b4cbddbdaa74ba73a87aef419fff78"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.eea_pow2_odd_k_lemma",
@@ -70,7 +70,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "0b4b71ab9b32d20466f5fc395bea36fc"
+      "82655947f29ce0d21207af3497a6c264"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.eea_pow2_odd_k_lemma_bound",
@@ -84,7 +84,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "593c1715c1be59ec1cc6a539e2a3e16b"
+      "5eadb3a749f6a82fc1ce8df73e8d9fbb"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.eea_pow2_odd_k_lemma_bound",
@@ -99,7 +99,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "6f9636068038b252205b69fc7c0715e4"
+      "4e07985212e60f4acc44fc6c6e61e1c2"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.eea_pow2_odd_k",
@@ -111,7 +111,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "f176d267c971d241e70856b39f62b15e"
+      "bdb6a001eb9d31d7f4ac3b6d403b6756"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.eea_pow2_odd_k",
@@ -137,7 +137,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "4c715552282ae355a469585ad00b72de"
+      "d111016efd4264570c7b179e84da8cda"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.eea_pow2_odd_k",
@@ -149,7 +149,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "54273894f2ced32f0e794ae48e129bda"
+      "b55152a77946fb003806276e670120a1"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.eea_pow2_odd",
@@ -158,7 +158,7 @@
       0,
       [ "@query" ],
       0,
-      "5339461f3ac61ec9b311047468c45026"
+      "9a948c105c36122b5fc7a14b4dac4232"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.eea_pow2_odd",
@@ -180,7 +180,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "cd7d16b0cb374bd0d2380c02d4b2e557"
+      "9dce72cd3658c32f2a6d6f23030d74d6"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_preconditions_d",
@@ -198,7 +198,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "f2a68bb5b9085660030bb66d58c9e5ac"
+      "a3bd8b62ea74f613c25d4d192b5e1ee7"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_preconditions_d",
@@ -218,7 +218,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "575c07ed13a5a8c50d109ff3b0508249"
+      "5a567435550a04d0ba87866100ab6678"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_preconditions_n0",
@@ -230,7 +230,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "55fee2c74a95145f2acd602daa5e15c5"
+      "5a44f363ee04cd03035914fab2dd1154"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_preconditions_n0",
@@ -244,7 +244,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "9437b5f33b66be0af14ae21f5187c353"
+      "0537b136be8a03eae194fe8d4ade1d2a"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_preconditions",
@@ -258,12 +258,12 @@
         "primitive_Prims.op_Multiply", "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_4fe9a5df27ca5859eef8add9fc6819fb",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_6de114b6fe1b590935222274a5f6e972",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
+        "refinement_interpretation_Tm_refine_df48a7ffcfe948ef1829812a1015c1a1",
         "typing_Prims.pow2"
       ],
       0,
-      "bccf750a11fa1a9a95a97123fc98e25f"
+      "4a9210b2caea61f4729542f42fdf5f52"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_preconditions",
@@ -272,7 +272,7 @@
       0,
       [ "@query" ],
       0,
-      "6d86ee82bb6b1535fc407de3a9c9dc2c"
+      "804e3db56e26e4397a4d387141b5aa45"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_f",
@@ -289,7 +289,7 @@
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c"
       ],
       0,
-      "8239e7bc5be4a64355b7a2abb2f15f7c"
+      "baf3a6df962de7428066776edb987ee6"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_loop_div_r",
@@ -299,7 +299,7 @@
       [
         "@MaxIFuel_assumption", "@query",
         "Hacl.Spec.Montgomery.Lemmas_interpretation_Tm_arrow_41f67ae1bbcf22cdb5fa15af2bd0357a",
-        "Lib.LoopCombinators_interpretation_Tm_arrow_c160f58a55dc9850346d4a725f1ddb0c",
+        "Lib.LoopCombinators_interpretation_Tm_arrow_dac71e4a9e9fb8098f53e1a260b376c5",
         "equation_Prims.nat", "equation_Prims.pos",
         "function_token_typing_Hacl.Spec.Montgomery.Lemmas.mont_reduction_f",
         "int_inversion", "primitive_Prims.op_Division",
@@ -310,7 +310,7 @@
         "typing_Lib.LoopCombinators.repeati"
       ],
       0,
-      "a36ddb51b8a7f02e005503282b66ad13"
+      "f90995b15f4c9fa4a893f166ac83b609"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction",
@@ -322,7 +322,7 @@
         "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "95ca36a728c9f3aa21ae1fdacd5bf72c"
+      "9e141ad46fae357ded5b796dc1119be5"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.to_mont",
@@ -337,7 +337,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "265c70d9a642153d04db0ae88d9cb8f2"
+      "7622328b2b8f1950e0c02948aaf27e86"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_mul",
@@ -350,7 +350,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "d6b8d4599e8a7a580bfb7b4012fd81b2"
+      "11f83241c9baaf88d5f8dc1704c80008"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_one",
@@ -365,7 +365,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "fbda02f58ce472bf9a7af421de5322de"
+      "420aad5036065e2f744183f524a57f1c"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_bound_aux",
@@ -379,7 +379,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "8935bb85eb9cb58f1961fac2ad7ef50a"
+      "773028ec461bcc13d99d88769e46fa4a"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_bound_aux",
@@ -398,7 +398,7 @@
         "refinement_interpretation_Tm_refine_baba3c4ff195e8afc82d572a0bec0709"
       ],
       0,
-      "0672c7c81208e416ef8bbf7a72e9e4a3"
+      "163be7ee02ae6175421d1ed16688757e"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_bound_aux",
@@ -407,7 +407,7 @@
       0,
       [ "@query" ],
       0,
-      "6563cc33bf12a4eea152ca4a2859f91e"
+      "f956776dcd92c85dae5a734a8783b3ed"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_bound",
@@ -422,7 +422,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "923eb7a3864f3962cc6872a3c609ad4c"
+      "0058d4af936b00dd2fd473a1d91410b9"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_bound",
@@ -442,7 +442,7 @@
         "typing_Prims.pow2"
       ],
       0,
-      "9322bb578ee0409da85d286eca1b67a2"
+      "16bff5ce04418550bb7776bf9d26c327"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
@@ -454,24 +454,591 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "c7ea30320e4a883579fb49fc03bdb651"
+      "18e15c42eee5f9cee95627d47b4a0f53"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
-      2,
+      3,
       0,
       0,
       [
-        "@MaxIFuel_assumption",
-        "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
-        "equation_Prims.nat", "equation_Prims.pos", "int_inversion",
-        "primitive_Prims.op_Modulus", "primitive_Prims.op_Multiply",
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "62fec9840a2f0adfadbfff66a66972fc"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      4,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "186e25a92cf51b200d61a8e0127a94e5"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      5,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "f174e01824d1a2177619648a7d4b21eb"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      6,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "a4a517b76aed3a46081855cd74ab9ec1"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      7,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "8603db6772347e91f14da5264294f160"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      8,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "8323bac8dccea249890d24994d6b3eaa"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      9,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "7ea60e125499878ec93ab2b964ca2054"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      10,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "660bb2e836378bf24544deb80a1b099b"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      11,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "e4f6d0e90da5c39bb1d44333958c09f7"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      12,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "7fbc19e35bf432eb42e1781a309dcd27"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      13,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "3e813e322718051de2a2449e0f92dd80"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      14,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "79e0bbd9493e95baffb5acb03e2bf028"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      15,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "07721284e0adeac447f6705ce26396ac"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      16,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "d282d3d6ca9360512dd11ff6a54f8bdf"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      17,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "a5a0121c623298646ecbc970e65ed754"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      18,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "b7f95e30c34c5ba066f13c8d990169cb"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      19,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "50aa0d0d096d91f6bfe05d317e61e745"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      20,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "96f1a40d47d8ad6626cb323b7a2f2993"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      21,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "414bb1f6287092c6444a78b03380bd4d"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      22,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "6a8204912398f95dd33632e3e1f5975b"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      23,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "5f737b2b51b3f92449ce6bfa7f364469"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      24,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "d26a23a2012a52e5213a64e8594e6b56"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      25,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "1cc112c119aa8b7998306f22e984fa44"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      26,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "bdca3680798733688e92498767b3fe25"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      27,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "2c2c3a42d4408c51625503cde795d157"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      28,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "dacd72a85cbbaf88d4e844064c71b5f8"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      29,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "92944abda32afe5f09310c0f89d48ad5"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      30,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "d72f8a4a97ac80b3d3e2280490c10bcf"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      31,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "23c1e063fd9a735da0e3e8cb9c1af42e"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      32,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "83b595d8df722cbfc3c249d1144a28ee"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      33,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "23ce98b49844041c21146240c3315aee"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      34,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "d657983d291f95a2bf55458a1e7f181d"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      35,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "356c474752ea76ffe6acf7efd54c5d29"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      36,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "a4aff986dea345b09cac49eaa05ca80b"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      37,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "f5f423f1ec004455e8a8f59199282281"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      38,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "869ce433901eae902bf073e67121d9cc"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      39,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "f4158b6150b320d76f2babd93bf15396"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      40,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_Equality",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "3e343cd78691c620c0b534ebabcd4d1c"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      41,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_Equality",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "f63dbe9f97a380d9f1b9a7d0bd2305a1"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      42,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_Equality",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "50b8f0931fc44905304d7251231821a8"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      43,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_Equality",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "ca1600589ec119349331f953241134e3"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      44,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "b2t_def", "equation_Prims.nat",
+        "int_inversion", "primitive_Prims.op_Equality",
+        "primitive_Prims.op_Multiply", "projection_inverse_BoxBool_proj_0",
         "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "2c8602be6177fb357d072e57731f95d8"
+      "d85654f0e6ac6e61d717641a6b8afa4b"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      45,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_Equality",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "530a21cfaa12b7bb1bcbb75a0dcb6caf"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      46,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_GreaterThan",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "8c747b2e7ec395a1c077d0ce2e45c01b"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      47,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "refinement_interpretation_Tm_refine_369c7467a73f792281522121b249bebc"
+      ],
+      0,
+      "1b9f657c5ae2bcc7dd4434bc231f9299"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      48,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption",
+        "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
+        "equation_Prims.pos", "int_inversion", "primitive_Prims.op_Modulus",
+        "primitive_Prims.op_Multiply", "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_369c7467a73f792281522121b249bebc",
+        "refinement_interpretation_Tm_refine_415724c70c5edc774e53760e94be749f",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
+        "refinement_interpretation_Tm_refine_800df98daac7615684f68234b2da5ef4"
+      ],
+      0,
+      "c1ff7f8657b00cdb087d1d2b1d2981de"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      49,
+      0,
+      0,
+      [ "@query" ],
+      0,
+      "57215d5c4bf36ea59a92319e27406ba7"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_mod_pbits",
+      50,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "refinement_interpretation_Tm_refine_369c7467a73f792281522121b249bebc",
+        "refinement_interpretation_Tm_refine_c7117561bda7466d598b81e9c424bf33",
+        "unit_inversion", "unit_typing"
+      ],
+      0,
+      "b4e8f713ad5cec2fc8088a0a1a2e16bf"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_modr_aux",
@@ -485,7 +1052,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "e9b7f51ca70e792fa7bc5642dd4a0d11"
+      "87c85871271cf9156ad52c0405ba2f23"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_modr_aux",
@@ -499,7 +1066,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "01c556f0aafc873b9ea671ce5516aabf"
+      "70a0e75ff1b1956be40083ea4630ce2b"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_modr",
@@ -514,7 +1081,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "a050f4f70d8a6aad8c74dbc1185805ad"
+      "895bc81857e8b9f980c55fe5f9427f70"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_modr",
@@ -534,7 +1101,7 @@
         "typing_Prims.pow2"
       ],
       0,
-      "5e7569ed99885a02bc247af4e96976a4"
+      "bb1be6cab064609883b10b5a2587730e"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_modn",
@@ -549,7 +1116,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "1bbdb778ae23a3b4e40a814ac18a2837"
+      "0a031d5ae4871f749d28a0f432ae908c"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step_modn",
@@ -568,7 +1135,7 @@
         "typing_Prims.pow2"
       ],
       0,
-      "69b8e794b14df7802b31c04c4ca4b834"
+      "ad9222f493cfa8dcc220d3e0c1a78c9b"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step",
@@ -583,7 +1150,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "87ab8fdbc026293dcd261c2202f114ec"
+      "0b2348a10d156e1b2ea38435e9f93fe9"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma_step",
@@ -592,7 +1159,7 @@
       0,
       [ "@query" ],
       0,
-      "f0e70f9ef3a4d1e2f6bb1222da8a3ad7"
+      "8215b1589b4bc5c85390870ea2780e5e"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_loop_lemma",
@@ -606,10 +1173,10 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
         "refinement_interpretation_Tm_refine_7e0b9b2dbca36eab00de093c1b701c6d",
-        "refinement_interpretation_Tm_refine_b236f804d7bc77b28ce1413e2cae30bb"
+        "refinement_interpretation_Tm_refine_ca12a3cd2b6cbf8444eb3d089ad3a958"
       ],
       0,
-      "4d983d53704c851aa54b240f39dbdf9f"
+      "20af5f7ff013a0d20267068c0f084731"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_loop_lemma",
@@ -637,7 +1204,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "3c5cee827ecbe5074943731bef1d9fcd"
+      "f6883ed81f222ee82bde34ec077460d7"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_loop_lemma",
@@ -651,10 +1218,10 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
         "refinement_interpretation_Tm_refine_7e0b9b2dbca36eab00de093c1b701c6d",
-        "refinement_interpretation_Tm_refine_b236f804d7bc77b28ce1413e2cae30bb"
+        "refinement_interpretation_Tm_refine_ca12a3cd2b6cbf8444eb3d089ad3a958"
       ],
       0,
-      "cc0dcf221ce4d6cfa29c57190f30f12d"
+      "b819884b5c25d89bce6198ca7aa4e46b"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_loop_div_r_fits_lemma",
@@ -669,7 +1236,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "1acd6874d66dc3099a140bb3cb4351aa"
+      "f707dbebdc01f4ed815f567c71ddd3f4"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_loop_div_r_fits_lemma",
@@ -687,7 +1254,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "3714eae8393f372cb55ab6858d6662e6"
+      "63f6403483d6bbd369f96cd95f9b01d7"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_loop_div_r_eval_lemma",
@@ -702,7 +1269,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "ac80a87b0f0702afa1581de3a10fda68"
+      "199f1f40673841ec1ec7ddf70587225a"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_loop_div_r_eval_lemma",
@@ -719,7 +1286,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "26eaf4ebdb11dd35f2d6f7be701a3b68"
+      "2cad9e4978fc1bf4292a21e78bc5e7d4"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_pre",
@@ -733,7 +1300,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "cc07f83dd48f5cbbc8533df99743d0f2"
+      "22ee9a6ef84812776e871d7896707a90"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_loop_div_r_lemma",
@@ -751,7 +1318,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "656ef89bad11e33964a51788450083e1"
+      "5b4b9956def0273e7d04735d8815404b"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_loop_div_r_lemma",
@@ -769,7 +1336,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "777f104528de18e89ec5a65746b9aefc"
+      "22d039d23bf69840b6b7fbfcefc737af"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.lemma_fits_c_lt_rn",
@@ -778,7 +1345,7 @@
       0,
       [ "@query" ],
       0,
-      "c1d2498ac5e8d38d4d5736713da7ff1d"
+      "6d83257938d88ccf2d97ec7f0a0c8b01"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.lemma_fits_c_lt_rn",
@@ -794,7 +1361,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "db730edc5cabd8dfd9b8412d5b1d4ae2"
+      "30424ad6e73f8051cab50598341cf3aa"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma",
@@ -809,11 +1376,11 @@
         "int_typing", "lemma_FStar.Int.pow2_values",
         "primitive_Prims.op_Multiply", "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_5aebc26de5e8a946b3d2844e34e7c4a8",
+        "refinement_interpretation_Tm_refine_70e76800a38dd96fc67664148340150f",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "ffae2acbbe81d9670ed23ba58110b514"
+      "6bad38e06a6e8bcb85099bc61328d5a9"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_reduction_lemma",
@@ -839,7 +1406,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "c96e2db32d0d9a1dfaaef428df5e76c8"
+      "47ea9d8d599c2998eecd42b1f612282f"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_mul_lemma",
@@ -851,11 +1418,11 @@
         "equation_Hacl.Spec.Montgomery.Lemmas.mont_pre",
         "equation_Prims.pos", "int_inversion", "primitive_Prims.op_Multiply",
         "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
-        "refinement_interpretation_Tm_refine_81e50421e1ef4a9b47b8cdaf3cc0f950"
+        "refinement_interpretation_Tm_refine_47d727e13acb7751260019739f63d325",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "01ad5bbafad453f6158edba54184a12b"
+      "cf9451adcdaf25c304f9bfeb6e3e7263"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_mul_lemma",
@@ -875,7 +1442,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "220470c53b8df8daaf85d3ed60dc0fef"
+      "38323b9d0de49c1252006b8212539906"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.lemma_mod_mul_distr3",
@@ -887,7 +1454,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "06aa9658a271595a5aac83e1822429ac"
+      "0f826a481436e69408bc2be19428c726"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.lemma_mod_mul_distr3",
@@ -900,7 +1467,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "26623cf3da6ed827abc5ac38028aca10"
+      "6c73b549727a291a1406b24ce0efce3b"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mult_lt_lemma",
@@ -913,7 +1480,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "6ecbb07a9b5e9611153423e38de0ac21"
+      "f31d94c29d995e98d5329479e961c6c7"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.to_mont_eval_lemma",
@@ -931,7 +1498,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "3c2c7d1f670cff121b18011aae40f65a"
+      "7a32048032c09b628946d7a4592b3ac9"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.to_mont_eval_lemma",
@@ -953,7 +1520,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "e1a369139f919723982d555ae07137a5"
+      "ad823c442e0ee3e4da267c745c1d6e77"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.to_mont_lemma",
@@ -967,7 +1534,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "0890925991e9356371fcc068e5a57b88"
+      "2fe1f08efacff3be145143402eae7e10"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.to_mont_lemma",
@@ -979,18 +1546,19 @@
         "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
         "Prims_pretyping_ae567c2fb75be05905677af440075565",
         "equation_Hacl.Spec.Montgomery.Lemmas.mont_pre",
+        "equation_Hacl.Spec.Montgomery.Lemmas.mont_reduction_loop_div_r",
         "equation_Hacl.Spec.Montgomery.Lemmas.to_mont", "equation_Prims.nat",
         "equation_Prims.pos",
         "function_token_typing_Prims.__cache_version_number__",
         "int_inversion", "lemma_FStar.Int.pow2_values",
-        "primitive_Prims.op_Modulus", "primitive_Prims.op_Multiply",
-        "projection_inverse_BoxInt_proj_0",
+        "primitive_Prims.op_Division", "primitive_Prims.op_Modulus",
+        "primitive_Prims.op_Multiply", "projection_inverse_BoxInt_proj_0",
         "projection_inverse_FStar.Pervasives.Native.Mktuple2_@_1",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "a68ebbe3427ecbc97f1417fd6836e667"
+      "6594e7d6118ddbc1d4ffd5f77c2b84dc"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.from_mont_lemma",
@@ -1006,10 +1574,10 @@
         "primitive_Prims.op_Multiply", "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
-        "refinement_interpretation_Tm_refine_8d104cb146a0e98156d518bfe5fa77cb"
+        "refinement_interpretation_Tm_refine_bd1b0f104dc6e062959750cbcc0a870b"
       ],
       0,
-      "941cb48709eb0c90786094bc55e7e23f"
+      "4d38b690b558e58d72b3c0373e8c6a0c"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.from_mont_lemma",
@@ -1022,13 +1590,12 @@
         "equation_Hacl.Spec.Montgomery.Lemmas.from_mont",
         "equation_Hacl.Spec.Montgomery.Lemmas.mont_pre",
         "equation_Prims.nat", "equation_Prims.pos", "int_inversion",
-        "primitive_Prims.op_Modulus", "primitive_Prims.op_Multiply",
-        "projection_inverse_BoxInt_proj_0",
+        "primitive_Prims.op_Multiply", "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "15ab9c2c5893fb40f325906a5299c8d8"
+      "41891c7683dc2d0434cf61d3f92db52c"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_one_lemma",
@@ -1044,7 +1611,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "c9c0bcf7550558bf546d5aabc695a871"
+      "bf1207e33354305e599d9c0bd80ca0ea"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.mont_one_lemma",
@@ -1062,7 +1629,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "9a5e8cab1a8559421cfe4ad977252b70"
+      "73fd9970c48e4b0c7451ce03fa64c76b"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id",
@@ -1075,7 +1642,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "7f441a3c0aa52e941405d87664cfc668"
+      "044c693860d3577aa49520f9504bf926"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id",
@@ -1086,12 +1653,12 @@
         "@MaxIFuel_assumption", "@query", "equation_Prims.nat",
         "equation_Prims.pos", "int_inversion", "primitive_Prims.op_Multiply",
         "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_192cdf99ade4fc84576f48bdea9ebbf7",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
+        "refinement_interpretation_Tm_refine_d093ed85dfadb407c50b8edbd11efe88"
       ],
       0,
-      "0b376d6140a8503006f0784723832613"
+      "74eacd079effc096fa06e5706de8df37"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id",
@@ -1100,7 +1667,7 @@
       0,
       [ "@query" ],
       0,
-      "f7d854218a730a3164ccf220de4b60a8"
+      "c09ca3d136b1ef45011e4caf00f1aad5"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
@@ -1113,32 +1680,450 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "8ff6ad0eb315972a42a99fc3686f7dae"
-    ],
-    [
-      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
-      2,
-      0,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.nat",
-        "equation_Prims.pos", "int_inversion", "primitive_Prims.op_Modulus",
-        "primitive_Prims.op_Multiply", "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_192cdf99ade4fc84576f48bdea9ebbf7",
-        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
-      ],
-      0,
-      "2170de1366cdc58dccb10e087971e631"
+      "bd93dd8349d825981ef6fb82950f6365"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
       3,
       0,
       0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "4a8a529c0a6fbe1baa056e6c4de6cb47"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      4,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "7eaa23a28e7d1946eb5aa2ccac41d0f7"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      5,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "f572b7361eeb5bef4a8173c1554a6125"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      6,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "f2aea70a95516551dcb27fca075aafba"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      7,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "2004c8e1a45b571be394b143a5f9bc5a"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      8,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "386322c0c415e37416eb99cf56eff0bc"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      9,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "e5ce503456908f0792433097cf0d66c8"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      10,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "99c96e2734bd8313928e9800bb7ed340"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      11,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "2d2a54b268868410a51cf7780c1ae145"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      12,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "e45b050374cd4d9c9a7d6b63d87f26c7"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      13,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "066df58ee44387723902244d4555477d"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      14,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "579a5f2b30b462dc116360e1d34917f6"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      15,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "c0dc61194f1609eb61d0f4ddef7404d1"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      16,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "8985ea541bde7bf2777384732e8bfd35"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      17,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "aed2a630678de79b3d154ac67d99584b"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      18,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "9c39be27a863bbe7f562564a30eb7313"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      19,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "80e3c8d92cca84e99988210c3338b7c6"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      20,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "c1ded8ee3596fd5846b747eecdb430e8"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      21,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "1a43960ca6ae1261c0b6f9c7c681f20c"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      22,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "c28c612d650adad78e703abff906dbf5"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      23,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "0effcdcfc1b1364972424940ce817e91"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      24,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "96543d86699a2968a7a94dcecf85fed9"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      25,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "e0bf4b98f3225aff92b6fb61fa391efc"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      26,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "d0a686cf72e515e7dbfe19993eb2625e"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      27,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_Equality",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "9c20656ed0f9a67203fe6de20564d474"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      28,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_Equality",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "e4645f0f15860826a1f322a84f2cbbc9"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      29,
+      0,
+      0,
+      [
+        "@query", "b2t_def", "primitive_Prims.op_Equality",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "405f84d0f2536440031c26568698de8f"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      30,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "66e3ca8055f10b44f280363cb9ccfeed"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      31,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "refinement_interpretation_Tm_refine_d093ed85dfadb407c50b8edbd11efe88"
+      ],
+      0,
+      "dc54c8b2c74e1c0526f106b46f8ab42d"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      32,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "primitive_Prims.op_Modulus", "primitive_Prims.op_Multiply",
+        "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
+        "refinement_interpretation_Tm_refine_d093ed85dfadb407c50b8edbd11efe88"
+      ],
+      0,
+      "a3c2e1b5590028f50a22027ef088f1a8"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      33,
+      0,
+      0,
       [ "@query" ],
       0,
-      "f7d854218a730a3164ccf220de4b60a8"
+      "2ef3e52ad308d022ea9e932c829e2834"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      34,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "fb72f5300faaf10a5dcaf5272c32a8fe"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      35,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "3bce16c7d6d3bce4dfe97c058c478c06"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      36,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.pos",
+        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
+      ],
+      0,
+      "7eb00de1ba00d00130fc1745b52776ad"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      37,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "refinement_interpretation_Tm_refine_de15c009b1efa1fa11c2c9b655137b25"
+      ],
+      0,
+      "cd04f0511b6092cfc7980079a20ca5a1"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      38,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "refinement_interpretation_Tm_refine_559e1730de3b2bde8a9855c93a41efa6",
+        "refinement_interpretation_Tm_refine_de15c009b1efa1fa11c2c9b655137b25",
+        "unit_inversion", "unit_typing"
+      ],
+      0,
+      "f6eac5b1aa7d5e9a6511d5b298ef1f03"
+    ],
+    [
+      "Hacl.Spec.Montgomery.Lemmas.lemma_mont_id1",
+      39,
+      0,
+      0,
+      [ "@query" ],
+      0,
+      "c09ca3d136b1ef45011e4caf00f1aad5"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.lemma_mont_mul_one",
@@ -1151,7 +2136,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "62425cc125284877383935fcb72fa36a"
+      "1d809b54c246947debf6ffe2bd021b65"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.lemma_mont_mul_one",
@@ -1165,7 +2150,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "67cbf02f974c93d82acf30df7e8f75d6"
+      "441582f832b090a46997982147487a99"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.lemma_mont_mul_one",
@@ -1174,7 +2159,7 @@
       0,
       [ "@query" ],
       0,
-      "f7d854218a730a3164ccf220de4b60a8"
+      "c09ca3d136b1ef45011e4caf00f1aad5"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.from_mont_add_lemma",
@@ -1188,7 +2173,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "62dbcdb66176e11aff8ba6795ed57ca6"
+      "b87af95062c7e4872873be0f66b75a58"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.from_mont_add_lemma",
@@ -1209,7 +2194,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "b9a723fbbf62a43eafc87b3cd445ad96"
+      "f7cee3216dbe329acb3d003ce854479a"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.from_mont_sub_lemma",
@@ -1223,7 +2208,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "1b519b791217bca7470612f3bb0f11e6"
+      "d892519303125a3216af7aa0112b19e2"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.from_mont_sub_lemma",
@@ -1245,7 +2230,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "39a5696dde83a128f9b5ef2355c76300"
+      "08e1d780c9857729ea7a9dae4cc7d481"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.from_mont_mul_lemma",
@@ -1257,7 +2242,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "66fb2b64588d6b8c2d9b5a3a39466bf7"
+      "5c54f88b9b22372a0252b58aef482417"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.from_mont_mul_lemma",
@@ -1278,7 +2263,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "b2bb3960556cbc932882526090a7867b"
+      "b915b1679f483e9c0161c730d8ea3442"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.from_mont_one_lemma",
@@ -1290,7 +2275,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "dfbd6a565f99aacb17d2fe945057164d"
+      "4731ccc5f60a6bab61ffaa9a06754271"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.from_mont_one_lemma",
@@ -1311,7 +2296,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "7dd3a8b13dcf1fd980cde5709aab1506"
+      "a9f64465331361281e0843ef57bdbb36"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.from_to_mont_lemma",
@@ -1325,7 +2310,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "2ce5a16c28252faa61ecfbfa509452d9"
+      "834a5988def8ceb579c9aeba8e7cbdfd"
     ],
     [
       "Hacl.Spec.Montgomery.Lemmas.from_to_mont_lemma",
@@ -1346,7 +2331,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "8fe860b1fa1c20bdcad4225c1ee024e1"
+      "3804e7eb8943192482f3d9c9f01e2491"
     ]
   ]
 ]

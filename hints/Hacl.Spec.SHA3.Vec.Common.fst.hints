@@ -1,5 +1,5 @@
 [
-  "‡v€\u0003é1›=\u001eTFNHÍ_·",
+  "e076db038e31dd3d1e54464e48ea5fe1",
   [
     [
       "Hacl.Spec.SHA3.Vec.Common.lanes",
@@ -14,7 +14,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "d2007ee157fa40a2749ca29e233ac77d"
+      "2302db10d66f7abae3f2605f9554dc5e"
     ],
     [
       "Hacl.Spec.SHA3.Vec.Common.element_t",
@@ -39,7 +39,7 @@
         "token_correspondence_Prims.pow2.fuel_instrumented"
       ],
       0,
-      "f921653de56d8283c46a98f12ac4351b"
+      "d3d9c5372def3e841a72e9508e133c05"
     ],
     [
       "Hacl.Spec.SHA3.Vec.Common.zero_element",
@@ -64,7 +64,7 @@
         "token_correspondence_Prims.pow2.fuel_instrumented"
       ],
       0,
-      "9621b13773484010d016e7940ca20e16"
+      "75c052adc9cda4c34f4c70517db334ad"
     ],
     [
       "Hacl.Spec.SHA3.Vec.Common.load_element",
@@ -89,7 +89,7 @@
         "token_correspondence_Prims.pow2.fuel_instrumented"
       ],
       0,
-      "c8c3855deed67e36591b45df5065c4d1"
+      "bd644a738bf64c8d80d08cfb701b2c47"
     ],
     [
       "Hacl.Spec.SHA3.Vec.Common.next_block_seq_zero",
@@ -128,7 +128,7 @@
         "typing_Prims.pow2", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "d91b982d85cc6717583934722fb0a58c"
+      "89bcc6755c2f6b3c01b14adb4002b65e"
     ]
   ]
 ]

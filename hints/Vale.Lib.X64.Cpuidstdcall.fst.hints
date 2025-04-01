@@ -1,5 +1,5 @@
 [
-  "∂e›Ï\u0012zæê67O\b'À1õ",
+  "bd44c62dc28d3e60f1a82171654e0fca",
   [
     [
       "Vale.Lib.X64.Cpuidstdcall.va_lemma_Check_aesni_stdcall",
@@ -58,7 +58,7 @@
         "unit_typing"
       ],
       0,
-      "5e0b754442b0f47d3cd438377f5e6d01"
+      "5e25ba93ce5334539d68334b7c55a1c2"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_wpProof_Check_aesni_stdcall",
@@ -136,7 +136,7 @@
         "typing_Vale.X64.State.update_reg", "unit_typing"
       ],
       0,
-      "02a5976dc2c390deff96ca8bf6ca6ae4"
+      "efae6c1dddf4e5c645ed14e349441033"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_quick_Check_aesni_stdcall",
@@ -148,7 +148,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "b90510e6640cce5b92c68086db55aec7"
+      "83209e356a9f653fc4ffb27a2a94f9fe"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_lemma_Check_sha_stdcall",
@@ -207,7 +207,7 @@
         "unit_typing"
       ],
       0,
-      "baa29b094547e1db7114fd31187b9cea"
+      "667aa72637115fe495b1deb581f78a5e"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_wpProof_Check_sha_stdcall",
@@ -285,7 +285,7 @@
         "typing_Vale.X64.State.update_reg", "unit_typing"
       ],
       0,
-      "03ec85e968738b4b3784c46e12422bfc"
+      "f9ccf2225e6e7185003150e0dc742d60"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_quick_Check_sha_stdcall",
@@ -297,7 +297,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "112f399f2a5abc6e5f57ea347ffdc4e0"
+      "467c2d76acbde68df708382343c5e807"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_lemma_Check_adx_bmi2_stdcall",
@@ -356,7 +356,7 @@
         "unit_typing"
       ],
       0,
-      "21f6c9b98867981611215d0877299e6e"
+      "d5c9eaec27552c250b6ac1d9fef973d2"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_wpProof_Check_adx_bmi2_stdcall",
@@ -434,7 +434,7 @@
         "typing_Vale.X64.State.update_reg", "unit_typing"
       ],
       0,
-      "488dba83e7676e0afdf7283c0238154f"
+      "f6ca1ccf4aef7e381073e7aa15e66c0c"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_quick_Check_adx_bmi2_stdcall",
@@ -446,7 +446,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "cfcf14e9775387a6f92e60f1640ddd12"
+      "e327ae64cee5ad4456ebf8da69a6115b"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_lemma_Check_avx_stdcall",
@@ -505,7 +505,7 @@
         "unit_typing"
       ],
       0,
-      "9fb2ebe68b320ef6588b73e44ea9dfc7"
+      "6d521032801372dc4a75a830a402a7d0"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_wpProof_Check_avx_stdcall",
@@ -583,7 +583,7 @@
         "typing_Vale.X64.State.update_reg", "unit_typing"
       ],
       0,
-      "0558310667bf2364d485f7fb24e04cd4"
+      "5103e34d7136562810b2b0081ad7dade"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_quick_Check_avx_stdcall",
@@ -595,7 +595,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "63c08ba86c37a02f82159ef8e78cd201"
+      "ac9fc3fea6656813e3067ea8a94b163b"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_lemma_Check_avx2_stdcall",
@@ -654,7 +654,7 @@
         "unit_typing"
       ],
       0,
-      "4cdcf1804a93f8e23ea8d823bbf54e22"
+      "d05cea5e23e49a509c14582cc3955d84"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_wpProof_Check_avx2_stdcall",
@@ -732,7 +732,7 @@
         "typing_Vale.X64.State.update_reg", "unit_typing"
       ],
       0,
-      "6c4ae6288bf254116e437ec3d91f0ebb"
+      "e0d98422643fee620d7a500625e04173"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_quick_Check_avx2_stdcall",
@@ -744,7 +744,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "15029c39ae1326cd47d61b73336e305c"
+      "c342b8e697f0dfc5be676ac224154d85"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_lemma_Check_movbe_stdcall",
@@ -803,7 +803,7 @@
         "unit_typing"
       ],
       0,
-      "23fad9ded7b916703c4e78b226d967fc"
+      "e1344a6bd1e4ac5da581ca6450725fbe"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_wpProof_Check_movbe_stdcall",
@@ -881,7 +881,7 @@
         "typing_Vale.X64.State.update_reg", "unit_typing"
       ],
       0,
-      "57579d2937eaa097e278c70b29f08b6a"
+      "09287d37a81a5f114dafd6637f5ff1c7"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_quick_Check_movbe_stdcall",
@@ -893,7 +893,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "2352364ef18c125d18925f18bd83bda8"
+      "d180567263ae457ef0a8ea307a71beaf"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_lemma_Check_sse_stdcall",
@@ -952,7 +952,7 @@
         "unit_typing"
       ],
       0,
-      "a30d81a64fd3784fe372393b1069fa4b"
+      "9d281f88a3a50c81f9b8723fe3240698"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_wpProof_Check_sse_stdcall",
@@ -1030,7 +1030,7 @@
         "typing_Vale.X64.State.update_reg", "unit_typing"
       ],
       0,
-      "ac6af5fae0836d7a536f9a98865e0830"
+      "d27d1f38f9bc69482b736ba0a7bf8b65"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_quick_Check_sse_stdcall",
@@ -1042,7 +1042,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "90d27c96433a0e93e9008666180ee272"
+      "dff114a578989e10c9a7594537108af8"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_lemma_Check_rdrand_stdcall",
@@ -1101,7 +1101,7 @@
         "unit_typing"
       ],
       0,
-      "e4c9a33fb00329e5c022a8e05daaa550"
+      "69dcc56765d7410312740dbd46e698e9"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_wpProof_Check_rdrand_stdcall",
@@ -1179,7 +1179,7 @@
         "typing_Vale.X64.State.update_reg", "unit_typing"
       ],
       0,
-      "de4930a6bd55e5cba0ce13a292933d15"
+      "b1e3baf446752a928419e510c85fab35"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_quick_Check_rdrand_stdcall",
@@ -1191,7 +1191,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "22def61f14def38d433fac417c36e862"
+      "358276fe850f1751c13ffd2b447f75be"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_lemma_Check_avx512_stdcall",
@@ -1250,7 +1250,7 @@
         "unit_typing"
       ],
       0,
-      "67c9a1277a2941f65c6dfc1f02e4bd81"
+      "c1f985e032b1336647a2fd1fff1ff9bd"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_wpProof_Check_avx512_stdcall",
@@ -1328,7 +1328,7 @@
         "typing_Vale.X64.State.update_reg", "unit_typing"
       ],
       0,
-      "68016aaf5ac8584984587fef612947c4"
+      "c8d73c2e6a83ec9dd15bf2dfe1d5ed77"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_quick_Check_avx512_stdcall",
@@ -1340,7 +1340,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "6b545a9f12c2910e5c14f2da1d791012"
+      "8a575f771f50e4fc3c4c79c4bfbf300a"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_lemma_Check_osxsave_stdcall",
@@ -1399,7 +1399,7 @@
         "unit_typing"
       ],
       0,
-      "2717544de85e267ad4875a7680152aed"
+      "48c1aead8a4351d224531a757f676eb2"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_wpProof_Check_osxsave_stdcall",
@@ -1477,7 +1477,7 @@
         "typing_Vale.X64.State.update_reg", "unit_typing"
       ],
       0,
-      "5cc2239befbafd51c43b42ab20d11fc6"
+      "a51668a75e440ad332c5906bc3584e70"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_quick_Check_osxsave_stdcall",
@@ -1489,7 +1489,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "8971852b2672ec891e236b86020a0f47"
+      "870f2c11a1057b7aea42a1ccf5efc800"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_lemma_Check_avx_xcr0_stdcall",
@@ -1546,7 +1546,7 @@
         "unit_typing"
       ],
       0,
-      "da8333a07e291352d1ca93232e51c73c"
+      "f848ee3012fb8b396c73fc0d756bc75b"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_wpProof_Check_avx_xcr0_stdcall",
@@ -1625,7 +1625,7 @@
         "typing_Vale.X64.State.update_reg", "unit_typing"
       ],
       0,
-      "1d2dbce3a7161133d56e8a6e656148d2"
+      "c09b5fb3b8f5c912986eef32038e611b"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_quick_Check_avx_xcr0_stdcall",
@@ -1637,7 +1637,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "df7982147f224fa96f85307c30de9e8d"
+      "acf4b80db0a473a877e35cf4acecb625"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_lemma_Check_avx512_xcr0_stdcall",
@@ -1694,7 +1694,7 @@
         "unit_typing"
       ],
       0,
-      "2dacefa060751463336d28ab178725b7"
+      "2b3366b339097ed33208f2c8ce9e5d11"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_wpProof_Check_avx512_xcr0_stdcall",
@@ -1773,7 +1773,7 @@
         "typing_Vale.X64.State.update_reg", "unit_typing"
       ],
       0,
-      "76512d79fe7fb5fc5cac9252434cff5d"
+      "5867cca9e789e736010288a0aab870f7"
     ],
     [
       "Vale.Lib.X64.Cpuidstdcall.va_quick_Check_avx512_xcr0_stdcall",
@@ -1785,7 +1785,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "264bdfdf29ab59ff5475fd7f4566fc74"
+      "fbcbd9a8f0b88b85517e8118c31d98a3"
     ]
   ]
 ]

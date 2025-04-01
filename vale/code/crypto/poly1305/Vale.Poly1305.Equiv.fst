@@ -100,6 +100,7 @@ let lemma_poly1305_equiv_last (text:bytes) (r:felem) (hBlocks:felem) : Lemma
   let last = Seq.slice text (nb * size_block) len in
   let nExtra = len % size_block in
   let padLast = pow2 (nExtra * 8) in
+  assert padLast == pow2 (8 * nExtra);
   let x = nat_from_bytes_le last in
   Math.Lemmas.pow2_le_compat 128 (8 * nExtra);
   FStar.Math.Lemmas.modulo_lemma x padLast;
@@ -116,6 +117,8 @@ let lemma_poly1305_equiv_last (text:bytes) (r:felem) (hBlocks:felem) : Lemma
     fmul (fadd (x + padLast) hBlocks) r;
     == { FStar.Math.Lemmas.lemma_mod_plus_distr_l (x + padLast) hBlocks prime }
     fmul (fadd (fadd x padLast) hBlocks) r;
+    == {}
+    fmul (fadd (fadd padLast x) hBlocks) r;
     == {}
     S.poly1305_update1 r nExtra last hBlocks;
   }

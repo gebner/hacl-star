@@ -333,6 +333,7 @@ let rec stack_args' (max_arity:nat)
            BS.valid_addr64 ptr stack /\
            BS.get_heap_val64 ptr stack == IX64.arg_as_nat64 hd)
 
+#restart-solver
 let frame_update_get_heap (ptr:int) (v:MS.nat64) (mem:BS.machine_heap) (j:int) : Lemma
   (requires ptr >= j + 8)
   (ensures BS.get_heap_val64 j mem == BS.get_heap_val64 j (BS.update_heap64 ptr v mem))

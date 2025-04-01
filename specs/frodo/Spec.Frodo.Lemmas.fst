@@ -100,6 +100,7 @@ let lemma_frodo_sample2 sign e =
     assert_norm (Math.Lib.powx (-1) 1 = -1) end
 
 
+#restart-solver
 val lemma_mul_acc_comm:
   a:size_nat -> b:size_nat -> c:size_nat -> Lemma (a * b * c = c * a * b)
 let lemma_mul_acc_comm a b c = ()

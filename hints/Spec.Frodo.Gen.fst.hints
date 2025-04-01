@@ -1,5 +1,5 @@
 [
-  "öH¥‰ä‚Ó9Åe¦Z|@ú¶",
+  "f648a589e482d339c565a65a7c40fab6",
   [
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_get_r",
@@ -17,7 +17,7 @@
         "refinement_interpretation_Tm_refine_dee0f34b44c44e6d512c6db0858b92ef"
       ],
       0,
-      "4227367373df22f696ba4c51c0ded946"
+      "866d53af0371566d21583128287ebca1"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_get_r",
@@ -41,14 +41,14 @@
         "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_02335f9d7ab617cc443e24c7fd4421aa",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
-        "refinement_interpretation_Tm_refine_91a34254fb397140f8acc075a04d6e16",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
+        "refinement_interpretation_Tm_refine_cd7a41c0abc935a7c7952d6f8fdb0a3e",
         "refinement_interpretation_Tm_refine_dee0f34b44c44e6d512c6db0858b92ef",
         "typing_FStar.Seq.Base.length", "typing_Lib.IntTypes.int_t",
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "7ddf75e3d8dc714c92c6b7b4382891c6"
+      "406f0f40fc755d5de232373c719ae8f4"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_get_r",
@@ -63,7 +63,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "1fa32a4b41ebebd45e00b0633b67618d"
+      "f92479c78b0ae0df867a15d1983c4bd0"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake0",
@@ -81,7 +81,7 @@
         "refinement_interpretation_Tm_refine_dee0f34b44c44e6d512c6db0858b92ef"
       ],
       0,
-      "25d90c80dc7501018d25964d516f6807"
+      "4bb1147f3d729f1172e7586098ff03ec"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake0",
@@ -104,7 +104,7 @@
         "refinement_interpretation_Tm_refine_dee0f34b44c44e6d512c6db0858b92ef"
       ],
       0,
-      "0624a4fac008a9629a932daa4c436555"
+      "0053f799c8b0fc4f91799593c5418532"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake0",
@@ -122,7 +122,7 @@
         "refinement_interpretation_Tm_refine_dee0f34b44c44e6d512c6db0858b92ef"
       ],
       0,
-      "fb008c0599f0a3f4c99cebc04f0dd3a2"
+      "0157b85bd4728fb27c68ec35313365fb"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake1",
@@ -137,7 +137,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "62411472f44395ca0e6869a86a39b4e0"
+      "f5d1ded72f807cc27658fe5884b55c68"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake1",
@@ -155,13 +155,13 @@
         "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_02335f9d7ab617cc443e24c7fd4421aa",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "refinement_interpretation_Tm_refine_dee0f34b44c44e6d512c6db0858b92ef",
         "typing_FStar.Seq.Base.length", "typing_Lib.IntTypes.int_t",
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "61e159d24e6915953f42bc4348d6f931"
+      "4ff1a5b56e869b1f8b5fa8e963f74374"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake1",
@@ -176,7 +176,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "c7b1ab4eb6e898c9fcee464991972c5e"
+      "504cdd6ff7bd66926f15a3e37afb9df7"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake",
@@ -191,7 +191,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "38f99f53ef555dca2bb6dfa0be3e5e6a"
+      "bb79b029089ffd3bc298f849687e2535"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake",
@@ -203,7 +203,7 @@
         "refinement_interpretation_Tm_refine_02335f9d7ab617cc443e24c7fd4421aa"
       ],
       0,
-      "099d426b5cf21b0a7239387d39ef572f"
+      "c7cccbcb4ce13d817daf40c5e81267b2"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake",
@@ -218,7 +218,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "e4772705a634101b0e56af3d6e6397f8"
+      "d5f63d9ecc93f0c929d7743f3878a944"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x0",
@@ -235,7 +235,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "e22d5d42d0eb2cd8f0534ba3641585b5"
+      "086717621386de26b726524ac8985c8f"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x0",
@@ -259,7 +259,7 @@
         "refinement_interpretation_Tm_refine_f432f6206ada075551cb6c0157915845"
       ],
       0,
-      "251912953024adaf126d9c05aa260095"
+      "ccdcf3a50c8aff9e4b7f9b2264992a04"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x0",
@@ -276,7 +276,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "64a131b6176bd5de36ab7bd646220407"
+      "2eac41129f48fe8cf769a24f7fd5d10f"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x1_get_r",
@@ -295,7 +295,7 @@
         "refinement_interpretation_Tm_refine_f432f6206ada075551cb6c0157915845"
       ],
       0,
-      "9b864d83bdc9757c6d76c877e1258ab1"
+      "69350489fe319ad9801d2af6c3e4aca6"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x1_get_r",
@@ -319,18 +319,18 @@
         "primitive_Prims.op_Multiply", "primitive_Prims.op_Subtraction",
         "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_02335f9d7ab617cc443e24c7fd4421aa",
-        "refinement_interpretation_Tm_refine_50f080201b3072b817cbcb117643e77f",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
-        "refinement_interpretation_Tm_refine_d8466824894dacf131c877a6f79e15e8",
-        "refinement_interpretation_Tm_refine_ed7d0afb521793866e65db9f283a4578",
-        "refinement_interpretation_Tm_refine_f04acbdfe109775740bc37853ad356ae",
+        "refinement_interpretation_Tm_refine_7e419b2083622e0fa7842ddd4863a14c",
+        "refinement_interpretation_Tm_refine_7f0b171f206f510d9ced61d6724ab781",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
+        "refinement_interpretation_Tm_refine_ec4e669cb34373554e4c6d4cf81ed098",
+        "refinement_interpretation_Tm_refine_f01061fb6a7b7da317a1cc427e8ae9a7",
         "refinement_interpretation_Tm_refine_f432f6206ada075551cb6c0157915845",
         "typing_FStar.Seq.Base.length", "typing_Lib.IntTypes.int_t",
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "63545460436845b9e95e9b9dd055423c"
+      "a6ad672631849c5bc3f66769c70a8ca4"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x1_get_r",
@@ -345,7 +345,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "e4772705a634101b0e56af3d6e6397f8"
+      "d5f63d9ecc93f0c929d7743f3878a944"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x1",
@@ -360,7 +360,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "7652fd32772ca1dcb0018a1cb9bbef28"
+      "7094593787770a52825c0f84d2c6f4aa"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x1",
@@ -378,12 +378,12 @@
         "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_02335f9d7ab617cc443e24c7fd4421aa",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "typing_FStar.Seq.Base.length", "typing_Lib.IntTypes.int_t",
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "4f85d419d7cc3ab44c59c3b8134e6bc0"
+      "7d4d59b1c69d3e7e0e8083df7412bae9"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x1",
@@ -398,7 +398,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "ff145cc27c6c8950467b0787ff491baa"
+      "b9b85955178c442ebaba53af9aafc350"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x",
@@ -413,7 +413,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "6d5a1ab2def069be5fd33ca9dff93e3f"
+      "b4531d0bfa963cf84c60b2154663afd9"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x",
@@ -427,7 +427,7 @@
         "refinement_interpretation_Tm_refine_df90c0596ab37fac013b0d33d0c4134f"
       ],
       0,
-      "afaf742041a44efa210cb88893024444"
+      "5e531a785413a8dca0dd6cfa7772e9b5"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x",
@@ -442,7 +442,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "4eade48dbfb1694375f5a6b6f2903c1a"
+      "9c18e24e4afe42a3d57e68f0bcd53263"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_aes",
@@ -457,7 +457,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "487b5bec96dad6e7d6fae006d8d69187"
+      "52ebcb78b7a49a02880a66228cf4e81e"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_aes",
@@ -495,7 +495,7 @@
         "refinement_interpretation_Tm_refine_26d768cc241c6628db9e0d45d45d9136",
         "refinement_interpretation_Tm_refine_3a9b5cf7d7cfe6b786ef97b48b07fc55",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c8dd98bb91cb1ba6963e5299b3babaa4",
@@ -506,7 +506,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "43018185ec7c98c1e95f5ee2e1f5dff4"
+      "8bc61253211d665d1725d5960868937d"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_aes",
@@ -531,7 +531,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "e4772705a634101b0e56af3d6e6397f8"
+      "d5f63d9ecc93f0c929d7743f3878a944"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_fc",
@@ -556,7 +556,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "29323867411828756edf574326fec296"
+      "dd22c5804bbcf1afe283e474dde3f993"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_fc",
@@ -586,14 +586,14 @@
         "projection_inverse_Spec.GaloisField.GF_@t",
         "refinement_interpretation_Tm_refine_02335f9d7ab617cc443e24c7fd4421aa",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "refinement_interpretation_Tm_refine_de8080fdc4bd6678af723874a7d70466",
         "refinement_interpretation_Tm_refine_dee0f34b44c44e6d512c6db0858b92ef",
         "typing_FStar.Seq.Base.length", "typing_Spec.AES.elem",
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "b69b113bf5f6c544979f694b68e8806d"
+      "dade4ea7b5f6fef968ef14cd85fab6bb"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_fc",
@@ -618,7 +618,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "e4772705a634101b0e56af3d6e6397f8"
+      "d5f63d9ecc93f0c929d7743f3878a944"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake1_ind",
@@ -646,7 +646,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "86dcb81fd2e9d2d3f61fc4d0725a7122"
+      "1d1a137edbf30e84ab0f0693d6afbc37"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake1_ind",
@@ -672,9 +672,9 @@
         "equation_Spec.Frodo.Gen.frodo_gen_matrix_shake_fc",
         "equation_Spec.GaloisField.felem", "equation_Spec.GaloisField.gf",
         "int_inversion", "int_typing",
-        "interpretation_Tm_abs_2f2537438f6b15c6d47d5c67df48b882",
-        "l_and-interp", "l_quant_interp_ada5456f32b8f212d39e2579f4b7fbfb",
-        "l_quant_interp_c24d2b4eb868d28b33979010bf1c51d8",
+        "interpretation_Tm_abs_dcd99f8799a451c3df71ec947fb46874",
+        "l_and-interp", "l_quant_interp_41f70086e7a2e3335766d2f6c58f90c4",
+        "l_quant_interp_c71231c57f8fc10b69f42b635bbd2c07",
         "lemma_FStar.Int.pow2_values", "primitive_Prims.op_Addition",
         "primitive_Prims.op_Multiply", "primitive_Prims.op_Subtraction",
         "proj_equation_Spec.GaloisField.GF_@t",
@@ -685,16 +685,16 @@
         "projection_inverse_Spec.GaloisField.GF_@t",
         "refinement_interpretation_Tm_refine_02335f9d7ab617cc443e24c7fd4421aa",
         "refinement_interpretation_Tm_refine_1615f7f03a41ecc439aaa55aa4d04df1",
+        "refinement_interpretation_Tm_refine_3d5a4e341517092de9f53917f249fba6",
         "refinement_interpretation_Tm_refine_3df3f19d588d3885710eff42788312a7",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
         "refinement_interpretation_Tm_refine_69e7c208500d261dce8d372b47a65c7d",
         "refinement_interpretation_Tm_refine_6b8a1e6e39c8fbea3860e8d70e3dfbd5",
-        "refinement_interpretation_Tm_refine_768a5b7b86185dd87a1a497fe33a7fbe",
-        "refinement_interpretation_Tm_refine_7b51170fccbd3eac8df220acaf393a29",
+        "refinement_interpretation_Tm_refine_7ac418fe843662ef1355264e1b8f7261",
         "refinement_interpretation_Tm_refine_7e0b9b2dbca36eab00de093c1b701c6d",
-        "refinement_interpretation_Tm_refine_8a5fbff9c70a21539363df10b4848c3c",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "refinement_interpretation_Tm_refine_9920ad7fdb83d776ac74c5ec84d5fe0e",
+        "refinement_interpretation_Tm_refine_b9bf9d0f857340a8d758087374a41c06",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c8dd98bb91cb1ba6963e5299b3babaa4",
         "refinement_interpretation_Tm_refine_de8080fdc4bd6678af723874a7d70466",
@@ -708,7 +708,7 @@
         "typing_tok_Lib.IntTypes.U16@tok"
       ],
       0,
-      "30279a46e83c25a8e6e542615c91724f"
+      "c411d67e45bcf16e72e7e9f6449ba859"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake1_ind",
@@ -733,7 +733,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "c7b1ab4eb6e898c9fcee464991972c5e"
+      "504cdd6ff7bd66926f15a3e37afb9df7"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_ind",
@@ -759,7 +759,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "d7cc910b3de637485f49a3bceb43ea86"
+      "899e805d6516b3c21820c449518f759d"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_ind",
@@ -769,8 +769,8 @@
       [
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
-        "Lib.LoopCombinators_interpretation_Tm_arrow_25c46d0e30dd0cb145b3326bb1d35174",
-        "Lib.LoopCombinators_interpretation_Tm_arrow_c160f58a55dc9850346d4a725f1ddb0c",
+        "Lib.LoopCombinators_interpretation_Tm_arrow_26835aaf62eed8bd70811dcd31e42dda",
+        "Lib.LoopCombinators_interpretation_Tm_arrow_dac71e4a9e9fb8098f53e1a260b376c5",
         "Spec.Frodo.Gen_interpretation_Tm_arrow_09e360cd1f671548b917a29cdc70d5b5",
         "Spec.Frodo.Gen_interpretation_Tm_arrow_4aad490705538e8a0dbab967ba94d2b0",
         "constructor_distinct_Lib.IntTypes.U16",
@@ -794,11 +794,11 @@
         "function_token_typing_Spec.Frodo.Gen.frodo_gen_matrix_shake0",
         "function_token_typing_Spec.Frodo.Gen.frodo_gen_matrix_shake1_ind",
         "int_inversion", "int_typing",
-        "interpretation_Tm_abs_2f2537438f6b15c6d47d5c67df48b882",
-        "interpretation_Tm_abs_ccd15d4eb24c8dd3e3afe28e87b7ccb9",
-        "l_and-interp", "l_quant_interp_5759bef5bcc5b8b705043464876fe2fb",
-        "l_quant_interp_ada5456f32b8f212d39e2579f4b7fbfb",
-        "l_quant_interp_c24d2b4eb868d28b33979010bf1c51d8",
+        "interpretation_Tm_abs_dcd99f8799a451c3df71ec947fb46874",
+        "interpretation_Tm_abs_f5e03a6c833b86f17ba7d9dd1cf5ee39",
+        "l_and-interp", "l_quant_interp_41f70086e7a2e3335766d2f6c58f90c4",
+        "l_quant_interp_c71231c57f8fc10b69f42b635bbd2c07",
+        "l_quant_interp_c7a234d56571be8a4b1d8f793ce09477",
         "lemma_FStar.Int.pow2_values", "primitive_Prims.op_Addition",
         "primitive_Prims.op_Multiply", "primitive_Prims.op_Subtraction",
         "proj_equation_Spec.GaloisField.GF_@t",
@@ -809,19 +809,19 @@
         "projection_inverse_Spec.GaloisField.GF_@t",
         "refinement_interpretation_Tm_refine_02335f9d7ab617cc443e24c7fd4421aa",
         "refinement_interpretation_Tm_refine_1615f7f03a41ecc439aaa55aa4d04df1",
+        "refinement_interpretation_Tm_refine_3d5a4e341517092de9f53917f249fba6",
         "refinement_interpretation_Tm_refine_3df3f19d588d3885710eff42788312a7",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
         "refinement_interpretation_Tm_refine_69e7c208500d261dce8d372b47a65c7d",
         "refinement_interpretation_Tm_refine_6b8a1e6e39c8fbea3860e8d70e3dfbd5",
-        "refinement_interpretation_Tm_refine_768a5b7b86185dd87a1a497fe33a7fbe",
-        "refinement_interpretation_Tm_refine_7b51170fccbd3eac8df220acaf393a29",
+        "refinement_interpretation_Tm_refine_7ac418fe843662ef1355264e1b8f7261",
         "refinement_interpretation_Tm_refine_7e0b9b2dbca36eab00de093c1b701c6d",
-        "refinement_interpretation_Tm_refine_8a5fbff9c70a21539363df10b4848c3c",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "refinement_interpretation_Tm_refine_9920ad7fdb83d776ac74c5ec84d5fe0e",
+        "refinement_interpretation_Tm_refine_aadd3f11b57faee571a97a69816fe0d4",
+        "refinement_interpretation_Tm_refine_b9bf9d0f857340a8d758087374a41c06",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c8dd98bb91cb1ba6963e5299b3babaa4",
-        "refinement_interpretation_Tm_refine_c9538a7fd2589d3d830b95db00638532",
         "refinement_interpretation_Tm_refine_de8080fdc4bd6678af723874a7d70466",
         "refinement_interpretation_Tm_refine_dee0f34b44c44e6d512c6db0858b92ef",
         "typing_FStar.Seq.Base.length",
@@ -832,11 +832,11 @@
         "typing_Spec.Frodo.Gen.frodo_gen_matrix_shake_get_r",
         "typing_Spec.GaloisField.__proj__GF__item__t",
         "typing_Spec.Matrix.mset",
-        "typing_Tm_abs_2f2537438f6b15c6d47d5c67df48b882",
+        "typing_Tm_abs_dcd99f8799a451c3df71ec947fb46874",
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U16@tok"
       ],
       0,
-      "a462a5dac9f21217dafb7948b6c54d93"
+      "7f4af4ab14de4e6f808cb001ac53164e"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_ind",
@@ -861,7 +861,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "e4772705a634101b0e56af3d6e6397f8"
+      "d5f63d9ecc93f0c929d7743f3878a944"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x1_ind",
@@ -889,7 +889,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "5de33b067c2b492ed1c6e65b6e9f5308"
+      "8d8d8147c4c1dc262036f6a2adf7e0b1"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x1_ind",
@@ -919,9 +919,9 @@
         "equation_Spec.Matrix.mset",
         "function_token_typing_Spec.Frodo.Gen.frodo_gen_matrix_shake_4x0",
         "int_inversion", "int_typing",
-        "interpretation_Tm_abs_7131bab21f68e4af33c33696fd69533d",
-        "l_and-interp", "l_quant_interp_a519b6f250ae1aaed568485bb020092f",
-        "l_quant_interp_dd0dfde0fe818b2490e15b41f8bdea1f",
+        "interpretation_Tm_abs_978e7950a0d15b5ab9dd72538dd22a13",
+        "l_and-interp", "l_quant_interp_af1597a4920d7a51ed0e96ae3b1c0ead",
+        "l_quant_interp_c2727268300909a8eef865b2b7171d0d",
         "lemma_FStar.Int.pow2_values", "primitive_Prims.op_Addition",
         "primitive_Prims.op_Division", "primitive_Prims.op_Multiply",
         "primitive_Prims.op_Subtraction",
@@ -937,16 +937,16 @@
         "projection_inverse_Spec.GaloisField.GF_@t",
         "refinement_interpretation_Tm_refine_02335f9d7ab617cc443e24c7fd4421aa",
         "refinement_interpretation_Tm_refine_1202b818167fe4a1651c54508b3bd799",
+        "refinement_interpretation_Tm_refine_3d5a4e341517092de9f53917f249fba6",
         "refinement_interpretation_Tm_refine_3df3f19d588d3885710eff42788312a7",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
         "refinement_interpretation_Tm_refine_69e7c208500d261dce8d372b47a65c7d",
         "refinement_interpretation_Tm_refine_6b8a1e6e39c8fbea3860e8d70e3dfbd5",
-        "refinement_interpretation_Tm_refine_768a5b7b86185dd87a1a497fe33a7fbe",
-        "refinement_interpretation_Tm_refine_7b51170fccbd3eac8df220acaf393a29",
+        "refinement_interpretation_Tm_refine_7ac418fe843662ef1355264e1b8f7261",
         "refinement_interpretation_Tm_refine_7e0b9b2dbca36eab00de093c1b701c6d",
-        "refinement_interpretation_Tm_refine_8a5fbff9c70a21539363df10b4848c3c",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "refinement_interpretation_Tm_refine_9920ad7fdb83d776ac74c5ec84d5fe0e",
+        "refinement_interpretation_Tm_refine_b9bf9d0f857340a8d758087374a41c06",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c8dd98bb91cb1ba6963e5299b3babaa4",
         "refinement_interpretation_Tm_refine_de8080fdc4bd6678af723874a7d70466",
@@ -960,7 +960,7 @@
         "typing_tok_Lib.IntTypes.U16@tok"
       ],
       0,
-      "129fc1431e224466277955565ec2203f"
+      "9b4afbf3d0eec8eb2a9544da04c25821"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x1_ind",
@@ -985,7 +985,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "ff145cc27c6c8950467b0787ff491baa"
+      "b9b85955178c442ebaba53af9aafc350"
     ],
     [
       "Spec.Frodo.Gen.lemma_gen_matrix_4x",
@@ -1015,7 +1015,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "e58c921786aaf6e3401a9a85c86fc5ce"
+      "8dea6faeef64daff9717752bba9b6a81"
     ],
     [
       "Spec.Frodo.Gen.lemma_gen_matrix_4x",
@@ -1037,7 +1037,7 @@
         "refinement_interpretation_Tm_refine_f432f6206ada075551cb6c0157915845"
       ],
       0,
-      "ce51105838b34afc828b0f0997812374"
+      "ae9e597a5ff0670a177e36794839281a"
     ],
     [
       "Spec.Frodo.Gen.lemma_gen_matrix_4x",
@@ -1062,7 +1062,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "83614560a088f17c31df505076588aaf"
+      "0d893d5f496b71cd1d1821a1c38fe741"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x_ind",
@@ -1089,7 +1089,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "0d814eb192a283fcf4d9253bcea4d441"
+      "a569742727c37b424f617302c8b8dd2d"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x_ind",
@@ -1099,8 +1099,8 @@
       [
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
-        "Lib.LoopCombinators_interpretation_Tm_arrow_25c46d0e30dd0cb145b3326bb1d35174",
-        "Lib.LoopCombinators_interpretation_Tm_arrow_c160f58a55dc9850346d4a725f1ddb0c",
+        "Lib.LoopCombinators_interpretation_Tm_arrow_26835aaf62eed8bd70811dcd31e42dda",
+        "Lib.LoopCombinators_interpretation_Tm_arrow_dac71e4a9e9fb8098f53e1a260b376c5",
         "Spec.Frodo.Gen_interpretation_Tm_arrow_4aad490705538e8a0dbab967ba94d2b0",
         "Spec.Frodo.Gen_interpretation_Tm_arrow_5c6a70fe2d587139ac06cbd43c44a4df",
         "constructor_distinct_Lib.IntTypes.U16",
@@ -1128,11 +1128,11 @@
         "function_token_typing_Spec.Frodo.Gen.frodo_gen_matrix_shake_4x0",
         "function_token_typing_Spec.Frodo.Gen.frodo_gen_matrix_shake_4x1_ind",
         "int_inversion", "int_typing",
-        "interpretation_Tm_abs_7131bab21f68e4af33c33696fd69533d",
-        "interpretation_Tm_abs_add22ca25312d236c5f73ab3c4b672f3",
-        "l_and-interp", "l_quant_interp_78e83d68d2964cb97f6a714260f1bc67",
-        "l_quant_interp_a519b6f250ae1aaed568485bb020092f",
-        "l_quant_interp_dd0dfde0fe818b2490e15b41f8bdea1f",
+        "interpretation_Tm_abs_978e7950a0d15b5ab9dd72538dd22a13",
+        "interpretation_Tm_abs_d007ed29fc71b185c68c1825cf0d7b52",
+        "l_and-interp", "l_quant_interp_08666fd8b3702276dba3f3adf7c359e1",
+        "l_quant_interp_af1597a4920d7a51ed0e96ae3b1c0ead",
+        "l_quant_interp_c2727268300909a8eef865b2b7171d0d",
         "lemma_FStar.Int.pow2_values", "primitive_Prims.op_Addition",
         "primitive_Prims.op_Division", "primitive_Prims.op_Modulus",
         "primitive_Prims.op_Multiply", "primitive_Prims.op_Subtraction",
@@ -1149,23 +1149,23 @@
         "refinement_interpretation_Tm_refine_02335f9d7ab617cc443e24c7fd4421aa",
         "refinement_interpretation_Tm_refine_1202b818167fe4a1651c54508b3bd799",
         "refinement_interpretation_Tm_refine_387e6d282145573240ab7b8a4b94cce5",
+        "refinement_interpretation_Tm_refine_3d5a4e341517092de9f53917f249fba6",
         "refinement_interpretation_Tm_refine_3df3f19d588d3885710eff42788312a7",
         "refinement_interpretation_Tm_refine_460ce49837473aafb58331137146734e",
         "refinement_interpretation_Tm_refine_485bc5b41c309040098b0ab067e4ac2c",
+        "refinement_interpretation_Tm_refine_51fa619f97e6ed172727071717b56aa9",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55adfa9be630cfb71b973b0871f4f9b2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
         "refinement_interpretation_Tm_refine_69e7c208500d261dce8d372b47a65c7d",
         "refinement_interpretation_Tm_refine_6b8a1e6e39c8fbea3860e8d70e3dfbd5",
-        "refinement_interpretation_Tm_refine_768a5b7b86185dd87a1a497fe33a7fbe",
-        "refinement_interpretation_Tm_refine_7b51170fccbd3eac8df220acaf393a29",
+        "refinement_interpretation_Tm_refine_7ac418fe843662ef1355264e1b8f7261",
         "refinement_interpretation_Tm_refine_83845a86f2550cdf941eeb1d9b59602b",
-        "refinement_interpretation_Tm_refine_8a5fbff9c70a21539363df10b4848c3c",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "refinement_interpretation_Tm_refine_9920ad7fdb83d776ac74c5ec84d5fe0e",
+        "refinement_interpretation_Tm_refine_9d3fd79fd314167f1a9c213a188da3ec",
+        "refinement_interpretation_Tm_refine_aadd3f11b57faee571a97a69816fe0d4",
+        "refinement_interpretation_Tm_refine_b9bf9d0f857340a8d758087374a41c06",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_c37de74ed06f960707d95c975d36a36b",
         "refinement_interpretation_Tm_refine_c8dd98bb91cb1ba6963e5299b3babaa4",
-        "refinement_interpretation_Tm_refine_c9538a7fd2589d3d830b95db00638532",
         "refinement_interpretation_Tm_refine_de8080fdc4bd6678af723874a7d70466",
         "refinement_interpretation_Tm_refine_dee0f34b44c44e6d512c6db0858b92ef",
         "refinement_interpretation_Tm_refine_df90c0596ab37fac013b0d33d0c4134f",
@@ -1180,11 +1180,11 @@
         "typing_Spec.AES.elem", "typing_Spec.AES.gf8",
         "typing_Spec.GaloisField.__proj__GF__item__t",
         "typing_Spec.Matrix.mset", "typing_Spec.SHA3.shake128",
-        "typing_Tm_abs_7131bab21f68e4af33c33696fd69533d",
+        "typing_Tm_abs_978e7950a0d15b5ab9dd72538dd22a13",
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U16@tok"
       ],
       0,
-      "4350809136e277dd905982e172e43876"
+      "7437ed654577ae51cc4746e304c9c8ff"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x_ind",
@@ -1209,7 +1209,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "1d10dea100df84cde5e2c29cdd38f4b7"
+      "d7e8ae0466a6e6bae2be7fd9606c0835"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x_lemma",
@@ -1234,7 +1234,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "153c14a470d77fe3f7ea0cc7a33c0c8e"
+      "9afc092d250e1f733144032a2ea4fd5e"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x_lemma",
@@ -1242,27 +1242,35 @@
       0,
       0,
       [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.nat",
+        "@MaxIFuel_assumption", "@query",
+        "equality_tok_Lib.IntTypes.SEC@tok",
+        "equality_tok_Lib.IntTypes.U16@tok", "equation_Lib.IntTypes.int_t",
+        "equation_Lib.Sequence.lseq", "equation_Lib.Sequence.seq",
+        "equation_Prims.nat",
         "equation_Spec.Frodo.Gen.frodo_gen_matrix_shake",
         "equation_Spec.Frodo.Gen.frodo_gen_matrix_shake1",
         "equation_Spec.Frodo.Gen.frodo_gen_matrix_shake_4x",
         "equation_Spec.Frodo.Gen.frodo_gen_matrix_shake_4x1",
         "int_inversion", "primitive_Prims.op_Division",
-        "primitive_Prims.op_Modulus", "projection_inverse_BoxInt_proj_0",
+        "primitive_Prims.op_Modulus", "primitive_Prims.op_Multiply",
+        "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_02335f9d7ab617cc443e24c7fd4421aa",
-        "refinement_interpretation_Tm_refine_05c93d89fc3a36f94f86f9c37594cbd0",
-        "refinement_interpretation_Tm_refine_135a40fac689e06f7eaff3782897dae2",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_72ee572ce9f6730216478f9204c76f47",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_d35573085b608da289390a18f4e011d5",
+        "refinement_interpretation_Tm_refine_dafb5b746b68068b545d29f0784b3159",
         "refinement_interpretation_Tm_refine_dee0f34b44c44e6d512c6db0858b92ef",
         "refinement_interpretation_Tm_refine_df90c0596ab37fac013b0d33d0c4134f",
         "refinement_interpretation_Tm_refine_f432f6206ada075551cb6c0157915845",
+        "typing_FStar.Seq.Base.length", "typing_Lib.IntTypes.int_t",
         "typing_Spec.Frodo.Gen.frodo_gen_matrix_shake1_ind",
-        "typing_Spec.Frodo.Gen.frodo_gen_matrix_shake_4x1_ind"
+        "typing_Spec.Frodo.Gen.frodo_gen_matrix_shake_4x1_ind",
+        "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U16@tok"
       ],
       0,
-      "5baee90ef113f72f324eba6d2f9f8c0d"
+      "276f5b0a684c8282418a4af8222b0a33"
     ],
     [
       "Spec.Frodo.Gen.frodo_gen_matrix_shake_4x_lemma",
@@ -1287,7 +1295,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "1d10dea100df84cde5e2c29cdd38f4b7"
+      "d7e8ae0466a6e6bae2be7fd9606c0835"
     ]
   ]
 ]

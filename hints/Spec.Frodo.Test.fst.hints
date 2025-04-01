@@ -1,5 +1,5 @@
 [
-  "u\u001eâ¿™þŠ\tš÷fsWì@F",
+  "751ee2bf99fe8a099af7667357ec4046",
   [
     [
       "Spec.Frodo.Test.compare",
@@ -14,7 +14,7 @@
         "typing_Prims.int"
       ],
       0,
-      "4d494e75ec9c9b43575fbdab079f8081"
+      "550c6604d096e283db51d5d1bdce1e2a"
     ],
     [
       "Spec.Frodo.Test.test_frodo",
@@ -45,11 +45,11 @@
         "refinement_interpretation_Tm_refine_1f7c08f21f367506d8d1a5748ec6ee8c",
         "refinement_interpretation_Tm_refine_26183f9b950e73f460b1d320f78ef284",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_55f848066cd5ee4e0810122d2ff9c6c2",
         "refinement_interpretation_Tm_refine_609674d96c81c962549b0076055bf213",
         "refinement_interpretation_Tm_refine_773e46f2e995a2b81815482ecd499b63",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
         "refinement_interpretation_Tm_refine_8092bdbad96c1b4f93685c19fcc5a58e",
+        "refinement_interpretation_Tm_refine_89ed01c957fb823937a01c58c39687a3",
         "refinement_interpretation_Tm_refine_b0523e209c79a90a2d166a0dbcd67585",
         "refinement_interpretation_Tm_refine_bfdb3a8863ad334a5f7b1b25054d1b4a",
         "refinement_interpretation_Tm_refine_d84291baf180f7e4f23827fc50b7f18e",
@@ -65,7 +65,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "be373e2fb2ffd202d0e9ff268d151ebf"
+      "9711488490c80825c7c02f85ce525889"
     ],
     [
       "Spec.Frodo.Test.test_frodo",
@@ -80,7 +80,7 @@
         "typing_Spec.Frodo.Params.crypto_bytes"
       ],
       0,
-      "dec11bff7bd3572f11400f7a8aeef899"
+      "eabee345d5768115b6f0828aa22dbdb5"
     ],
     [
       "Spec.Frodo.Test.test",
@@ -92,7 +92,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.result"
       ],
       0,
-      "37f3018f805c4da22c056ca900749170"
+      "0bdb5312d7f21ec74c38dfd423f1a38d"
     ]
   ]
 ]

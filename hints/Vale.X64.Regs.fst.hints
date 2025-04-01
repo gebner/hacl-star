@@ -1,5 +1,5 @@
 [
-  ",#\b>‹)º…¯\u001d–ËÕ‡Ô«",
+  "2c23083edc29bcc9f81dd0e8cde0efc7",
   [
     [
       "Vale.X64.Regs.sel",
@@ -23,7 +23,7 @@
         "typing_Vale.Lib.Map16.sel16", "typing_Vale.X64.Machine_s.n_regs"
       ],
       0,
-      "945c555c61103d47f556941d7aeb514a"
+      "03b9005292020e046c56ea6eb76aa4c0"
     ],
     [
       "Vale.X64.Regs.upd",
@@ -41,7 +41,7 @@
         "typing_Vale.X64.Machine_s.n_regs"
       ],
       0,
-      "f2431480b6752431cf0c2f77943df25c"
+      "2b6b058b1137e3cf7cb4b6ab94a02806"
     ],
     [
       "Vale.X64.Regs.eta",
@@ -54,7 +54,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "b2db7eb812e5db6553162af69b62692f"
+      "ad11e774bb6081a3e14770feebec0185"
     ],
     [
       "Vale.X64.Regs.of_fun",
@@ -90,7 +90,7 @@
         "typing_Vale.X64.Machine_s.n_regs"
       ],
       0,
-      "ea6e0705eaf43ff2683d0f8d2c4f1a72"
+      "2db589e748a3680a124351464aa61b8e"
     ],
     [
       "Vale.X64.Regs.lemma_upd_eq",
@@ -123,7 +123,7 @@
         "typing_Vale.X64.Machine_s.__proj__Reg__item__rf"
       ],
       0,
-      "054c20b8a3a9adeffd86fc817ac5d74c"
+      "d003f9aeb7598e8a8815bc5b88b9f514"
     ],
     [
       "Vale.X64.Regs.lemma_upd_ne",
@@ -160,7 +160,7 @@
         "typing_Vale.X64.Machine_s.n_regs"
       ],
       0,
-      "01ac685a0240dce727f27b05ffff5327"
+      "7efa1df07d93ac46988c743f61dedab5"
     ],
     [
       "Vale.X64.Regs.lemma_equal_intro",
@@ -193,7 +193,7 @@
         "token_correspondence_Vale.Lib.Map16.sel"
       ],
       0,
-      "ba5d33d0fc5bc9ecbead829ac29c1b64"
+      "0092b801fd6e2d090399dd7976799778"
     ],
     [
       "Vale.X64.Regs.lemma_equal_elim",
@@ -202,7 +202,7 @@
       0,
       [ "@query", "eq2-interp", "equation_Vale.X64.Regs.equal" ],
       0,
-      "e090519aef3504aca37002954c68360b"
+      "267b9a22d42f514cfb7b6e59eb3cfe0a"
     ],
     [
       "Vale.X64.Regs.lemma_eta",
@@ -242,12 +242,12 @@
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_d9979b96a3f2b18961b3dd63a2783b64",
-        "refinement_interpretation_Tm_refine_df29d43e226c1b4af4ba6e3faadf26ea",
+        "refinement_interpretation_Tm_refine_f9ad94596474231e26a90e389b8461f6",
         "typing_Vale.X64.Machine_s.__proj__Reg__item__rf",
         "typing_Vale.X64.Regs.eta", "typing_Vale.X64.Regs.eta_sel"
       ],
       0,
-      "e08e465f7a138a7ae50c9cc9b613742a"
+      "1f370b1eea39ddcefe4de9034a8938a2"
     ]
   ]
 ]

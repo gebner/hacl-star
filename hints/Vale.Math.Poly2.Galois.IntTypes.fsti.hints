@@ -1,5 +1,5 @@
 [
-  "ˆÃ2d›c£\u001e]1²X~Ÿ¬ù",
+  "88c332649b63a31e5d31b2587e9facf9",
   [
     [
       "Vale.Math.Poly2.Galois.IntTypes.define_logand",
@@ -23,7 +23,7 @@
         "typing_Lib.IntTypes.unsigned"
       ],
       0,
-      "c5c18b3b47b410cdd1e5bc3d24f7ba09"
+      "5a0a7b76bbca5cfd0311ed5a2f941565"
     ],
     [
       "Vale.Math.Poly2.Galois.IntTypes.define_logor",
@@ -47,7 +47,7 @@
         "typing_Lib.IntTypes.unsigned"
       ],
       0,
-      "4a8deb68424284375c319c7230ed508d"
+      "827d8daa910021bcb048e94206262249"
     ],
     [
       "Vale.Math.Poly2.Galois.IntTypes.define_logxor",
@@ -71,7 +71,7 @@
         "typing_Lib.IntTypes.unsigned"
       ],
       0,
-      "520c592d08f0b4b53ae8a88bddbeae24"
+      "336951ee040d76a2bcb5e13d3519088d"
     ],
     [
       "Vale.Math.Poly2.Galois.IntTypes.define_eq_mask",
@@ -88,7 +88,7 @@
         "typing_Lib.IntTypes.bits"
       ],
       0,
-      "3a2655ee882539bc3d3dc66680f31606"
+      "ba3826d9f1f16baedd4fc7633550d1ab"
     ]
   ]
 ]

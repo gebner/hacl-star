@@ -1,5 +1,5 @@
 [
-  "ÉBzs[‡ æÅø n\u000bS\u0012^",
+  "c9427a735b87a0e6c5f8206e0b53125e",
   [
     [
       "Vale.X64.Instructions_s.eval_Add64",
@@ -8,7 +8,7 @@
       0,
       [ "@query" ],
       0,
-      "7f7ee76715805a6e5eacb205cd81d43c"
+      "021a0c708240b15cdab7d29254a1c67f"
     ],
     [
       "Vale.X64.Instructions_s.eval_AddLea64",
@@ -17,7 +17,7 @@
       0,
       [ "@query" ],
       0,
-      "7f6c24c16ae2a75074b95e7949bbb0e7"
+      "304a53a5984250d9dd9c17913e2411bb"
     ],
     [
       "Vale.X64.Instructions_s.ins_AddLea64",
@@ -40,7 +40,7 @@
         "typing_Prims.int"
       ],
       0,
-      "33ec99c51ab78031cd454338c5d120b8"
+      "a2f56d9a026e8ba005eacd627e251897"
     ],
     [
       "Vale.X64.Instructions_s.eval_AddCarry64",
@@ -49,7 +49,7 @@
       0,
       [ "@query" ],
       0,
-      "576c0a758013c0e3910b305fe7c8ac4c"
+      "439ba4eef19ffae32f3e9fe7d63d5a60"
     ],
     [
       "Vale.X64.Instructions_s.eval_Adcx64_Adox64",
@@ -58,7 +58,7 @@
       0,
       [ "@query" ],
       0,
-      "1f11b7dfa6d8c5917f381ef6931d759c"
+      "a2b46b24a5aef828df3f2e6a257d48b6"
     ],
     [
       "Vale.X64.Instructions_s.eval_Sub64",
@@ -67,7 +67,7 @@
       0,
       [ "@query" ],
       0,
-      "ad88106a9c31671cf00048540cd18eb6"
+      "43c53af3ad40f3400301ace2a8c0bce6"
     ],
     [
       "Vale.X64.Instructions_s.eval_Sbb64",
@@ -76,7 +76,7 @@
       0,
       [ "@query" ],
       0,
-      "417b11b4f487aa50c9840291a6b71622"
+      "03c1e1919008a7104e1e35b4a4acb52e"
     ],
     [
       "Vale.X64.Instructions_s.eval_Mul64",
@@ -101,7 +101,7 @@
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec"
       ],
       0,
-      "fb42d7440b5048d237fd752447299573"
+      "a0805a41bf1720d53cc0b7b21715f3fe"
     ],
     [
       "Vale.X64.Instructions_s.eval_Mulx64",
@@ -126,7 +126,7 @@
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec"
       ],
       0,
-      "bd1380a7058e38901636ccbf25855b7e"
+      "978720a67a4e0c6bfeca130af1c98ae1"
     ],
     [
       "Vale.X64.Instructions_s.eval_IMul64",
@@ -150,7 +150,7 @@
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c"
       ],
       0,
-      "1d6d81cc727aa231e294bc4758292f76"
+      "53c62852eba24eece94fdcc233da807a"
     ],
     [
       "Vale.X64.Instructions_s.ins_Xor64",
@@ -169,7 +169,7 @@
         "typing_Prims.int"
       ],
       0,
-      "4afee2692609690b590d85cdfb59526d"
+      "b37bee71e4c427d2a336d76f21560e2c"
     ],
     [
       "Vale.X64.Instructions_s.eval_Paddd_raw",
@@ -178,7 +178,7 @@
       0,
       [ "@query" ],
       0,
-      "0134a92bd110b1a3cbe166a51e772b73"
+      "2fdd78c8afdf3b5d3eff9e806208dd5b"
     ],
     [
       "Vale.X64.Instructions_s.eval_Psrldq",
@@ -198,12 +198,12 @@
         "projection_inverse_BoxBool_proj_0",
         "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_8b8cc025b278a5793e7bf2addcf311aa",
+        "refinement_interpretation_Tm_refine_5a92b6e4e7af9363bc35e43d9d7f3f13",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "typing_FStar.Seq.Base.length", "typing_Vale.Def.Words_s.nat8"
       ],
       0,
-      "543f3ee96c6e27f2a0fc5660728e3c08"
+      "b8522dfb2a7ae40439fc055311cc2b7e"
     ],
     [
       "Vale.X64.Instructions_s.eval_Pcmpeqd",
@@ -220,7 +220,7 @@
         "typing_Prims.int"
       ],
       0,
-      "24341d4ee1249855031f5391ec8a86d3"
+      "ac2ffc8b10b32947272895cab49f2697"
     ],
     [
       "Vale.X64.Instructions_s.eval_Pextrq",
@@ -229,7 +229,7 @@
       0,
       [ "@query" ],
       0,
-      "357a2fd47676fd047065b2c64d329c44"
+      "6ef62286eb70c0506f307744f1e740c6"
     ],
     [
       "Vale.X64.Instructions_s.eval_Pinsrd",
@@ -238,7 +238,7 @@
       0,
       [ "@query" ],
       0,
-      "940216f302bc5044845bf96570d089a7"
+      "3f847772e835123ec3f4cb388f67b92d"
     ],
     [
       "Vale.X64.Instructions_s.eval_Pinsrq",
@@ -247,7 +247,7 @@
       0,
       [ "@query" ],
       0,
-      "b79bf4b642c4cf0c31500ecb34f1bb06"
+      "411378a92d1f0452f6f08f3ae4306e3c"
     ],
     [
       "Vale.X64.Instructions_s.eval_AESNI_keygen_assist",
@@ -260,7 +260,7 @@
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c"
       ],
       0,
-      "d316a0dca20f46c7bf306cb4db9db239"
+      "2a572248fa660751ca0834f75360f9ee"
     ],
     [
       "Vale.X64.Instructions_s.ins_SHA256_rnds2",
@@ -276,7 +276,7 @@
         "typing_Prims.int"
       ],
       0,
-      "f8b5158b5830e9bd0dbba238dd9a7c8c"
+      "5d207fdd4381aed2ac10830ebba41884"
     ],
     [
       "Vale.X64.Instructions_s.ins_SHA256_rnds2",
@@ -292,7 +292,7 @@
         "typing_Prims.int"
       ],
       0,
-      "c4bbc41ae91abacf39d413913fe0e669"
+      "9ad3daa58b5ce04fca112352012fab1a"
     ]
   ]
 ]

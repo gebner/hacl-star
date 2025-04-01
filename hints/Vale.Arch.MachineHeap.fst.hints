@@ -1,5 +1,5 @@
 [
-  "æþšÖ~\të:ñü\u0006âë{Í¥",
+  "e6fe9ad67e09eb3af1fc06e2eb7bcda5",
   [
     [
       "Vale.Arch.MachineHeap.same_mem_get_heap_val64",
@@ -35,7 +35,7 @@
         "typing_Vale.Def.Words_s.nat8", "typing_Vale.Def.Words_s.natN"
       ],
       0,
-      "fe8e5397e101198cdb65d1231e9c13d5"
+      "5aac7bc07c45747f8a7a5170d5154269"
     ],
     [
       "Vale.Arch.MachineHeap.frame_update_heap64",
@@ -46,7 +46,7 @@
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented",
         "@fuel_irrelevance_Prims.pow2.fuel_instrumented",
-        "@kick_partial_app_4a251bbd9c169875d8d6426c1bc6dba3", "@query",
+        "@kick_partial_app_d6ed11ed102bf1de4a4f88e6502ec73d", "@query",
         "Prims_pretyping_ae567c2fb75be05905677af440075565",
         "equation_Prims.nat", "equation_Prims.pos",
         "equation_Vale.Arch.MachineHeap_s.machine_heap",
@@ -82,7 +82,7 @@
         "typing_Vale.Def.Words_s.nat8"
       ],
       0,
-      "53c9041c282432eb0e388984a955d92f"
+      "edc7575005547aeb5db8215536902e1b"
     ],
     [
       "Vale.Arch.MachineHeap.correct_update_get64",
@@ -93,7 +93,7 @@
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented",
         "@fuel_irrelevance_Prims.pow2.fuel_instrumented",
-        "@kick_partial_app_4a251bbd9c169875d8d6426c1bc6dba3", "@query",
+        "@kick_partial_app_d6ed11ed102bf1de4a4f88e6502ec73d", "@query",
         "Prims_pretyping_ae567c2fb75be05905677af440075565",
         "equation_Prims.nat", "equation_Prims.pos",
         "equation_Vale.Arch.MachineHeap_s.get_heap_val64_def",
@@ -136,7 +136,7 @@
         "typing_Vale.Def.Words_s.nat8", "typing_Vale.Def.Words_s.natN"
       ],
       0,
-      "0639a2e9610fc17dd2685d922358b84c"
+      "c8329cb7cf5e73ceb12ed1a5b9144aa6"
     ],
     [
       "Vale.Arch.MachineHeap.same_domain_update64",
@@ -147,7 +147,7 @@
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented",
         "@fuel_irrelevance_Prims.pow2.fuel_instrumented",
-        "@kick_partial_app_4a251bbd9c169875d8d6426c1bc6dba3", "@query",
+        "@kick_partial_app_d6ed11ed102bf1de4a4f88e6502ec73d", "@query",
         "Prims_pretyping_ae567c2fb75be05905677af440075565", "bool_inversion",
         "equation_Prims.nat", "equation_Prims.pos",
         "equation_Vale.Arch.MachineHeap_s.machine_heap",
@@ -199,7 +199,7 @@
         "typing_Vale.Def.Words_s.nat8"
       ],
       0,
-      "b10ea879d7a5fafec90a8508683ff1da"
+      "17aa20214f6fcb62779fea7a916ef28b"
     ],
     [
       "Vale.Arch.MachineHeap.same_mem_get_heap_val32",
@@ -231,7 +231,7 @@
         "typing_Vale.Def.Words_s.nat8", "typing_Vale.Def.Words_s.natN"
       ],
       0,
-      "699d4c9a599301ce733b6c18e196f24e"
+      "90c7d6a9b5c2511ae2f39d59af75075c"
     ],
     [
       "Vale.Arch.MachineHeap.frame_update_heap32",
@@ -242,7 +242,7 @@
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented",
         "@fuel_irrelevance_Prims.pow2.fuel_instrumented",
-        "@kick_partial_app_4a251bbd9c169875d8d6426c1bc6dba3", "@query",
+        "@kick_partial_app_d6ed11ed102bf1de4a4f88e6502ec73d", "@query",
         "Prims_pretyping_ae567c2fb75be05905677af440075565",
         "equation_Prims.nat",
         "equation_Vale.Arch.MachineHeap_s.machine_heap",
@@ -270,7 +270,7 @@
         "typing_Vale.Def.Words_s.nat8"
       ],
       0,
-      "b6d9d7744b13e2ecbfc7cdac13e517db"
+      "ea92de6090554361047fa62eae7af289"
     ],
     [
       "Vale.Arch.MachineHeap.same_domain_update32",
@@ -281,7 +281,7 @@
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented",
         "@fuel_irrelevance_Prims.pow2.fuel_instrumented",
-        "@kick_partial_app_4a251bbd9c169875d8d6426c1bc6dba3", "@query",
+        "@kick_partial_app_d6ed11ed102bf1de4a4f88e6502ec73d", "@query",
         "Prims_pretyping_ae567c2fb75be05905677af440075565", "bool_inversion",
         "equation_Prims.nat",
         "equation_Vale.Arch.MachineHeap_s.machine_heap",
@@ -319,7 +319,7 @@
         "typing_Vale.Def.Words_s.nat8"
       ],
       0,
-      "535476ea7b2730b054a881644be095f4"
+      "7b18c00ab348fa11a1a4c15eb4ab2f81"
     ],
     [
       "Vale.Arch.MachineHeap.update_heap32_get_heap32",
@@ -330,7 +330,7 @@
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented",
         "@fuel_irrelevance_Prims.pow2.fuel_instrumented",
-        "@kick_partial_app_4a251bbd9c169875d8d6426c1bc6dba3", "@query",
+        "@kick_partial_app_d6ed11ed102bf1de4a4f88e6502ec73d", "@query",
         "Prims_pretyping_ae567c2fb75be05905677af440075565",
         "Vale.Arch.MachineHeap_s_interpretation_Tm_arrow_8c047871adfcc9e94a3b3d8d0c2d35be",
         "bool_inversion", "data_typing_intro_Vale.Def.Words_s.Mkfour@tok",
@@ -342,7 +342,6 @@
         "function_token_typing_Prims.__cache_version_number__",
         "function_token_typing_Vale.Arch.MachineHeap_s.get_heap_val32",
         "function_token_typing_Vale.Arch.MachineHeap_s.update_heap32",
-        "function_token_typing_Vale.Arch.MachineHeap_s.update_heap32_def",
         "int_inversion", "int_typing", "lemma_FStar.Map.lemma_ContainsDom",
         "lemma_FStar.Map.lemma_InDomUpd1", "lemma_FStar.Map.lemma_InDomUpd2",
         "lemma_FStar.Map.lemma_SelUpd1", "lemma_FStar.Map.lemma_SelUpd2",
@@ -375,7 +374,7 @@
         "typing_Vale.Def.Words_s.nat8"
       ],
       0,
-      "231701e41a4606af6de9cb3081c99661"
+      "d8cbc53deee023c196c3dfb6768f24df"
     ],
     [
       "Vale.Arch.MachineHeap.frame_update_heap128",
@@ -393,7 +392,7 @@
         "token_correspondence_Vale.Arch.MachineHeap_s.update_heap128_def"
       ],
       0,
-      "0efb772f9a7836e66d2ed25ac499d7f3"
+      "acf6c97375a380516861861a9a911cab"
     ],
     [
       "Vale.Arch.MachineHeap.correct_update_get32",
@@ -404,7 +403,7 @@
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented",
         "@fuel_irrelevance_Prims.pow2.fuel_instrumented",
-        "@kick_partial_app_4a251bbd9c169875d8d6426c1bc6dba3", "@query",
+        "@kick_partial_app_d6ed11ed102bf1de4a4f88e6502ec73d", "@query",
         "Prims_pretyping_ae567c2fb75be05905677af440075565",
         "equation_Prims.nat", "equation_Prims.pos",
         "equation_Vale.Arch.MachineHeap_s.get_heap_val32_def",
@@ -439,7 +438,7 @@
         "typing_Vale.Def.Words_s.nat8", "typing_Vale.Def.Words_s.natN"
       ],
       0,
-      "352ef581f2406f39eb1ab241b1a5a1ef"
+      "2d6cb66c953879545f1c59215bc9065f"
     ],
     [
       "Vale.Arch.MachineHeap.correct_update_get128",
@@ -468,7 +467,7 @@
         "token_correspondence_Vale.Arch.MachineHeap_s.update_heap128_def"
       ],
       0,
-      "1c186094407cf7e6e7429ec4ccb74f68"
+      "2b36eb285f8079d0c836b87f6a083cc6"
     ],
     [
       "Vale.Arch.MachineHeap.same_domain_update128",
@@ -506,7 +505,7 @@
         "typing_Vale.Def.Words_s.nat32", "typing_Vale.Def.Words_s.nat8"
       ],
       0,
-      "c4158f7ffd0593e0c638109cf96beaab"
+      "7709fdf47f1402241b7285321ef52124"
     ],
     [
       "Vale.Arch.MachineHeap.same_mem_get_heap_val128",
@@ -526,7 +525,7 @@
         "token_correspondence_Vale.Arch.MachineHeap_s.get_heap_val128_def"
       ],
       0,
-      "d35f88621983150c2f764486c1eff56f"
+      "4ba6c6100847732c27f4973a201ee2e8"
     ]
   ]
 ]

@@ -1,5 +1,5 @@
 [
-  "ÿó[√Ÿ‹•®\nÍ[4ñO¢ê",
+  "d8975bc3d9dca5a80aea5b34964fa290",
   [
     [
       "Vale.Math.Poly2_s.poly",
@@ -15,7 +15,7 @@
         "typing_Prims.bool"
       ],
       0,
-      "40d70b58c3465d0cdc086fb93c9a6325"
+      "366d7818b5245d57100fcf38dc45f25b"
     ],
     [
       "Vale.Math.Poly2_s.zero",
@@ -34,7 +34,7 @@
         "typing_Prims.bool"
       ],
       0,
-      "781ca5cd0b7a54961a029c15137c3bf9"
+      "3e808bfa61820978c3599c3078af5e9e"
     ],
     [
       "Vale.Math.Poly2_s.one",
@@ -51,8 +51,8 @@
         "lemma_FStar.Seq.Base.lemma_index_create",
         "primitive_Prims.op_BarBar", "projection_inverse_BoxBool_proj_0",
         "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_160fe7faad9a466b3cae8455bac5be60",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_93ab65736391883123761d1ec2c7d4b6",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "typing_FStar.Seq.Base.index", "typing_Prims.bool",
@@ -60,7 +60,7 @@
         "typing_Vale.Math.Poly2.Defs_s.valid"
       ],
       0,
-      "fa9e9bd9afc0d172dbade37ab53846f3"
+      "5d85153166e2b836f05be69de214f3db"
     ],
     [
       "Vale.Math.Poly2_s.to_seq",
@@ -69,7 +69,7 @@
       0,
       [ "@query", "equation_Vale.Math.Poly2_s.poly_index" ],
       0,
-      "ec85be89937f4486da61b8c2bab71e99"
+      "9ffb1124b61ee11d03e8059526a1804d"
     ],
     [
       "Vale.Math.Poly2_s.of_seq",
@@ -86,7 +86,7 @@
         "typing_Vale.Math.Poly2.Defs_s.of_seq"
       ],
       0,
-      "7847ed8d38adac04ceee3e3ad70b2340"
+      "4e1f702ec501ad53e0bd7323c3e85b4d"
     ],
     [
       "Vale.Math.Poly2_s.of_fun",
@@ -99,11 +99,11 @@
         "equation_Vale.Math.Poly2_s.degree",
         "equation_Vale.Math.Poly2_s.poly_index",
         "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_a1cb6953c8c0420cbe9888396a2e51a6",
+        "refinement_interpretation_Tm_refine_858d07dd86658eafea3a51e8592a1156",
         "typing_Vale.Math.Poly2.Defs_s.of_fun"
       ],
       0,
-      "7d623c23d465960493b8f4dcfb3e2add"
+      "1697b0ef8e541715839354227b856071"
     ],
     [
       "Vale.Math.Poly2_s.div",
@@ -118,7 +118,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "24238ab96cd30bb5f64065883c069217"
+      "cb8e033aaa813326c67ba26bdca1db51"
     ],
     [
       "Vale.Math.Poly2_s.mod",
@@ -133,7 +133,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "13bb9964ce552f3065542edd56a9fc66"
+      "5f58168efd699167aeef360ffc334453"
     ],
     [
       "Vale.Math.Poly2_s.coerce",
@@ -142,10 +142,10 @@
       0,
       [
         "@MaxIFuel_assumption", "@query",
-        "refinement_interpretation_Tm_refine_d59c13a2193ae551e5680ebefb786b84"
+        "refinement_interpretation_Tm_refine_754b00004f4a881ff74d076ab276dfe1"
       ],
       0,
-      "b0e9fea2e40c464af0e7a65000ca9fcc"
+      "989e7ac59bec7b6ad6ca00aae3d30477"
     ],
     [
       "Vale.Math.Poly2_s.of_poly",
@@ -154,7 +154,7 @@
       0,
       [ "@query" ],
       0,
-      "9f604b266f6ccde8f82b3b20cfff819d"
+      "4112ed98d846e4214dd772cd965c96c0"
     ],
     [
       "Vale.Math.Poly2_s.reveal_defs",
@@ -178,8 +178,8 @@
         "primitive_Prims.op_BarBar", "primitive_Prims.op_Equality",
         "projection_inverse_BoxBool_proj_0",
         "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_160fe7faad9a466b3cae8455bac5be60",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_93ab65736391883123761d1ec2c7d4b6",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "typing_FStar.Seq.Base.index", "typing_Prims.bool",
@@ -188,7 +188,7 @@
         "typing_Vale.Math.Poly2.Defs_s.zero"
       ],
       0,
-      "09f8039a5c751a4d7f65ef890f450cdf"
+      "809f51a0df6abfd0fd701dfb61f0a00c"
     ],
     [
       "Vale.Math.Poly2_s.reveal_defs",
@@ -222,7 +222,7 @@
         "typing_Vale.Math.Poly2.Defs_s.zero", "typing_Vale.Math.Poly2_s.zero"
       ],
       0,
-      "bfcc405f5062429cb9146c2cb330d0c1"
+      "0d6fec0776d2d4fa87092fec19ef6289"
     ]
   ]
 ]

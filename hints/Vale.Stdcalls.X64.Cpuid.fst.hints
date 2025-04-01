@@ -1,5 +1,5 @@
 [
-  "<ÄÏ@bˆV.×*[)õ\f$f",
+  "3cc4cf406288562ed72a5b29f50c2466",
   [
     [
       "Vale.Stdcalls.X64.Cpuid.as_t",
@@ -8,7 +8,7 @@
       0,
       [ "@query" ],
       0,
-      "080cf8022aab799308ffb650b81df937"
+      "ab5e07840c8dd6a64624610ce822a8ed"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.as_normal_t",
@@ -17,7 +17,7 @@
       0,
       [ "@query" ],
       0,
-      "1d79a0900a9559346861e22166d11c45"
+      "2520a39d2e5640334e4c7052e47b6dd0"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.dom",
@@ -37,7 +37,7 @@
         "typing_Vale.Interop.X64.max_stdcall"
       ],
       0,
-      "dcde2418cdcf10f9a1888c9a18e30367"
+      "db927f5f7615fb6a222219ae95c6b303"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.aesni_lemma'",
@@ -125,7 +125,7 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_stackTaint",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
         "refinement_interpretation_Tm_refine_d9979b96a3f2b18961b3dd63a2783b64",
@@ -146,7 +146,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "9aa7e90376d3ee37e735c58648345b3c"
+      "34eba236b840bc1961c77c05c5e872eb"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.aesni_lemma",
@@ -193,7 +193,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "327e1b285b1eea05ccf46e63fbbe6987"
+      "76cd96e24ba2d9a9ededadf91a48e216"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_aesni_t",
@@ -219,11 +219,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "4f0a25b4c0cae6e2f215a4cdde65bb36"
+      "385e6fe9d1732d6605c844ec6bab144d"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.sha_lemma'",
@@ -312,7 +312,7 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_stackTaint",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
         "refinement_interpretation_Tm_refine_d9979b96a3f2b18961b3dd63a2783b64",
@@ -334,7 +334,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "09866535afb1c7d1253bb72ea1becbe1"
+      "b06f6d000ee4f2802725461ebd9a6e85"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.sha_lemma",
@@ -381,7 +381,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "6e1b7cc030ea673f1735254ac3d3394a"
+      "525eb3c9448d3050f501bf9ee13a4bb9"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_sha_t",
@@ -407,11 +407,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "78b1bed073b60fa4cd24e3e456219ed5"
+      "8e99295b6055e16503e6e3c08cd6895a"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.adx_lemma'",
@@ -500,7 +500,7 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_stackTaint",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
         "refinement_interpretation_Tm_refine_d9979b96a3f2b18961b3dd63a2783b64",
@@ -522,7 +522,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "a0a83041cd2db00c6ad868d0f51d7fa1"
+      "089d6af749794b6734815be82f795146"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.adx_lemma",
@@ -569,7 +569,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "34a0797ad5b8de043a787dadaadf0fa4"
+      "99d15c5ad759d57ee96e1c0986200646"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_adx_t",
@@ -595,11 +595,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "ca2b35bc8192d4b077b80c4d46fc253d"
+      "3fd9b76d467589bff090b53b90ee32b2"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx_lemma'",
@@ -688,7 +688,7 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_stackTaint",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
         "refinement_interpretation_Tm_refine_d9979b96a3f2b18961b3dd63a2783b64",
@@ -710,7 +710,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "656ae42f973d868c2e9580ca221ce1a2"
+      "1c665a4dfd1acbd2f3fa95e090692c31"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx_lemma",
@@ -757,7 +757,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "d002180c75ba1fa681e3ad5692291e03"
+      "617f1d6279503b83e8620248f1e8267c"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx_t",
@@ -783,11 +783,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "acb4e5605034c957cbf0d6be4f30e0d0"
+      "41bf36d081ab485531746f0285dc9193"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx2_lemma'",
@@ -876,7 +876,7 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_stackTaint",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
         "refinement_interpretation_Tm_refine_d9979b96a3f2b18961b3dd63a2783b64",
@@ -898,7 +898,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "63e532c1396d2f61b109e0680f4d942c"
+      "d7eb5c32bc0096c32a4215bcc0d5e2f4"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx2_lemma",
@@ -945,7 +945,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "6c1feb7b687c9b1a032ee626cb2f5325"
+      "84526410ad81487135daf76c73f2359c"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx2_t",
@@ -971,11 +971,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "03f3d5421f112cbeae1dd2ee322b5f09"
+      "0b7aff8c8d4204d472c5e3b778fb3d91"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.movbe_lemma'",
@@ -1064,7 +1064,7 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_stackTaint",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
         "refinement_interpretation_Tm_refine_d9979b96a3f2b18961b3dd63a2783b64",
@@ -1086,7 +1086,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "bede3e94476ec06bc68bb8ae0bf38c4d"
+      "c98515f5a540a00c85fafa4fee1e8dc9"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.movbe_lemma",
@@ -1133,7 +1133,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "a6a92cb38b115cdb4cac83a213fd0332"
+      "2002d314b06b366045552910997ab7e8"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_movbe_t",
@@ -1159,11 +1159,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "d1fb196ba1f5c231e1393759c8bc30d5"
+      "f55617b4499a8434334987c4ba1c0e4c"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.sse_lemma'",
@@ -1252,7 +1252,7 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_stackTaint",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
         "refinement_interpretation_Tm_refine_d9979b96a3f2b18961b3dd63a2783b64",
@@ -1274,7 +1274,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "947d136ec493cc6acaa5ee3d10e84e68"
+      "85018565aa3d20016f5f03a0bfb6b0d1"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.sse_lemma",
@@ -1321,7 +1321,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "d410964d5e1ba9a2ca262d75a954fefa"
+      "ce937dfe8b72f2de2532ffcafc8b12b3"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_sse_t",
@@ -1347,11 +1347,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "1d3f28ea835fa6d3830845ee0231d328"
+      "59a642652c2dee8599fc932d368a2596"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.rdrand_lemma'",
@@ -1440,7 +1440,7 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_stackTaint",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
         "refinement_interpretation_Tm_refine_d9979b96a3f2b18961b3dd63a2783b64",
@@ -1462,7 +1462,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "8ea6ec4926ab68e3a686b8daff0753aa"
+      "1affa8828cefbb8ac7e5b12ebf71f168"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.rdrand_lemma",
@@ -1509,7 +1509,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "9becddbe019cd8c8d5776841184290f8"
+      "346d75b90cbb6afd97cc6fb52ec3ff21"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_rdrand_t",
@@ -1535,11 +1535,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "6c6ec52d0f06e2a08616004d9fe1266d"
+      "926568bae5f167ec02c9ec1a41faa8a4"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx512_lemma'",
@@ -1628,7 +1628,7 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_stackTaint",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
         "refinement_interpretation_Tm_refine_d9979b96a3f2b18961b3dd63a2783b64",
@@ -1650,7 +1650,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "30aeb15f3023275fa1dea8bffabe6998"
+      "1417b6119b884ee335dac0809975c582"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx512_lemma",
@@ -1697,7 +1697,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "9ae701760345dda21503c935af536859"
+      "f2f0228835a8509f2f4df20ba91bb99c"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx512_t",
@@ -1723,11 +1723,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "7e2bf82c339fee554c60c388bb10d830"
+      "b5596dec69816acebf0f30bb87c74eba"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.osxsave_lemma'",
@@ -1816,7 +1816,7 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_stackTaint",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
         "refinement_interpretation_Tm_refine_d9979b96a3f2b18961b3dd63a2783b64",
@@ -1838,7 +1838,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "0b832445f69b93831843a368f83a0bb9"
+      "fdd6b16db7e249ef14dbcd2c38407b31"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.osxsave_lemma",
@@ -1885,7 +1885,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "0c619dace70be2c28688e836ac2ba78d"
+      "e93f0cf2d3c49bce6d6a175b79847303"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_osxsave_t",
@@ -1911,11 +1911,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "e6964c6a07d5826a57450d52ed7a642b"
+      "40cb65acf5092f9a683ebce1cc97ffa4"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx_xcr0_lemma'",
@@ -2004,7 +2004,7 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_stackTaint",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
         "refinement_interpretation_Tm_refine_d9979b96a3f2b18961b3dd63a2783b64",
@@ -2026,7 +2026,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "f1f44f2fd9d6558014e62f87784e0feb"
+      "cb5b761030ea445d9de1dbf00ae96563"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx_xcr0_lemma",
@@ -2073,7 +2073,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "b3e3b85a0c454bc51cd1719862083540"
+      "c3f6a181ef5bf848a3409068de96b173"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx_xcr0_t",
@@ -2099,11 +2099,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "855269da99087cee585ae91ef92362de"
+      "701440e7ac0bf33001477b2a6c55590f"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx512_xcr0_lemma'",
@@ -2192,7 +2192,7 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_stackTaint",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
         "refinement_interpretation_Tm_refine_d9979b96a3f2b18961b3dd63a2783b64",
@@ -2214,7 +2214,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "17e72022d8a15866d2ff50d549829d24"
+      "a9a8eeae193fde6614dfaa8c4feffb96"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx512_xcr0_lemma",
@@ -2261,7 +2261,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "633bd73790004fbf155a34d44f24b2d2"
+      "645628d82d3052784efef26f04a7b9ad"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx512_xcr0_t",
@@ -2287,11 +2287,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "5852a23e4db5e0f9a72414a3f80f87f0"
+      "e4b016bd2b7853107b4829606628f5bc"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_aesni",
@@ -2317,11 +2317,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "4ed1c61505564ab4451cd22cd6a6b25c"
+      "5d00146818d19d043a1c54242f3cd73b"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_sha",
@@ -2347,11 +2347,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "938db6053747de5521a1d79c0d307ebe"
+      "4b26e72033c6ebac87c5c3b7eff6472e"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_adx",
@@ -2377,11 +2377,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "62512a310a457a8a76211a45e5b3d72e"
+      "666ce2bb5b1b928ea37036043c5f57ca"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx",
@@ -2407,11 +2407,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "ffc7272b85ef505f97c6abb19899bc59"
+      "def5cd2a08b5d52e43f5bba7383eca4a"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx2",
@@ -2437,11 +2437,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "dd51df0aef0e64ff15682e468668cf26"
+      "ba91493afa5bfdbe10e59c31bde96484"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_movbe",
@@ -2467,11 +2467,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "f659131f8c97dd910eca62e994622e93"
+      "7179cb3a17ec58eb9d83d9435d32c8fc"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_sse",
@@ -2497,11 +2497,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "90e9427b91ac457502a62a109cc82f95"
+      "37aa994b25840da8258091399bd185b6"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_rdrand",
@@ -2527,11 +2527,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "903fcdc695648bfa2b3d0e82a39a8051"
+      "ce157067dd5f9b05a6fb8c1fd37c6c6b"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx512",
@@ -2557,11 +2557,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "f423cf67332c169b84b8f541900bb515"
+      "af3c225b3980e90baab0b48a9a93595b"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_osxsave",
@@ -2587,11 +2587,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "cfebc69e12b33fcbb0150764ac15af2d"
+      "c68abab14fbc6759ebe2d9675de3b6f6"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx_xcr0",
@@ -2617,11 +2617,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "9c1b2028a4175681ce943207d637e807"
+      "7e37ae6b7deb7a55bf3ab950b2d3d8e2"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx512_xcr0",
@@ -2647,11 +2647,11 @@
         "projection_inverse_Prims.Nil_@0", "projection_inverse_Prims.Nil_@a",
         "refinement_interpretation_Tm_refine_695c4e2e1ccc9dde88b1e759d0d8ad5b",
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416",
-        "refinement_interpretation_Tm_refine_813647ad95e4e4c0da9a214ed07fe824",
+        "refinement_interpretation_Tm_refine_76ba76f6f261e65fe36496deb0e58757",
         "typing_Vale.Interop.Base.arg", "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "2641e0145bfeeee87a806adde7f49a2a"
+      "dae6f9812e5934d6ac80f133c3af3ead"
     ]
   ]
 ]

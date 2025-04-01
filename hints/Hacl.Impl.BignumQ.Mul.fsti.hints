@@ -1,5 +1,5 @@
 [
-  "½•^—i h\r\rÊ4ˆöÜ[¸",
+  "bd955e976920680d0dca3488f6dc5bb8",
   [
     [
       "Hacl.Impl.BignumQ.Mul.as_nat",
@@ -40,7 +40,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
         "typing_FStar.UInt.fits", "typing_FStar.UInt32.v",
         "typing_Lib.Buffer.length", "typing_Lib.IntTypes.int_t",
@@ -50,7 +50,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "f2680b670de8b36ee1f3c2c07306c888"
+      "6331fae65464f9a40690afa343692779"
     ],
     [
       "Hacl.Impl.BignumQ.Mul.wide_as_nat",
@@ -91,7 +91,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
         "typing_FStar.UInt.fits", "typing_FStar.UInt32.v",
         "typing_Lib.Buffer.length", "typing_Lib.IntTypes.int_t",
@@ -101,7 +101,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "52d7401210277f92044ea98ae88b063e"
+      "aa7ddbbf6b53396c65b3a780c38017df"
     ],
     [
       "Hacl.Impl.BignumQ.Mul.qelem_fits",
@@ -142,7 +142,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
         "typing_FStar.UInt.fits", "typing_FStar.UInt32.v",
         "typing_Lib.Buffer.length", "typing_Lib.IntTypes.int_t",
@@ -152,7 +152,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "eb5a01a1f9a1a9b2ca48fb6b3de43b3d"
+      "2655c1d8c50bb3a891236fc3bd2c06bd"
     ],
     [
       "Hacl.Impl.BignumQ.Mul.qelem_wide_fits",
@@ -193,7 +193,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
-        "refinement_interpretation_Tm_refine_aefc8831140455d648ec30e8645ce102",
+        "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
         "typing_FStar.UInt.fits", "typing_FStar.UInt32.v",
         "typing_Lib.Buffer.length", "typing_Lib.IntTypes.int_t",
@@ -203,7 +203,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "257f21a51a8201210d6c924a76e118bc"
+      "773e3172f2faafd9b6d79b3e6d98883e"
     ],
     [
       "Hacl.Impl.BignumQ.Mul.barrett_reduction",
@@ -221,7 +221,7 @@
         "typing_Prims.pow2"
       ],
       0,
-      "221866e6da7b3898ae40d7d040008b2a"
+      "b623cff30256015b5001f40559be6dfa"
     ],
     [
       "Hacl.Impl.BignumQ.Mul.mul_modq",
@@ -239,7 +239,7 @@
         "typing_Prims.pow2"
       ],
       0,
-      "dce634318b66951ea6ef6062ce7cd0a2"
+      "d22d9f8b1cd8265c634a202ee8f4008d"
     ],
     [
       "Hacl.Impl.BignumQ.Mul.add_modq",
@@ -249,12 +249,12 @@
       [
         "@MaxIFuel_assumption", "@query",
         "equation_Hacl.Impl.BignumQ.Mul.as_nat", "equation_Prims.nat",
-        "refinement_interpretation_Tm_refine_057cc5690a53f876883cbfcfdd9611d5",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_9482b8b52b08ca18555da87aa14ba9c0",
         "typing_Hacl.Impl.BignumQ.Mul.as_nat"
       ],
       0,
-      "4301110d6ee5cf18e3d37f129a33d61a"
+      "1655dde2916cffa4173e6fe1a664363a"
     ]
   ]
 ]

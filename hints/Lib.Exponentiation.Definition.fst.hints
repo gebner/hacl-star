@@ -1,5 +1,5 @@
 [
-  "π’»e&ΜεΎΩ0\u0017‚\u001f\u001d\u0012\u0003",
+  "f092bb6526cce5bed93017821f1d1203",
   [
     [
       "Lib.Exponentiation.Definition.pow",
@@ -17,7 +17,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "bff2b147f87d34998decdc297f63f413"
+      "97ef0ece967277cba161b0f5edaa9cfc"
     ],
     [
       "Lib.Exponentiation.Definition.pow_neg",
@@ -31,7 +31,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "fdd671ccee20bb025b8b35993a290102"
+      "a71342977ee0ab7b497ca82a0925a423"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_inverse_one",
@@ -45,8 +45,8 @@
         "equation_Lib.Exponentiation.Definition.mul",
         "equation_Lib.Exponentiation.Definition.one",
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.abelian_group",
-        "interpretation_Tm_abs_237c504f66c36628e5e9d9a26d692600",
-        "interpretation_Tm_abs_6c507acc1d35fd17bae8fc3bbe18f5ba",
+        "interpretation_Tm_abs_0a3bf51a05f75632b23a3bfd82ec9d6d",
+        "interpretation_Tm_abs_61a4b54cd9e5089cfd84ea743c29f679",
         "interpretation_Tm_abs_9eae4aaef826b21cb33ed1964f93c953",
         "interpretation_Tm_abs_fcfc8309967f95f9a7d2ea1f3249cfde",
         "proj_equation_Lib.Exponentiation.Definition.Mkabelian_group_@cm",
@@ -61,7 +61,7 @@
         "token_correspondence_Lib.Exponentiation.Definition.one"
       ],
       0,
-      "d0aac5d1f65c125c745e734a13c59881"
+      "62137c345999dd154871932dae567935"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_mul_cancel_inverse",
@@ -75,8 +75,8 @@
         "equation_Lib.Exponentiation.Definition.mul",
         "equation_Lib.Exponentiation.Definition.one",
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.abelian_group",
-        "interpretation_Tm_abs_237c504f66c36628e5e9d9a26d692600",
-        "interpretation_Tm_abs_6c507acc1d35fd17bae8fc3bbe18f5ba",
+        "interpretation_Tm_abs_0a3bf51a05f75632b23a3bfd82ec9d6d",
+        "interpretation_Tm_abs_61a4b54cd9e5089cfd84ea743c29f679",
         "interpretation_Tm_abs_9eae4aaef826b21cb33ed1964f93c953",
         "interpretation_Tm_abs_fcfc8309967f95f9a7d2ea1f3249cfde",
         "proj_equation_Lib.Exponentiation.Definition.Mkabelian_group_@cm",
@@ -91,7 +91,7 @@
         "token_correspondence_Lib.Exponentiation.Definition.one"
       ],
       0,
-      "cf0ffbbe4269971d538307e4c5bb9ded"
+      "76d35b90ef719d6f4c805209ae2723c7"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_cancellation",
@@ -100,7 +100,7 @@
       0,
       [ "@query" ],
       0,
-      "b07d0593b6f75a4abade98e6ce643845"
+      "f394d77a16ab3fabb91c83b360fcec92"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_inverse_id",
@@ -114,8 +114,8 @@
         "equation_Lib.Exponentiation.Definition.mul",
         "equation_Lib.Exponentiation.Definition.one",
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.abelian_group",
-        "interpretation_Tm_abs_237c504f66c36628e5e9d9a26d692600",
-        "interpretation_Tm_abs_6c507acc1d35fd17bae8fc3bbe18f5ba",
+        "interpretation_Tm_abs_0a3bf51a05f75632b23a3bfd82ec9d6d",
+        "interpretation_Tm_abs_61a4b54cd9e5089cfd84ea743c29f679",
         "interpretation_Tm_abs_9eae4aaef826b21cb33ed1964f93c953",
         "interpretation_Tm_abs_fcfc8309967f95f9a7d2ea1f3249cfde",
         "proj_equation_Lib.Exponentiation.Definition.Mkabelian_group_@cm",
@@ -130,7 +130,7 @@
         "token_correspondence_Lib.Exponentiation.Definition.one"
       ],
       0,
-      "c45eb924d39cdf30d79691ce7c5c14f4"
+      "d9c772476bea9276c95a364de34544cc"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_inverse_mul",
@@ -144,8 +144,8 @@
         "equation_Lib.Exponentiation.Definition.mul",
         "equation_Lib.Exponentiation.Definition.one",
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.abelian_group",
-        "interpretation_Tm_abs_237c504f66c36628e5e9d9a26d692600",
-        "interpretation_Tm_abs_6c507acc1d35fd17bae8fc3bbe18f5ba",
+        "interpretation_Tm_abs_0a3bf51a05f75632b23a3bfd82ec9d6d",
+        "interpretation_Tm_abs_61a4b54cd9e5089cfd84ea743c29f679",
         "interpretation_Tm_abs_9eae4aaef826b21cb33ed1964f93c953",
         "interpretation_Tm_abs_fcfc8309967f95f9a7d2ea1f3249cfde",
         "proj_equation_Lib.Exponentiation.Definition.Mkabelian_group_@cm",
@@ -160,7 +160,7 @@
         "token_correspondence_Lib.Exponentiation.Definition.one"
       ],
       0,
-      "7b5d06fae468dcec4fd140d098d5d622"
+      "22d9b1bafebe52ed0062eef75918aad2"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow0",
@@ -179,7 +179,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "1e957adf057cac95b7f357396c251254"
+      "bf98b461dc53f29546ea0c9058fa4716"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow1",
@@ -195,7 +195,7 @@
         "equation_with_fuel_Lib.Exponentiation.Definition.pow.fuel_instrumented",
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.comm_monoid",
         "function_token_typing_Prims.__cache_version_number__", "int_typing",
-        "interpretation_Tm_abs_6c507acc1d35fd17bae8fc3bbe18f5ba",
+        "interpretation_Tm_abs_61a4b54cd9e5089cfd84ea743c29f679",
         "interpretation_Tm_abs_9eae4aaef826b21cb33ed1964f93c953",
         "primitive_Prims.op_Equality", "primitive_Prims.op_Subtraction",
         "proj_equation_Lib.Exponentiation.Definition.Mkcomm_monoid_@mul",
@@ -208,7 +208,7 @@
         "token_correspondence_Lib.Exponentiation.Definition.one"
       ],
       0,
-      "228b6b7e31b831a1310b2ff67d7d98e4"
+      "8d6fc71bf7cd10563a050c2249fdcc06"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_unfold",
@@ -221,7 +221,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "f82a4023b88883ac2e39db224f4a7844"
+      "07b8b843499b3b12e6493496f7cd9d3c"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_unfold",
@@ -244,7 +244,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "bf636877e0b8b83e719f166c2d827871"
+      "fc3f78d11929248aff407240cd4fe2fa"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_one",
@@ -261,7 +261,7 @@
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.comm_monoid",
         "function_token_typing_Prims.__cache_version_number__",
         "int_inversion", "int_typing",
-        "interpretation_Tm_abs_6c507acc1d35fd17bae8fc3bbe18f5ba",
+        "interpretation_Tm_abs_61a4b54cd9e5089cfd84ea743c29f679",
         "interpretation_Tm_abs_9eae4aaef826b21cb33ed1964f93c953",
         "primitive_Prims.op_Equality", "primitive_Prims.op_Subtraction",
         "proj_equation_Lib.Exponentiation.Definition.Mkcomm_monoid_@mul",
@@ -275,7 +275,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "7ab76f6377ed07011c876aba87906dda"
+      "934de440bc634e9bb06203429a0b7248"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_add",
@@ -288,7 +288,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "207915d02602c588a81b47ee5c6cc7c8"
+      "d2b122ec7fd4f2791ab987cb1e5b3ca2"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_add",
@@ -306,7 +306,7 @@
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.comm_monoid",
         "function_token_typing_Prims.__cache_version_number__",
         "int_inversion", "int_typing",
-        "interpretation_Tm_abs_6c507acc1d35fd17bae8fc3bbe18f5ba",
+        "interpretation_Tm_abs_61a4b54cd9e5089cfd84ea743c29f679",
         "interpretation_Tm_abs_9eae4aaef826b21cb33ed1964f93c953",
         "primitive_Prims.op_Addition", "primitive_Prims.op_Equality",
         "primitive_Prims.op_Subtraction",
@@ -321,7 +321,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "fe0a7f187cb2f1edf0b8303d63692400"
+      "748cf1d0f72e65a309ed4c6e5147e9de"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_add",
@@ -331,11 +331,11 @@
       [
         "@MaxIFuel_assumption", "@query", "equation_Prims.nat",
         "primitive_Prims.op_Addition", "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_4447a5e30464b5c3a6799a0df8ec1c6b",
-        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_e92ce329c273782e3071cf552a597fb6"
       ],
       0,
-      "ca158b938d29875add9612e32f88e130"
+      "ae3a5da24f3b4679e3ff8c4b4a780c0c"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_mul",
@@ -348,7 +348,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "98608839927d183546ab133edb1cccbd"
+      "d49f22f8c4c6f3502e80d93d20c10c70"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_mul",
@@ -370,7 +370,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "e7be9120e358a7343eb34944e68811c8"
+      "3743feeefca65ab58201ab273cc49dfa"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_mul",
@@ -380,11 +380,11 @@
       [
         "@MaxIFuel_assumption", "@query", "equation_Prims.nat",
         "primitive_Prims.op_Multiply", "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_4447a5e30464b5c3a6799a0df8ec1c6b",
-        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_e92ce329c273782e3071cf552a597fb6"
       ],
       0,
-      "f766040552ca59a4973004837f2c8ebf"
+      "1c67497e2376b5bbd76728f1f690b3b5"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_mul_base",
@@ -401,7 +401,7 @@
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.comm_monoid",
         "function_token_typing_Prims.__cache_version_number__",
         "int_inversion", "int_typing",
-        "interpretation_Tm_abs_6c507acc1d35fd17bae8fc3bbe18f5ba",
+        "interpretation_Tm_abs_61a4b54cd9e5089cfd84ea743c29f679",
         "interpretation_Tm_abs_9eae4aaef826b21cb33ed1964f93c953",
         "primitive_Prims.op_Equality", "primitive_Prims.op_Subtraction",
         "proj_equation_Lib.Exponentiation.Definition.Mkcomm_monoid_@mul",
@@ -415,7 +415,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "3504cefece1a9b067b8a0e06533a419c"
+      "32b34f524acc3e59acdaa50bc2be75d7"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_double",
@@ -428,7 +428,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "7511292f0e18ce821c36d78881b2a445"
+      "d929eacb4d8105ab616d9e7a2c01e31d"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_double",
@@ -442,7 +442,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "97fe6d95f952917971a4cfbfdfab66cd"
+      "3d044f7076a7c8a13ffef41afa176ea3"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_inverse_pow",
@@ -461,8 +461,8 @@
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.abelian_group",
         "function_token_typing_Prims.__cache_version_number__",
         "int_inversion", "int_typing",
-        "interpretation_Tm_abs_237c504f66c36628e5e9d9a26d692600",
-        "interpretation_Tm_abs_6c507acc1d35fd17bae8fc3bbe18f5ba",
+        "interpretation_Tm_abs_0a3bf51a05f75632b23a3bfd82ec9d6d",
+        "interpretation_Tm_abs_61a4b54cd9e5089cfd84ea743c29f679",
         "interpretation_Tm_abs_9eae4aaef826b21cb33ed1964f93c953",
         "interpretation_Tm_abs_fcfc8309967f95f9a7d2ea1f3249cfde",
         "primitive_Prims.op_Equality", "primitive_Prims.op_Subtraction",
@@ -482,7 +482,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "4baaedfca6689f5cd8aef74b6a914354"
+      "2e804d5e2168d83998bfd8017d41144f"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_neg_one",
@@ -497,7 +497,7 @@
         "equation_Lib.Exponentiation.Definition.pow_neg",
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.abelian_group",
         "int_inversion",
-        "interpretation_Tm_abs_237c504f66c36628e5e9d9a26d692600",
+        "interpretation_Tm_abs_0a3bf51a05f75632b23a3bfd82ec9d6d",
         "interpretation_Tm_abs_9eae4aaef826b21cb33ed1964f93c953",
         "interpretation_Tm_abs_fcfc8309967f95f9a7d2ea1f3249cfde",
         "primitive_Prims.op_GreaterThanOrEqual", "primitive_Prims.op_Minus",
@@ -512,7 +512,7 @@
         "token_correspondence_Lib.Exponentiation.Definition.one"
       ],
       0,
-      "fe6ba46274cfa08e2ce8ba38fcd22edc"
+      "497226995b2a25ce6022231284d9f854"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_neg_add_aux",
@@ -529,8 +529,8 @@
         "equation_Prims.nat",
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.abelian_group",
         "int_inversion",
-        "interpretation_Tm_abs_237c504f66c36628e5e9d9a26d692600",
-        "interpretation_Tm_abs_6c507acc1d35fd17bae8fc3bbe18f5ba",
+        "interpretation_Tm_abs_0a3bf51a05f75632b23a3bfd82ec9d6d",
+        "interpretation_Tm_abs_61a4b54cd9e5089cfd84ea743c29f679",
         "interpretation_Tm_abs_9eae4aaef826b21cb33ed1964f93c953",
         "interpretation_Tm_abs_fcfc8309967f95f9a7d2ea1f3249cfde",
         "primitive_Prims.op_Addition",
@@ -552,7 +552,7 @@
         "token_correspondence_Lib.Exponentiation.Definition.one"
       ],
       0,
-      "79f6fd2084b7982abc77ebf2cde9c725"
+      "b6630237a5e3adc09784900a7232bdcc"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_neg_add",
@@ -568,8 +568,8 @@
         "equation_Prims.nat",
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.abelian_group",
         "int_inversion",
-        "interpretation_Tm_abs_237c504f66c36628e5e9d9a26d692600",
-        "interpretation_Tm_abs_6c507acc1d35fd17bae8fc3bbe18f5ba",
+        "interpretation_Tm_abs_0a3bf51a05f75632b23a3bfd82ec9d6d",
+        "interpretation_Tm_abs_61a4b54cd9e5089cfd84ea743c29f679",
         "interpretation_Tm_abs_fcfc8309967f95f9a7d2ea1f3249cfde",
         "primitive_Prims.op_Addition", "primitive_Prims.op_AmpAmp",
         "primitive_Prims.op_GreaterThanOrEqual",
@@ -589,7 +589,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "18a7f4cc5234f98eba629371304247d6"
+      "68afcf4265220ef43498a0ee81a978ec"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_neg_mul_mzero",
@@ -607,7 +607,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "c05008bba02876ccd15db5e4afbddd59"
+      "30204bf6182ff3f7d0452b5b079a30e7"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_neg_mul_nzero",
@@ -635,7 +635,7 @@
         "token_correspondence_Lib.Exponentiation.Definition.one"
       ],
       0,
-      "a1ff9886d0a1bbece35c7e59fdc4884a"
+      "1cc97283ab61984655ed92934db6c2a9"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_neg_mul_nneg",
@@ -650,7 +650,7 @@
         "equation_Prims.nat",
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.abelian_group",
         "int_inversion",
-        "interpretation_Tm_abs_237c504f66c36628e5e9d9a26d692600",
+        "interpretation_Tm_abs_0a3bf51a05f75632b23a3bfd82ec9d6d",
         "interpretation_Tm_abs_fcfc8309967f95f9a7d2ea1f3249cfde",
         "primitive_Prims.op_GreaterThan",
         "primitive_Prims.op_GreaterThanOrEqual",
@@ -666,7 +666,7 @@
         "token_correspondence_Lib.Exponentiation.Definition.inverse"
       ],
       0,
-      "b01442b0912400a4354968a2e2940f59"
+      "4e72716be30c8c40c4e163ad65c584ff"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_neg_mul_mneg",
@@ -686,7 +686,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "adde242890481ed270c5ab20c7fb5822"
+      "8d480fb39f0acfd66c0b539d5d13fc74"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_neg_mul",
@@ -703,7 +703,7 @@
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.abelian_group",
         "function_token_typing_Prims.__cache_version_number__",
         "int_inversion",
-        "interpretation_Tm_abs_237c504f66c36628e5e9d9a26d692600",
+        "interpretation_Tm_abs_0a3bf51a05f75632b23a3bfd82ec9d6d",
         "interpretation_Tm_abs_fcfc8309967f95f9a7d2ea1f3249cfde",
         "primitive_Prims.op_AmpAmp", "primitive_Prims.op_Equality",
         "primitive_Prims.op_GreaterThan",
@@ -721,7 +721,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "b692265cde68d6702f1314e2b888111b"
+      "6fc3ff93fb04445694766fabced0591f"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_neg_mul_base",
@@ -736,8 +736,8 @@
         "equation_Lib.Exponentiation.Definition.pow_neg",
         "fuel_guarded_inversion_Lib.Exponentiation.Definition.abelian_group",
         "int_inversion",
-        "interpretation_Tm_abs_237c504f66c36628e5e9d9a26d692600",
-        "interpretation_Tm_abs_6c507acc1d35fd17bae8fc3bbe18f5ba",
+        "interpretation_Tm_abs_0a3bf51a05f75632b23a3bfd82ec9d6d",
+        "interpretation_Tm_abs_61a4b54cd9e5089cfd84ea743c29f679",
         "interpretation_Tm_abs_fcfc8309967f95f9a7d2ea1f3249cfde",
         "primitive_Prims.op_GreaterThanOrEqual", "primitive_Prims.op_Minus",
         "proj_equation_Lib.Exponentiation.Definition.Mkabelian_group_@cm",
@@ -752,7 +752,7 @@
         "token_correspondence_Lib.Exponentiation.Definition.mul"
       ],
       0,
-      "e75e8d24044991652a772b9b657a85e4"
+      "9a592a63fe6b64e87f641d8ab7b73a5c"
     ],
     [
       "Lib.Exponentiation.Definition.lemma_pow_neg_double",
@@ -768,7 +768,7 @@
         "token_correspondence_Lib.Exponentiation.Definition.cm"
       ],
       0,
-      "1cc90cb7386a3362e914e5f21a12b202"
+      "94c43c4c957d6888373e6c72eb886675"
     ]
   ]
 ]

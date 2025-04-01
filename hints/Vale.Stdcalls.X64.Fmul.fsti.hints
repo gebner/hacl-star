@@ -1,5 +1,5 @@
 [
-  "cÈˆBÏy>\u0018\"ë[2DŒ·»",
+  "63e9f642ec793e1822915b3244cee1c8",
   [
     [
       "Vale.Stdcalls.X64.Fmul.as_t",
@@ -8,7 +8,7 @@
       0,
       [ "@query" ],
       0,
-      "76d98ca6bf570c6bff902824ddda6612"
+      "79da22f35f23e4cdea08499f7add62ca"
     ],
     [
       "Vale.Stdcalls.X64.Fmul.as_normal_t",
@@ -17,7 +17,7 @@
       0,
       [ "@query" ],
       0,
-      "2ea80328c3ddd5fa341db494e5268c58"
+      "4126dec1545c4fd0bea45ff19ac809ca"
     ],
     [
       "Vale.Stdcalls.X64.Fmul.fmul_dom",
@@ -29,7 +29,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "14c80f053aa72ea6a752fafefc2817db"
+      "87b6d4b8539f0c5969381e4a7ece5019"
     ],
     [
       "Vale.Stdcalls.X64.Fmul.fmul_lemma'",
@@ -138,9 +138,9 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_regs",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_6acca9dedba63ab823c64026a04bbefc",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
         "refinement_interpretation_Tm_refine_7d29e56e66c8277ffbad10980c3bdf4c",
+        "refinement_interpretation_Tm_refine_83bd940927020bb51199658f6752ed80",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
@@ -172,7 +172,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt64@tok"
       ],
       0,
-      "44b8868fc383c58ea883b47e26d3618e"
+      "27e8f157fb7dbcfcf84e71b7e9f6f6e5"
     ],
     [
       "Vale.Stdcalls.X64.Fmul.fmul_lemma",
@@ -237,7 +237,7 @@
         "projection_inverse_BoxBool_proj_0",
         "projection_inverse_Vale.Arch.HeapImpl.Mkvale_full_heap_@vf_heap",
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_heap",
-        "refinement_interpretation_Tm_refine_6acca9dedba63ab823c64026a04bbefc",
+        "refinement_interpretation_Tm_refine_83bd940927020bb51199658f6752ed80",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
         "refinement_interpretation_Tm_refine_cd2eb7d005c01f12641f2fefd4fc4cb0",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
@@ -256,7 +256,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt64@tok"
       ],
       0,
-      "71247764c9e2ba55238c30ef0e8475b6"
+      "7747c00e3660083e1353e4663e7d8e9c"
     ],
     [
       "Vale.Stdcalls.X64.Fmul.lowstar_fmul_t",
@@ -273,7 +273,7 @@
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416"
       ],
       0,
-      "52272cbcadee01b27cabeb2206c7d59c"
+      "8e72102d3f77eb89b318be737e9b08fe"
     ],
     [
       "Vale.Stdcalls.X64.Fmul.fmul2_lemma'",
@@ -382,9 +382,9 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_regs",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_6acca9dedba63ab823c64026a04bbefc",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
         "refinement_interpretation_Tm_refine_7d29e56e66c8277ffbad10980c3bdf4c",
+        "refinement_interpretation_Tm_refine_83bd940927020bb51199658f6752ed80",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
@@ -416,7 +416,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt64@tok"
       ],
       0,
-      "de11a34d9c0abefd9b54740493ead5bf"
+      "8b52d9b024e9ddc2f81a88e2095765c6"
     ],
     [
       "Vale.Stdcalls.X64.Fmul.fmul2_lemma",
@@ -481,7 +481,7 @@
         "projection_inverse_BoxBool_proj_0",
         "projection_inverse_Vale.Arch.HeapImpl.Mkvale_full_heap_@vf_heap",
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_heap",
-        "refinement_interpretation_Tm_refine_6acca9dedba63ab823c64026a04bbefc",
+        "refinement_interpretation_Tm_refine_83bd940927020bb51199658f6752ed80",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
         "refinement_interpretation_Tm_refine_cd2eb7d005c01f12641f2fefd4fc4cb0",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
@@ -500,7 +500,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt64@tok"
       ],
       0,
-      "8526834f2719e44b9ba30fdcbf8ea859"
+      "61df0af5ba32425cbd5cbaad1b55162a"
     ],
     [
       "Vale.Stdcalls.X64.Fmul.lowstar_fmul2_t",
@@ -517,7 +517,7 @@
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416"
       ],
       0,
-      "a9ff7dfa21093d46f079b3875ad6a613"
+      "c04b7784b41f2d2f5170ab49795bfdda"
     ],
     [
       "Vale.Stdcalls.X64.Fmul.fmul1_dom",
@@ -529,7 +529,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "f9fa4e7df4619cb32bdff6bf993137f5"
+      "f5631e7cee2bc071d5ea9de1f853be54"
     ],
     [
       "Vale.Stdcalls.X64.Fmul.fmul1_pre",
@@ -551,7 +551,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "cd18712fc36f18533f32ea94badcf12c"
+      "ae0eab838e438f000e61b5a35a6affa1"
     ],
     [
       "Vale.Stdcalls.X64.Fmul.fmul1_post",
@@ -573,7 +573,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "2a567d0b5c2db5c4e465d7fe8c547728"
+      "cb38b606d3655f0ddf5af0bbbb6b5967"
     ],
     [
       "Vale.Stdcalls.X64.Fmul.fmul1_lemma'",
@@ -681,9 +681,9 @@
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_regs",
         "refinement_interpretation_Tm_refine_0559236e7a05befcc7b6302f3642ad81",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_6acca9dedba63ab823c64026a04bbefc",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
         "refinement_interpretation_Tm_refine_7d29e56e66c8277ffbad10980c3bdf4c",
+        "refinement_interpretation_Tm_refine_83bd940927020bb51199658f6752ed80",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d",
         "refinement_interpretation_Tm_refine_cd2eb7d005c01f12641f2fefd4fc4cb0",
@@ -718,7 +718,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt64@tok"
       ],
       0,
-      "8b1ad7d4499ce4f11461df5958065805"
+      "40be1dc15ac0d0022175fe24a59d95cb"
     ],
     [
       "Vale.Stdcalls.X64.Fmul.fmul1_lemma",
@@ -782,7 +782,7 @@
         "projection_inverse_BoxBool_proj_0",
         "projection_inverse_Vale.Arch.HeapImpl.Mkvale_full_heap_@vf_heap",
         "projection_inverse_Vale.X64.State.Mkvale_state_@vs_heap",
-        "refinement_interpretation_Tm_refine_6acca9dedba63ab823c64026a04bbefc",
+        "refinement_interpretation_Tm_refine_83bd940927020bb51199658f6752ed80",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
         "refinement_interpretation_Tm_refine_cd2eb7d005c01f12641f2fefd4fc4cb0",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
@@ -801,7 +801,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt64@tok"
       ],
       0,
-      "be3951494edbc99e594de100428475a9"
+      "9251b07b604c9ce054f5a8715538e483"
     ],
     [
       "Vale.Stdcalls.X64.Fmul.lowstar_fmul1_t",
@@ -818,7 +818,7 @@
         "refinement_interpretation_Tm_refine_6c5f6bcb35bd47658893044895a75416"
       ],
       0,
-      "07a631e1a796d38dd195d0daf4645d14"
+      "6c20c659ace06a4a3016c863cd5acaf5"
     ]
   ]
 ]

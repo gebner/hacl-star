@@ -1,5 +1,5 @@
 [
-  "h42ˆ–\u0003øÕÔ˜¾˜RÛ\u0018…",
+  "683432889603f8d5d498be9852db1885",
   [
     [
       "Vale.Lib.MapTree.tree",
@@ -14,7 +14,7 @@
         "typing_Prims.int"
       ],
       0,
-      "25fa00d50ad19d1013356e7bc56b47c0"
+      "b3f3c8b12f70068053e9f05b48c5d9e5"
     ],
     [
       "Vale.Lib.MapTree.__proj__Node__item___0",
@@ -23,10 +23,10 @@
       0,
       [
         "@MaxIFuel_assumption", "@query",
-        "refinement_interpretation_Tm_refine_635accbbfc14b5661126f348775b2e00"
+        "refinement_interpretation_Tm_refine_42050f6b341a8670cdceefdd3947daf2"
       ],
       0,
-      "2b002c1b3ce5d6f2c0b938009b06a2df"
+      "183b4e8e564903a02da07375691b26dd"
     ],
     [
       "Vale.Lib.MapTree.__proj__Node__item___1",
@@ -35,10 +35,10 @@
       0,
       [
         "@MaxIFuel_assumption", "@query",
-        "refinement_interpretation_Tm_refine_635accbbfc14b5661126f348775b2e00"
+        "refinement_interpretation_Tm_refine_42050f6b341a8670cdceefdd3947daf2"
       ],
       0,
-      "873229bc20215745a925c3574e777c2a"
+      "c0b7a7fbff0db7f417873c234c7e7728"
     ],
     [
       "Vale.Lib.MapTree.__proj__Node__item___2",
@@ -47,10 +47,10 @@
       0,
       [
         "@MaxIFuel_assumption", "@query",
-        "refinement_interpretation_Tm_refine_635accbbfc14b5661126f348775b2e00"
+        "refinement_interpretation_Tm_refine_42050f6b341a8670cdceefdd3947daf2"
       ],
       0,
-      "7c363810a2c6fa3df2c63913eba0b961"
+      "8bf9b47bfd9cc95499666e442d2f8527"
     ],
     [
       "Vale.Lib.MapTree.__proj__Node__item___3",
@@ -59,10 +59,10 @@
       0,
       [
         "@MaxIFuel_assumption", "@query",
-        "refinement_interpretation_Tm_refine_635accbbfc14b5661126f348775b2e00"
+        "refinement_interpretation_Tm_refine_42050f6b341a8670cdceefdd3947daf2"
       ],
       0,
-      "d7a1648c72a926f056e5bc6412df6798"
+      "3cc44fee151544acb0acd27ed2cf0558"
     ],
     [
       "Vale.Lib.MapTree.__proj__Node__item___4",
@@ -71,10 +71,10 @@
       0,
       [
         "@MaxIFuel_assumption", "@query",
-        "refinement_interpretation_Tm_refine_635accbbfc14b5661126f348775b2e00"
+        "refinement_interpretation_Tm_refine_42050f6b341a8670cdceefdd3947daf2"
       ],
       0,
-      "91745a1b583fd84cd602511874c3cdc0"
+      "33acfe5c04c216fa05c146426982a477"
     ],
     [
       "Vale.Lib.MapTree.height",
@@ -89,7 +89,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "ede53703b15788e4937918bc71ca6a27"
+      "7b461f6618b3ef6e72e96a0e2747748d"
     ],
     [
       "Vale.Lib.MapTree.mkNode",
@@ -105,7 +105,7 @@
         "typing_Vale.Lib.MapTree.height"
       ],
       0,
-      "51d16b1c6b3714359f2a1ab95fd4a549"
+      "43ce48e0c8a99638ece282714c20bb94"
     ],
     [
       "Vale.Lib.MapTree.get",
@@ -122,7 +122,7 @@
         "subterm_ordering_Vale.Lib.MapTree.Node"
       ],
       0,
-      "695f8c92c73fce22609972ddd5d7a066"
+      "dca9e3566df5dceb3cc14fa2763d4e8f"
     ],
     [
       "Vale.Lib.MapTree.put",
@@ -139,7 +139,7 @@
         "subterm_ordering_Vale.Lib.MapTree.Node"
       ],
       0,
-      "5944eaa171059afda7e125c57aec73dc"
+      "10d1a465e280dda5bb05922dfc7dac0b"
     ],
     [
       "Vale.Lib.MapTree.inv",
@@ -156,7 +156,7 @@
         "subterm_ordering_Vale.Lib.MapTree.Node"
       ],
       0,
-      "992b0572ea18fbcd8f74f8aaf63049a0"
+      "e14f1912fa79b0fb53c8526adadbd2e7"
     ],
     [
       "Vale.Lib.MapTree.lemma_put_inv",
@@ -222,8 +222,8 @@
         "projection_inverse_Vale.Lib.MapTree.Node_@a",
         "projection_inverse_Vale.Lib.MapTree.Node_@b",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_79d51f5bd4df46aeb06792400f600188",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
-        "refinement_interpretation_Tm_refine_eeceea8364322fd110af76f4ba886396",
         "subterm_ordering_Vale.Lib.MapTree.Node",
         "token_correspondence_Vale.Lib.MapTree.put.fuel_instrumented",
         "true_interp", "typing_Vale.Lib.MapTree.height",
@@ -232,7 +232,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "b11b0836401cd8335f7246abfdda3235"
+      "dfa9d61872e23cadaea6209bc400e3b5"
     ],
     [
       "Vale.Lib.MapTree.lemma_get_put_self",
@@ -298,8 +298,8 @@
         "projection_inverse_Vale.Lib.MapTree.Node_@a",
         "projection_inverse_Vale.Lib.MapTree.Node_@b",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_76160254ad78eaa2fbe8c7105597467a",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
+        "refinement_interpretation_Tm_refine_df30a8ba970b16744dac4a42e60d3837",
         "subterm_ordering_Vale.Lib.MapTree.Node",
         "typing_Vale.Lib.MapTree.height",
         "typing_Vale.Lib.MapTree.is_lt_option",
@@ -307,7 +307,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "381402ab42b247a5b4dfc63a00415f49"
+      "d935f6086fd1405abb604ec9a4de4c69"
     ],
     [
       "Vale.Lib.MapTree.lemma_get_put_other",
@@ -378,7 +378,7 @@
         "projection_inverse_Vale.Lib.MapTree.Node_@_4",
         "projection_inverse_Vale.Lib.MapTree.Node_@a",
         "projection_inverse_Vale.Lib.MapTree.Node_@b",
-        "refinement_interpretation_Tm_refine_19c5350221c6721f6968372ef18dc26a",
+        "refinement_interpretation_Tm_refine_369350c9a1bb82e3f7d5104f6af90faf",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
         "subterm_ordering_Vale.Lib.MapTree.Node",
@@ -390,7 +390,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "08208828d46c5d5312212ba7c22c4dae"
+      "f864684e00fcb9eb82b346e192ab9b5b"
     ],
     [
       "Vale.Lib.MapTree.const",
@@ -413,7 +413,7 @@
         "true_interp"
       ],
       0,
-      "03b31ecbabe6039d609975a3ecdad9b0"
+      "26053198e55da5d69d9d65b222e28e03"
     ],
     [
       "Vale.Lib.MapTree.sel",
@@ -429,7 +429,7 @@
         "projection_inverse_BoxBool_proj_0", "typing_Vale.Lib.MapTree.get"
       ],
       0,
-      "c3ddf9548f7db1e1464a844a2ecd76bb"
+      "0bbbb75e7efe0d336ecacee2080be2a2"
     ],
     [
       "Vale.Lib.MapTree.upd",
@@ -443,10 +443,10 @@
         "projection_inverse_BoxBool_proj_0",
         "projection_inverse_FStar.Pervasives.Native.Mktuple2_@_1",
         "projection_inverse_FStar.Pervasives.Native.Mktuple2_@_2",
-        "refinement_interpretation_Tm_refine_08b482eec08e99f073d0e029e8f39d36"
+        "refinement_interpretation_Tm_refine_62398493083ff6fe4bba9dea4b754b2d"
       ],
       0,
-      "87c34ad9c90f970346db8c0cf631f600"
+      "4c360a7361392baf72b181822377dcd0"
     ],
     [
       "Vale.Lib.MapTree.lemma_const",
@@ -472,7 +472,7 @@
         "refinement_interpretation_Tm_refine_45141b9abce5adf1299e1d7ad7f1fcef"
       ],
       0,
-      "4950d0234000bf5c3c84e031e7a81416"
+      "b1e5de25c8be5201400d08c4e669961a"
     ],
     [
       "Vale.Lib.MapTree.lemma_sel_upd_self",
@@ -490,11 +490,11 @@
         "projection_inverse_Vale.Lib.MapTree.Map_@default_v",
         "projection_inverse_Vale.Lib.MapTree.Map_@is_le",
         "projection_inverse_Vale.Lib.MapTree.Map_@t",
-        "refinement_interpretation_Tm_refine_08b482eec08e99f073d0e029e8f39d36",
+        "refinement_interpretation_Tm_refine_62398493083ff6fe4bba9dea4b754b2d",
         "unit_inversion"
       ],
       0,
-      "69898421603bea6e20fb343c4f022540"
+      "aa05ab72f9991a507f5861f32cd2fc08"
     ],
     [
       "Vale.Lib.MapTree.lemma_sel_upd_other",
@@ -517,11 +517,11 @@
         "projection_inverse_Vale.Lib.MapTree.Map_@default_v",
         "projection_inverse_Vale.Lib.MapTree.Map_@is_le",
         "projection_inverse_Vale.Lib.MapTree.Map_@t",
-        "refinement_interpretation_Tm_refine_08b482eec08e99f073d0e029e8f39d36",
+        "refinement_interpretation_Tm_refine_62398493083ff6fe4bba9dea4b754b2d",
         "typing_Vale.Lib.MapTree.get", "unit_inversion"
       ],
       0,
-      "66c6117204ffe504be2a16a6d22de28f"
+      "a18aa96b34048f1f7d1b9e070077d090"
     ]
   ]
 ]

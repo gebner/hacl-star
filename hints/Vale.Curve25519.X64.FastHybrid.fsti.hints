@@ -1,5 +1,5 @@
 [
-  "é\u0011©q™\u0010\u000fè§T(;„Í?9",
+  "e911a97199100fe8a754283b84cd3f39",
   [
     [
       "Vale.Curve25519.X64.FastHybrid.va_lemma_Carry_wide",
@@ -12,7 +12,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "622ba7301b0645a0286cc30e5add8f21"
+      "1d08e41f054bcb10dc7fbc70a35e705c"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_wp_Carry_wide",
@@ -25,7 +25,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "daa8225ea1941a5146bd8afb0314a5d6"
+      "e9bd49f608e231085ec087878de52bd5"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_quick_Carry_wide",
@@ -37,7 +37,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "2b716c8f747eaf82f6c11f2f00ad26ac"
+      "3185d10970dc5859f58bba06e7badbb9"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_quick_Fadd",
@@ -49,7 +49,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "0802e8fb6a3f258a4777abc26ddccf35"
+      "be022618220c16568e8ffa96fbacd594"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_req_Fadd_stdcall",
@@ -58,7 +58,7 @@
       0,
       [ "@query" ],
       0,
-      "ca094a8650286d9d803e19b01e1b085f"
+      "3349a22cc41efdedb2ad7b804c5f706b"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_ens_Fadd_stdcall",
@@ -67,7 +67,7 @@
       0,
       [ "@query" ],
       0,
-      "47fbf719599b8c03b60b16e3905b0ce0"
+      "2ef483d78cfebf2f84b02fedd087c60b"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_lemma_Fadd_stdcall",
@@ -79,7 +79,7 @@
         "fuel_guarded_inversion_Vale.X64.State.vale_state"
       ],
       0,
-      "2f400e4c6442e8bf606a73319b5b3641"
+      "55e86b4e310c2630213190b796a46931"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_wp_Fadd_stdcall",
@@ -88,7 +88,7 @@
       0,
       [ "@query" ],
       0,
-      "6a79e6cf018a164ce16a858a7a51d611"
+      "168a30f6025ab77f3537bbeea9b24a95"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_quick_Fadd_stdcall",
@@ -100,7 +100,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "bd2bdbcaa47a0d891bafce0bd1c66a41"
+      "d9a72552cd298d24f70eed430e429914"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_quick_Fsub",
@@ -112,7 +112,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "639c56227f2d62f3866b08c0d5e8f802"
+      "44c166e1427c6314d8ca9e9d5bd74773"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_req_Fsub_stdcall",
@@ -121,7 +121,7 @@
       0,
       [ "@query" ],
       0,
-      "9048c6c33b9a32e66f517d9e5e3d3e43"
+      "bbee15e4e611a99581e78c32f4e3d549"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_ens_Fsub_stdcall",
@@ -130,19 +130,16 @@
       0,
       [ "@query" ],
       0,
-      "c91111b64ab77b622ddc631ad4427ffe"
+      "4fd6f2fd49f00c3ab3ea05c7d0a98326"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_lemma_Fsub_stdcall",
       1,
       1,
       0,
-      [
-        "@MaxIFuel_assumption", "@query", "bool_inversion",
-        "fuel_guarded_inversion_Vale.X64.State.vale_state"
-      ],
+      [ "@query" ],
       0,
-      "deab8164ba9da39cda34913b01c9a245"
+      "797f3517fdc415d5abd736c8c5c46bda"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_wp_Fsub_stdcall",
@@ -151,7 +148,7 @@
       0,
       [ "@query" ],
       0,
-      "b03ca2d30d0602bbd8e7e09347b22a00"
+      "b3ac9365e72f95923c53452ff9600e20"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_quick_Fsub_stdcall",
@@ -163,7 +160,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "6cbe94c65152b95716b2b4531f67088f"
+      "b44c9baa6e1decd989d05bbbe8472d97"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_quick_Fmul1",
@@ -175,7 +172,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "52dd1166da4d25026b90bc6887419141"
+      "349f5deddf2d3b58f59649101c955c9e"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_req_Fmul1_stdcall",
@@ -192,7 +189,7 @@
         "typing_Prims.int"
       ],
       0,
-      "4d7873af9c416b24a7c765227c4fc4d1"
+      "8a563490e6cede60954ece1f8022e2ed"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_ens_Fmul1_stdcall",
@@ -201,7 +198,7 @@
       0,
       [ "@query" ],
       0,
-      "5f4e7ebb2ac76e63ada6d8fba2183a70"
+      "3c00189250e77bb9f60fd67cb2b07d59"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_lemma_Fmul1_stdcall",
@@ -209,16 +206,17 @@
       1,
       0,
       [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.Def.Words_s.nat64",
-        "equation_Vale.Def.Words_s.natN",
+        "@MaxIFuel_assumption", "@query", "bool_inversion",
+        "equation_Prims.eqtype", "equation_Prims.nat",
+        "equation_Vale.Def.Words_s.nat64", "equation_Vale.Def.Words_s.natN",
+        "fuel_guarded_inversion_Vale.X64.State.vale_state",
         "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "haseqTm_refine_c1424615841f28cac7fc34e92b7ff33c",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
         "typing_Prims.int"
       ],
       0,
-      "4fcffaba78a4741a865327ce486dc3a6"
+      "56a404ec145a6036770988860df191b3"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_wp_Fmul1_stdcall",
@@ -235,7 +233,7 @@
         "typing_Prims.int"
       ],
       0,
-      "874a3dc07e3a3b503e07485bcff48471"
+      "7134c08000dc16b21a8bff4e02545302"
     ],
     [
       "Vale.Curve25519.X64.FastHybrid.va_quick_Fmul1_stdcall",
@@ -247,7 +245,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "583121f29b56f6acded3be3fb8d626ed"
+      "54eec77051bc3040f611caccb52d6ada"
     ]
   ]
 ]
