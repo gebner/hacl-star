@@ -8,6 +8,7 @@ open Lib.RawIntTypes
 open Lib.LoopCombinators
 
 #reset-options "--z3rlimit 100 --max_fuel 0 --max_ifuel 0"
+#push-options "--ext context_pruning"
 
 /// BEGIN constant-time sequence equality
 

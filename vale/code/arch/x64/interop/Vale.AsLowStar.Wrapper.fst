@@ -157,6 +157,7 @@ let rec readable_all_live (h:ME.vale_heap) (args:list arg)
       readable_live_one h hd;
       readable_all_live h tl
 
+#push-options "--fuel 10 --ifuel 10"
 let core_create_lemma_mem_correspondance
     (#max_arity:nat)
     (#arg_reg:IX64.arg_reg_relation max_arity)
@@ -191,6 +192,7 @@ let core_create_lemma_mem_correspondance
     in
     BigOps.big_and'_forall (live_arg h0) args;
     aux args
+#pop-options
 
 let rec register_args'
     (max_arity:nat)

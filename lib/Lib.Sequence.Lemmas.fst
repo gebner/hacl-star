@@ -7,6 +7,7 @@ open Lib.Sequence
 #set-options "--z3rlimit 30 --max_fuel 0 --max_ifuel 0 \
   --using_facts_from '-* +Prims +FStar.Pervasives +FStar.Math.Lemmas +FStar.Seq \
     +Lib.IntTypes +Lib.Sequence +Lib.Sequence.Lemmas +Lib.LoopCombinators'"
+#push-options "--ext context_pruning"
 
 
 let rec repeati_extensionality #a n f g acc0 =

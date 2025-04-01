@@ -194,6 +194,7 @@ let proof_run (s:machine_state) (f:st unit) : machine_state =
   let (), s1 = f s in
   { s1 with ms_ok = s1.ms_ok && s.ms_ok }
 
+#push-options "--z3rlimit 10"
 let rec lemma_instr_apply_eval_args_equiv_states
     (outs:list instr_out) (args:list instr_operand)
     (f:instr_args_t outs args) (oprs:instr_operands_t_args args)
@@ -217,7 +218,6 @@ let rec lemma_instr_apply_eval_args_equiv_states
     | Some v ->
       lemma_instr_apply_eval_args_equiv_states outs args (f v) oprs s1 s2
 
-#push-options "--z3rlimit 10"
 let rec lemma_instr_apply_eval_inouts_equiv_states
     (outs inouts:list instr_out) (args:list instr_operand)
     (f:instr_inouts_t outs inouts args) (oprs:instr_operands_t inouts args)

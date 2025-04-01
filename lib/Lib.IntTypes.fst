@@ -685,6 +685,7 @@ let shift_right #t #l a b =
 
 val shift_right_value_aux_1: #n:pos{1 < n} -> a:Int.int_t n -> s:nat{n <= s} ->
   Lemma (Int.shift_arithmetic_right #n a s = a / pow2 s)
+#restart-solver
 let shift_right_value_aux_1 #n a s =
   pow2_le_compat s n;
   if a >= 0 then Int.sign_bit_positive a else Int.sign_bit_negative a

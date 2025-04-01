@@ -3,6 +3,7 @@ module Lib.IntVector.Serialize
 // the proofs are the same as in Lib.ByteSequence and Lib.ByteBuffer
 
 #set-options "--z3rlimit 50 --max_fuel 0 --max_ifuel 0"
+#push-options "--ext context_pruning"
 
 val vecs_from_bytes_le_f:
     vt:v_inttype

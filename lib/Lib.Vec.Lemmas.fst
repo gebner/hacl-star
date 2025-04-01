@@ -4,6 +4,7 @@ module Lib.Vec.Lemmas
 #push-options "--z3rlimit 30 --max_fuel 0 --max_ifuel 0 \
   --using_facts_from '-* +Prims +FStar.Pervasives +FStar.Math.Lemmas +FStar.Seq -FStar.Seq.Properties.slice_slice \
     +Lib.IntTypes +Lib.Sequence +Lib.Sequence.Lemmas +Lib.LoopCombinators +Lib.Vec.Lemmas'"
+#push-options "--ext context_pruning"
 
 
 let rec lemma_repeat_gen_vec w n a a_vec normalize_v f f_v acc_v0 =
@@ -461,19 +462,20 @@ val lemma_map_blocks_multi_vec_equiv_pre_k:
   -> acc_v:map_blocks_a a (w * blocksize) n i ->
   Lemma (map_blocks_multi_vec_equiv_pre #a w blocksize n hi_f f f_v i b_v acc_v)
 
-#push-options "--z3rlimit 150"
+#push-options "--z3rlimit 150 --split_queries always"
 let lemma_map_blocks_multi_vec_equiv_pre_k #a w blocksize n hi_f f f_v i b_v pre acc_v =
   //let lp = repeat_gen_blocks_map_f #a (w * blocksize) n f_v i b_v acc_v in
   //assert (lp == Seq.append acc_v (f_v i b_v));
 
   Math.Lemmas.lemma_mult_le_right w (i + 1) n;
   let f_sh = f_shift blocksize (w * i) hi_f w f in
+  assert w * blocksize == blocksize + ((w - 1) * blocksize <: nat);
 
   let aux (k:nat{k < w * blocksize}) : Lemma (Seq.index (f_v i b_v) k == Seq.index (map_blocks_multi blocksize w w b_v f_sh) k) =
     Math.Lemmas.cancel_mul_div w blocksize;
     let block = get_block_s #a #(w * blocksize) blocksize b_v k in
-    let j = k / blocksize in // j < w
-    div_mul_lt blocksize k w;
+    let j: nat = k / blocksize in // j < w
+    div_mul_lt blocksize k w; assert j < w;
 
     calc (==) {
       Seq.index (map_blocks_multi blocksize w w b_v f_sh) k;
@@ -651,6 +653,7 @@ let lemma_map_blocks_vec_equiv_pre_k #a w blocksize n f l l_v rem b_v pre acc_v 
   let nb = rem / blocksize in
   let f_sh = f_shift blocksize (w * n) (w * n + w) nb f in
   let l_sh = l_shift blocksize (w * n) (w * n + w) nb l in
+  assert n * (w * blocksize) == (w * n) * blocksize;
 
   if rem = 0 then begin
     calc (==) {
@@ -699,6 +702,7 @@ val lemma_map_blocks_vec_equiv_pre:
       (repeat_gen_blocks_map_l (w * blocksize) n l_v)
       (normalize_v_map #a w blocksize n) rem b_v acc_v)
 
+#restart-solver
 let lemma_map_blocks_vec_equiv_pre #a w blocksize n f l l_v pre rem b_v acc_v =
   lemma_map_blocks_vec_equiv_pre_k #a w blocksize n f l l_v rem b_v pre acc_v;
   Math.Lemmas.small_mod rem (w * blocksize);
