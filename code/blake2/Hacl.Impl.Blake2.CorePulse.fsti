@@ -1,14 +1,13 @@
 module Hacl.Impl.Blake2.CorePulse
+open FStar.Mul
 
 open Pulse
 
 open Lib.IntTypes
-open Lib.ByteBuffer
+open Lib.ByteBufferPulse
 open Lib.IntVector
 
 module Spec = Spec.Blake2
-module SD = Hacl.Spec.Bignum.Definitions
-module S = Hacl.Spec.Blake2
 module AP = Pulse.Lib.ArrayPtr
 
 type m_spec =
@@ -17,7 +16,7 @@ type m_spec =
   | M256
 
 noextract inline_for_extraction
-type word_t (a:Spec.alg) = SD.word_t a
+type word_t (a:Spec.alg) = Spec.word_t a
 
 noextract inline_for_extraction
 let element_t (a:Spec.alg) (m:m_spec) =
@@ -38,18 +37,20 @@ let row_len (a:Spec.alg) (m:m_spec) : size_t =
   | Spec.Blake2B,M256 -> 1ul
   | _ -> 4ul
 
+[@@pulse_unfold]
+instance arrayptr_lseq_pts_to t n : has_pts_to (AP.ptr t) (Lib.Sequence.lseq t n) =
+  { pts_to = fun r #f (v: Lib.Sequence.lseq t n) -> AP.pts_to #t r #f v }
+
 noextract inline_for_extraction
 unfold let row_p (a:Spec.alg) (m:m_spec) =
-  lbuffer (element_t a m) (row_len a m)
+  AP.ptr (element_t a m)
+  // lbuffer (element_t a m) (row_len a m)
 
-noextract inline_for_extraction
-val row_v: #a:Spec.alg -> #m:m_spec -> h:mem -> row_p a m -> GTot (Spec.row a)
+val row_pts_to (#a:Spec.alg) (#m:m_spec) (p: row_p a m) (#[full_default()] f : perm) (v: Spec.row a) : slprop
 
-noextract
-val row_v_lemma: #a:Spec.alg -> #m:m_spec -> h0:mem -> h1:mem -> r1:row_p a m -> r2:row_p a m ->
-  Lemma (ensures (as_seq h0 r1 == as_seq h1 r2 ==>
-      row_v h0 r1 == row_v h1 r2))
-  [SMTPat (row_v h0 r1); SMTPat (row_v h1 r2)]
+[@@pulse_unfold]
+instance row_pts_to_inst #a #m : has_pts_to (row_p a m) (Spec.row a) =
+  { pts_to = row_pts_to }
 
 noextract inline_for_extraction
 let salt_len (a:Spec.alg) : size_t =
@@ -74,73 +75,70 @@ type blake2_params (a:Spec.alg) = {
   node_offset: Spec.node_offset_t a;
   node_depth: uint8;
   inner_length: uint8;
-  salt: lbuffer uint8 (salt_len a);
-  personal: lbuffer uint8 (personal_len a);
+  salt: AP.ptr uint8; //lbuffer uint8 (salt_len a);
+  personal: AP.ptr uint8; //lbuffer uint8 (personal_len a);
 }
 
-let blake2_params_inv (#a: Spec.alg) (h: mem) (p: blake2_params a): GTot prop =
-  live h p.salt /\ live h p.personal /\ LowStar.Buffer.loc_disjoint (loc_addr_of_buffer p.salt) (loc_addr_of_buffer p.personal)
-
-let blake2_params_loc (#a: Spec.alg) (p: blake2_params a) =
-  loc_addr_of_buffer p.salt `union` loc_addr_of_buffer p.personal
-
-let blake2_params_v (#a: Spec.alg) (h: mem) (p: blake2_params a): GTot (Spec.blake2_params a) =
-  Spec.Mkblake2_params
-    p.digest_length
-    p.key_length
-    p.fanout
-    p.depth
-    p.leaf_length
-    p.node_offset
-    p.node_depth
-    p.inner_length
-    (as_seq h p.salt)
-    (as_seq h p.personal)
+let blake2_params_pts_to #a (p: blake2_params a) (#[full_default()] f : perm) (v: Spec.blake2_params a) =
+  pts_to p.salt #f v.salt **
+  pts_to p.personal #f v.personal **
+  pure (
+    p.digest_length == v.digest_length /\
+    p.key_length == v.key_length /\
+    p.fanout == v.fanout /\
+    p.depth == v.depth /\
+    p.leaf_length == v.leaf_length /\
+    p.node_offset == v.node_offset /\
+    p.node_depth == v.node_depth /\
+    p.inner_length == v.inner_length
+  )
+[@@pulse_unfold] instance blake2_params_pts_to_inst #a : has_pts_to (blake2_params a) (Spec.blake2_params a) =
+  { pts_to = blake2_params_pts_to }
 
 inline_for_extraction noextract
-val alloca_default_params: a: Spec.alg -> StackInline (blake2_params a)
-  (requires (fun _ -> True))
-  (ensures (fun h0 s h1 ->
-    blake2_params_inv h1 s /\
-    blake2_params_v h1 s == Spec.blake2_default_params a /\
-    LowStar.Buffer.(modifies loc_none h0 h1) /\
-    LowStar.Buffer.fresh_loc (blake2_params_loc s) h0 h1 /\
-    LowStar.Buffer.(loc_includes (loc_region_only true (FStar.HyperStack.get_tip h1))
-        (blake2_params_loc s))))
+val alloca_default_params (a: Spec.alg) (#salt #personal: AP.ptr uint8) : stt (blake2_params a)
+  (requires
+    pts_to salt (Lib.Sequence.create (Spec.salt_length a) (u8 0 <: uint8)) **
+    pts_to personal (Lib.Sequence.create (Spec.personal_length a) (u8 0 <: uint8)))
+  (ensures fun s -> pts_to s (Spec.blake2_default_params a))
 
 noextract inline_for_extraction
 unfold let state_p (a:Spec.alg) (m:m_spec) =
-  lbuffer (element_t a m) (4ul *. row_len a m)
+  AP.ptr (element_t a m)
+  // lbuffer (element_t a m) (4ul *. row_len a m)
 
 noextract inline_for_extraction
 unfold let index_t = n:size_t{v n < 4}
 
-noextract inline_for_extraction
-let g_rowi (#a:Spec.alg) (#m:m_spec) (st:state_p a m)  (idx:index_t) : GTot (row_p a m) =
-  gsub st (idx *. row_len a m) (row_len a m)
+// noextract inline_for_extraction
+// let g_rowi (#a:Spec.alg) (#m:m_spec) (st:state_p a m)  (idx:index_t) : GTot (row_p a m) =
+//   gsub st (idx *. row_len a m) (row_len a m)
 
-val g_rowi_disjoint: #a:Spec.alg -> #m:m_spec -> st:state_p a m -> idx1:index_t -> idx2:index_t ->
-  Lemma (ensures (v idx1 <> v idx2 ==> disjoint (g_rowi st idx1) (g_rowi st idx2)))
-  [SMTPat (disjoint (g_rowi st idx1) (g_rowi st idx2))]
+// val g_rowi_disjoint: #a:Spec.alg -> #m:m_spec -> st:state_p a m -> idx1:index_t -> idx2:index_t ->
+//   Lemma (ensures (v idx1 <> v idx2 ==> disjoint (g_rowi st idx1) (g_rowi st idx2)))
+//   [SMTPat (disjoint (g_rowi st idx1) (g_rowi st idx2))]
 
-val g_rowi_unchanged: #a:Spec.alg -> #m:m_spec -> h0:mem -> h1:mem -> st:state_p a m -> i:index_t ->
-  Lemma (requires (as_seq h0 st == as_seq h1 st))
-  (ensures (as_seq h0 (g_rowi st i) == as_seq h1 (g_rowi st i)))
-  [SMTPat (as_seq h0 (g_rowi st i)); SMTPat (as_seq h1 (g_rowi st i))]
+// val g_rowi_unchanged: #a:Spec.alg -> #m:m_spec -> h0:mem -> h1:mem -> st:state_p a m -> i:index_t ->
+//   Lemma (requires (as_seq h0 st == as_seq h1 st))
+//   (ensures (as_seq h0 (g_rowi st i) == as_seq h1 (g_rowi st i)))
+//   [SMTPat (as_seq h0 (g_rowi st i)); SMTPat (as_seq h1 (g_rowi st i))]
 
-val g_rowi_disjoint_other:  #a:Spec.alg -> #m:m_spec -> #b:Type -> st:state_p a m -> i:index_t -> x:buffer b ->
-  Lemma (requires (disjoint st x))
-       (ensures (disjoint (g_rowi st i) x))
-       [SMTPat (disjoint (g_rowi st i) x)]
+// val g_rowi_disjoint_other:  #a:Spec.alg -> #m:m_spec -> #b:Type -> st:state_p a m -> i:index_t -> x:buffer b ->
+//   Lemma (requires (disjoint st x))
+//        (ensures (disjoint (g_rowi st i) x))
+//        [SMTPat (disjoint (g_rowi st i) x)]
 
-inline_for_extraction noextract
-val state_v: #a:Spec.alg -> #m:m_spec -> mem -> state_p a m -> GTot (Spec.state a)
+val state_pts_to #a #m (p: state_p a m) (#[full_default()] f : perm) (v: Spec.state a) : slprop
 
-noextract
-val state_v_eq_lemma: #a:Spec.alg -> #m:m_spec -> h0:mem -> h1:mem -> st1:state_p a m -> st2:state_p a m ->
-  Lemma (requires (as_seq h0 st1 == as_seq h1 st2))
-  (ensures (state_v h0 st1 == state_v h1 st2))
-  [SMTPat (state_v #a #m h0 st1); SMTPat (state_v #a #m h1 st2)]
+[@@pulse_unfold]
+instance state_has_pts_to #a #m : has_pts_to (state_p a m) (Spec.state a) =
+  { pts_to = state_pts_to }
+
+// noextract
+// val state_v_eq_lemma: #a:Spec.alg -> #m:m_spec -> h0:mem -> h1:mem -> st1:state_p a m -> st2:state_p a m ->
+//   Lemma (requires (as_seq h0 st1 == as_seq h1 st2))
+//   (ensures (state_v h0 st1 == state_v h1 st2))
+//   [SMTPat (state_v #a #m h0 st1); SMTPat (state_v #a #m h1 st2)]
 
 noextract
 val state_v_rowi_lemma: #a:Spec.alg -> #m:m_spec -> h:mem -> st:state_p a m -> i:index_t ->
