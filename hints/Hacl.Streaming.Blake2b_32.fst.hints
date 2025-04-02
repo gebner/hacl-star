@@ -17,7 +17,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "98b3599e64116d4331f67ae0526289bf"
+      "926201ecce2aafa0ad52d22993c8de82"
     ],
     [
       "Hacl.Streaming.Blake2b_32.key_bytes",
@@ -35,7 +35,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "8a5110c63fac114e8535febfcdd38166"
+      "555022ddf8577e921306c435fa8fc6c3"
     ],
     [
       "Hacl.Streaming.Blake2b_32.blake2b_32",
@@ -59,7 +59,7 @@
         "typing_tok_Spec.Blake2.Definitions.Blake2S@tok"
       ],
       0,
-      "4e39a793f5108590bf1762279557e861"
+      "c3dcf76570ee8e2c90f4471d5bf55b37"
     ],
     [
       "Hacl.Streaming.Blake2b_32.state_t",
@@ -91,7 +91,7 @@
         "unit_typing"
       ],
       0,
-      "c7922aac7cb5f127f94544c2af0e0ee8"
+      "d9c30b57312875865d9bd06453ab7a5b"
     ],
     [
       "Hacl.Streaming.Blake2b_32.alloca_raw",
@@ -123,7 +123,7 @@
         "unit_typing"
       ],
       0,
-      "c8e6014a7617afc0c0b776493c898b7f"
+      "67197b327d2d151f168ed8da964a7576"
     ],
     [
       "Hacl.Streaming.Blake2b_32.malloc_raw",
@@ -155,7 +155,7 @@
         "unit_typing"
       ],
       0,
-      "061fcca4eb4eb67446fa535b6213e3ee"
+      "6f8a759804a4c740cfc4a0b7c5de331d"
     ],
     [
       "Hacl.Streaming.Blake2b_32.malloc_with_params_and_key",
@@ -176,7 +176,7 @@
         "refinement_interpretation_Tm_refine_eec9f567706b215f713dcd2254774e2c"
       ],
       0,
-      "4e233759afafd9e38df486fd92c4718c"
+      "b786ab21f251eb464f6bcb53ac85edbd"
     ],
     [
       "Hacl.Streaming.Blake2b_32.malloc_with_params_and_key",
@@ -251,7 +251,7 @@
         "typing_tok_Spec.Blake2.Definitions.Blake2B@tok", "unit_typing"
       ],
       0,
-      "02ea419b64bc6fa310e4a761aefc530b"
+      "10a6adee7af517c9dc4e55a9e956770e"
     ],
     [
       "Hacl.Streaming.Blake2b_32.malloc_with_params_and_key",
@@ -270,7 +270,7 @@
         "refinement_interpretation_Tm_refine_9574995d7759e91573a864a824f17975"
       ],
       0,
-      "61c92d2d71e6fd2a129d4c5df51a175c"
+      "fb8b6856ab244d9fb25863ccfe1d50d2"
     ],
     [
       "Hacl.Streaming.Blake2b_32.malloc_with_key",
@@ -337,7 +337,7 @@
         "typing_tok_Spec.Blake2.Definitions.Blake2S@tok"
       ],
       0,
-      "ca1ccf1b06d83b9f75333ac7b465edc1"
+      "56167a26536eae800654d59cc355d413"
     ],
     [
       "Hacl.Streaming.Blake2b_32.malloc_with_key",
@@ -530,7 +530,7 @@
         "typing_tok_Spec.Blake2.Definitions.Blake2B@tok", "unit_typing"
       ],
       0,
-      "cf7afe130e2be09b793b5ac3c8d4cdfa"
+      "c32fea89b2398b11588b4d448d1fcb03"
     ],
     [
       "Hacl.Streaming.Blake2b_32.malloc_with_key",
@@ -549,7 +549,7 @@
         "refinement_interpretation_Tm_refine_9574995d7759e91573a864a824f17975"
       ],
       0,
-      "481e995eb92d4b73be4e793377529bd6"
+      "e70db2b6235810e006f63bf823207af3"
     ],
     [
       "Hacl.Streaming.Blake2b_32.index_of_state",
@@ -581,7 +581,7 @@
         "unit_typing"
       ],
       0,
-      "52ce945b8837dd308516dfc83fc3e572"
+      "aff6417a8b9a8a5bf974d8284e4c93df"
     ],
     [
       "Hacl.Streaming.Blake2b_32.reset_raw",
@@ -612,7 +612,7 @@
         "unit_typing"
       ],
       0,
-      "6786acbdea5f9873c8a773f1b44490ef"
+      "8b5394b9ace01d2db98b53e6ea5327e7"
     ],
     [
       "Hacl.Streaming.Blake2b_32.reset_with_key_and_params",
@@ -642,7 +642,7 @@
         "typing_tok_Spec.Blake2.Definitions.Blake2B@tok"
       ],
       0,
-      "58ab46226f6a9a38544d43c5500a6659"
+      "5e468e584b89337d0c07c780789dc19f"
     ],
     [
       "Hacl.Streaming.Blake2b_32.reset_with_key_and_params",
@@ -707,7 +707,7 @@
         "typing_tok_Spec.Blake2.Definitions.Blake2B@tok", "unit_typing"
       ],
       0,
-      "b7826e940143d09847433ea91ff3a1ae"
+      "4819bb479c0fc83376e2874472264fcf"
     ],
     [
       "Hacl.Streaming.Blake2b_32.reset_with_key_and_params",
@@ -726,7 +726,7 @@
         "refinement_interpretation_Tm_refine_9574995d7759e91573a864a824f17975"
       ],
       0,
-      "888608c2fe29b3b516b82d41914a73dc"
+      "6d1b0cf353a2e113ee99f3db0daf57cb"
     ],
     [
       "Hacl.Streaming.Blake2b_32.reset_with_key",
@@ -785,7 +785,7 @@
         "typing_tok_Spec.Blake2.Definitions.Blake2S@tok"
       ],
       0,
-      "c5ed46a9efb6a8c77205ce40db714111"
+      "76c4a0f93cce2bf06f1201ae4c535c1c"
     ],
     [
       "Hacl.Streaming.Blake2b_32.reset_with_key",
@@ -988,7 +988,7 @@
         "typing_tok_Spec.Blake2.Definitions.Blake2B@tok", "unit_typing"
       ],
       0,
-      "b7dd942950df6d9c4a2e78ef3d4117c5"
+      "d351deae8ffc22f5a178f6f201c153e1"
     ],
     [
       "Hacl.Streaming.Blake2b_32.reset_with_key",
@@ -1007,7 +1007,7 @@
         "refinement_interpretation_Tm_refine_9574995d7759e91573a864a824f17975"
       ],
       0,
-      "bfd5407decf2092700144a5d53c4c10b"
+      "799aad6eb76a3e1040e7a0e15d2313f4"
     ],
     [
       "Hacl.Streaming.Blake2b_32.reset",
@@ -1015,51 +1015,84 @@
       0,
       0,
       [
-        "@MaxIFuel_assumption", "@query", "b2t_def", "bool_inversion",
-        "constructor_distinct_Lib.IntTypes.U8",
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_f8666440faa91836cc5a13998af863fc", "b2t_def",
+        "bool_inversion", "constructor_distinct_Lib.IntTypes.U8",
         "constructor_distinct_Spec.Blake2.Definitions.Blake2B",
         "constructor_distinct_Spec.Blake2.Definitions.Blake2S",
+        "equality_tok_Hacl.Impl.Blake2.Core.M32@tok",
+        "equality_tok_Hacl.Streaming.Interface.Erased@tok",
         "equality_tok_Lib.IntTypes.U8@tok",
         "equality_tok_Spec.Blake2.Definitions.Blake2B@tok",
-        "equality_tok_Spec.Blake2.Definitions.Blake2S@tok",
-        "equation_FStar.UInt.fits", "equation_FStar.UInt.max_int",
-        "equation_FStar.UInt.min_int", "equation_FStar.UInt.size",
-        "equation_FStar.UInt.uint_t",
+        "equation_FStar.UInt.fits", "equation_FStar.UInt.min_int",
+        "equation_FStar.UInt.size", "equation_FStar.UInt.uint_t",
+        "equation_Hacl.Streaming.Blake2.Common.alg",
+        "equation_Hacl.Streaming.Blake2.Common.blake2",
         "equation_Hacl.Streaming.Blake2.Common.index",
+        "equation_Hacl.Streaming.Blake2.Common.m_spec",
+        "equation_Hacl.Streaming.Blake2.Common.stateful_blake2",
         "equation_Hacl.Streaming.Blake2.Common.uint8",
-        "equation_Lib.IntTypes.pub_int_t", "equation_Lib.IntTypes.unsigned",
-        "equation_Lib.UpdateMulti.uint8", "equation_Prims.eqtype",
+        "equation_Hacl.Streaming.Blake2b_32.blake2b_32",
+        "equation_Hacl.Streaming.Functor.state",
+        "equation_Hacl.Streaming.Interface.optional_key",
+        "equation_Lib.IntTypes.pub_int_t", "equation_Lib.UpdateMulti.uint8",
+        "equation_LowStar.Buffer.buffer", "equation_LowStar.Buffer.pointer",
+        "equation_LowStar.Buffer.trivial_preorder",
+        "equation_LowStar.Monotonic.Buffer.length", "equation_Prims.eqtype",
+        "equation_Prims.nat",
+        "equation_Spec.Blake2.Definitions.digest_length_t",
         "equation_Spec.Blake2.Definitions.key_length_t",
         "equation_Spec.Blake2.Definitions.max_key",
-        "equation_Spec.Blake2.Definitions.max_output",
-        "equation_Spec.Blake2.Definitions.wt",
         "haseqTm_refine_9574995d7759e91573a864a824f17975", "int_inversion",
-        "int_typing", "lemma_FStar.UInt8.vu_inv",
+        "int_typing",
+        "interpretation_Tm_abs_a6c1812aecea1bb90987f9c8cf6d3846",
+        "kinding_Hacl.Streaming.Blake2.Params.index@tok",
+        "lemma_FStar.UInt8.vu_inv",
+        "lemma_LowStar.Monotonic.Buffer.length_null_1",
+        "lemma_LowStar.Monotonic.Buffer.length_null_2",
         "primitive_Prims.op_AmpAmp", "primitive_Prims.op_LessThanOrEqual",
+        "proj_equation_Hacl.Streaming.Interface.Block_@state",
+        "proj_equation_Hacl.Streaming.Interface.Stateful_@s",
         "proj_equation_Spec.Blake2.Definitions.Mkblake2_params_@digest_length",
         "proj_equation_Spec.Blake2.Definitions.Mkblake2_params_@key_length",
         "projection_inverse_BoxBool_proj_0",
         "projection_inverse_BoxInt_proj_0",
+        "projection_inverse_Hacl.Streaming.Interface.Block_@state",
+        "projection_inverse_Hacl.Streaming.Interface.Stateful_@s",
         "projection_inverse_Spec.Blake2.Definitions.Mkblake2_params_@digest_length",
         "projection_inverse_Spec.Blake2.Definitions.Mkblake2_params_@key_length",
         "refinement_interpretation_Tm_refine_0ce91af3d6762ea7d913b870f9e33a01",
+        "refinement_interpretation_Tm_refine_0f51164b0bab51a6c85702dbb28050d4",
         "refinement_interpretation_Tm_refine_25c72d704900d626b30894312c325451",
         "refinement_interpretation_Tm_refine_28464638457ab8ee200b19d5776f9e0c",
-        "refinement_interpretation_Tm_refine_387e6d282145573240ab7b8a4b94cce5",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_573cfed777dae20cc82e8fef9622857e",
         "refinement_interpretation_Tm_refine_9574995d7759e91573a864a824f17975",
         "refinement_interpretation_Tm_refine_9d6af3f3535473623f7aec2f0501897f",
+        "refinement_interpretation_Tm_refine_d435f2bc150dc16d734bc0276b85fd32",
+        "refinement_interpretation_Tm_refine_d71e065e838afdf64b110827af7985e5",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
-        "typing_FStar.Seq.Base.empty", "typing_FStar.UInt8.t",
+        "token_correspondence_Hacl.Streaming.Interface.__proj__Stateful__item__s",
+        "typing_FStar.Seq.Base.empty", "typing_FStar.UInt.fits",
+        "typing_FStar.UInt32.v", "typing_FStar.UInt8.t",
         "typing_FStar.UInt8.uint_to_t", "typing_FStar.UInt8.v",
+        "typing_Hacl.Streaming.Blake2.Common.index",
+        "typing_Hacl.Streaming.Blake2.Common.s",
+        "typing_Hacl.Streaming.Blake2.Params.__proj__Mkindex__item__digest_length",
         "typing_Hacl.Streaming.Blake2.Params.__proj__Mkindex__item__key_length",
-        "typing_Lib.IntTypes.unsigned", "typing_Lib.UpdateMulti.uint8",
-        "typing_Spec.Blake2.Definitions.wt",
-        "typing_tok_Lib.IntTypes.U32@tok",
-        "typing_tok_Spec.Blake2.Definitions.Blake2B@tok",
-        "typing_tok_Spec.Blake2.Definitions.Blake2S@tok"
+        "typing_Hacl.Streaming.Blake2b_32.blake2b_32",
+        "typing_Hacl.Streaming.Functor.state_s",
+        "typing_Hacl.Streaming.Interface.__proj__Block__item__key",
+        "typing_Hacl.Streaming.Interface.__proj__Block__item__km",
+        "typing_Hacl.Streaming.Interface.optional_key",
+        "typing_Lib.UpdateMulti.uint8",
+        "typing_LowStar.Buffer.trivial_preorder",
+        "typing_LowStar.Monotonic.Buffer.len",
+        "typing_tok_Hacl.Impl.Blake2.Core.M32@tok",
+        "typing_tok_Spec.Blake2.Definitions.Blake2B@tok", "unit_typing"
       ],
       0,
-      "6bff5d63a4619b99f3fe4d7bb144c8b2"
+      "3956a1bb2c9cf2f1335631355ae0261a"
     ],
     [
       "Hacl.Streaming.Blake2b_32.reset",
@@ -1108,7 +1141,7 @@
         "typing_tok_Spec.Blake2.Definitions.Blake2B@tok"
       ],
       0,
-      "907f6df0631f248fbd4dbbc367d6b65e"
+      "6b19acb33ea2d2836490977976c0820f"
     ],
     [
       "Hacl.Streaming.Blake2b_32.update",
@@ -1140,7 +1173,7 @@
         "unit_typing"
       ],
       0,
-      "a21a41925c21e852f5fff7ab6ff3842d"
+      "3b82fb489cd6ca9b5e2ef79596549c0c"
     ],
     [
       "Hacl.Streaming.Blake2b_32.digest",
@@ -1165,7 +1198,7 @@
         "typing_tok_Spec.Blake2.Definitions.Blake2B@tok"
       ],
       0,
-      "06caaf7c287e1200409cd63b450f5896"
+      "1402638c8afadbd922ecc42071302a41"
     ],
     [
       "Hacl.Streaming.Blake2b_32.digest",
@@ -1208,7 +1241,7 @@
         "typing_tok_Spec.Blake2.Definitions.Blake2B@tok", "unit_typing"
       ],
       0,
-      "2460a191d60c84b0ec62d7ae548435cc"
+      "101ef0687acbdf7f1ed096e59fb64231"
     ],
     [
       "Hacl.Streaming.Blake2b_32.info",
@@ -1240,7 +1273,7 @@
         "unit_typing"
       ],
       0,
-      "e9638f1633fa40eeb0ed5328f822ce8d"
+      "4900806772b7a3b4e3c564f802750f4d"
     ],
     [
       "Hacl.Streaming.Blake2b_32.free",
@@ -1272,7 +1305,7 @@
         "unit_typing"
       ],
       0,
-      "974198443f2c3a5e87a97da854a4d238"
+      "f248f919c1d4268c40b390bc03076168"
     ],
     [
       "Hacl.Streaming.Blake2b_32.copy",
@@ -1304,7 +1337,7 @@
         "unit_typing"
       ],
       0,
-      "4f013f09afded43030e6cafd1e102b6a"
+      "087374530defeb87fb6f6ca0669c048b"
     ]
   ]
 ]

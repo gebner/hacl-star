@@ -51,7 +51,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "72c7d9f4a13349f97ca8d65c87776083"
+      "3a5bb6567bdb24a92a2fa0e22f43f7f2"
     ],
     [
       "Hacl.Impl.Ed25519.PointAdd.point_add_step_1",
@@ -164,7 +164,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "f231c67d58d373b3734a5b9aabcfced3"
+      "22a3249660f7643ce31b3377580223a7"
     ],
     [
       "Hacl.Impl.Ed25519.PointAdd.point_add_step_2",
@@ -225,7 +225,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "b7636a0e6913ce41c7ff9b607442df6e"
+      "abe498a7169afd126f2c638046faa8a6"
     ],
     [
       "Hacl.Impl.Ed25519.PointAdd.point_add_step_2",
@@ -343,7 +343,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "14e430857300ae84fe932754e6135882"
+      "9fd24f56c031aa2dc4a29ef282214845"
     ],
     [
       "Hacl.Impl.Ed25519.PointAdd.point_add_",
@@ -453,7 +453,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "3a0e4283ed1fe0548e9467ec1c440220"
+      "b117d6b4e900e43f8aec2a51f544d11b"
     ],
     [
       "Hacl.Impl.Ed25519.PointAdd.point_add",
@@ -628,7 +628,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "105ebb94ffac6be504f10fe2bbfcd68d"
+      "c21ef3974d39be756d401643bc7b5699"
     ]
   ]
 ]

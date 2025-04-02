@@ -19,8 +19,6 @@ friend Spec.SHA2
 friend Spec.SHA2.Lemmas
 friend Vale.X64.CryptoInstructions_s
 
-#reset-options "--max_fuel 0 --max_ifuel 0"
-
 // Define these specific converters here, so that F* only reasons about
 // the correctness of the conversion once, rather that at every call site
 let vv (u:Lib.IntTypes.uint32) : nat32 = Lib.IntTypes.v u
@@ -210,8 +208,6 @@ let lemma_add_mod_associates_U32 (x y z:UInt32.t) :
   //assert (to_uint32 ((vv x + vv (to_uint32 ((vv y + vv z) % pow2_32))) % pow2_32) ==
   //        to_uint32 (((vv x + vv y % pow2_32) + vv z) % pow2_32));
 *)
-
-#reset-options "--max_fuel 0 --max_ifuel 0"
 
 
 let lemma_add_wrap_is_add_mod (n0 n1:nat32) :

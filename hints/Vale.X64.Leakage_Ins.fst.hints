@@ -13,7 +13,7 @@
         "interpretation_Tm_abs_cb068bb0a3881173b00fd9697d7dc61a"
       ],
       0,
-      "7c1e704a4061a94fdeb6fa6774ceb6f5"
+      "93fdf593288bf322fe7f8469b4f685be"
     ],
     [
       "Vale.X64.Leakage_Ins.check_if_consumes_fixed_time_args",
@@ -172,7 +172,7 @@
         "unit_typing"
       ],
       0,
-      "4a16583ee62d2f743bc5be4960aa89af"
+      "58f971ddb769c03c5d7838d58f4ea385"
     ],
     [
       "Vale.X64.Leakage_Ins.check_if_consumes_fixed_time_outs_explicit",
@@ -203,7 +203,7 @@
         "typing_Prims.int"
       ],
       0,
-      "fea360a2075acc8d9636fdf48e062b41"
+      "08a40c716f2b874b8c499ca0fba90e3b"
     ],
     [
       "Vale.X64.Leakage_Ins.check_if_consumes_fixed_time_outs_implicit",
@@ -229,7 +229,7 @@
         "typing_Prims.int"
       ],
       0,
-      "90c0f77dac5b2502d5a3cf083a62f654"
+      "3715378c4787e06f3149635e71296f32"
     ],
     [
       "Vale.X64.Leakage_Ins.check_if_consumes_fixed_time_outs",
@@ -387,7 +387,7 @@
         "typing_tok_Vale.X64.Instruction_s.Out@tok"
       ],
       0,
-      "b96163824f53a0a8dc5266c8c820f5b0"
+      "1054a573297c457bea3e599f9bd52ee7"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_args_taint",
@@ -602,7 +602,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Secret@tok", "unit_inversion"
       ],
       0,
-      "1189e574c35cac93404f8c95cd6fd211"
+      "7963927463f443a3d7a8d4a7f413b2fd"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_inouts_taint",
@@ -837,7 +837,7 @@
         "unit_typing"
       ],
       0,
-      "eb972750ba88bb67c475d6285287e1bd"
+      "2c8a3c3bf703d4c445c7466eb6626a93"
     ],
     [
       "Vale.X64.Leakage_Ins.instr_set_taint_explicit",
@@ -859,7 +859,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "a124d5c8b1b97dd209bb6e9d79357665"
+      "052a0907570c5014e7f8b99d5ff0aa4a"
     ],
     [
       "Vale.X64.Leakage_Ins.instr_set_taint_implicit",
@@ -878,7 +878,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "89c1dba8b097640c76a7b40f907c7cad"
+      "c78a5d5981e4c35d1e3efebe5d903da5"
     ],
     [
       "Vale.X64.Leakage_Ins.instr_set_taints",
@@ -916,7 +916,7 @@
         "typing_tok_Vale.X64.Instruction_s.Out@tok"
       ],
       0,
-      "819e94ad1d6bad8382e5bfe064852e00"
+      "5daddc7436799831885f4180867a3578"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_instr_write_outputs_ok",
@@ -1010,7 +1010,7 @@
         "unit_typing"
       ],
       0,
-      "66316b528c3c581148664a127bd9fd0a"
+      "a21472ba4aa3a7640b670a5250b76603"
     ],
     [
       "Vale.X64.Leakage_Ins.update_heap32_val",
@@ -1019,7 +1019,7 @@
       0,
       [ "@query" ],
       0,
-      "017e9a141e28a788f5dedd59ee7b3253"
+      "f38a655e7865472210225f8439736cec"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_update_heap32_val",
@@ -1065,7 +1065,7 @@
         "typing_Vale.X64.Leakage_Ins.update_heap32_val"
       ],
       0,
-      "25509b22048d8ea96d1644a58c999e15"
+      "f647b6ace9dce88da2e01f9330de3640"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_update_heap32_domain",
@@ -1119,7 +1119,7 @@
         "typing_Vale.Def.Words_s.nat8"
       ],
       0,
-      "386eb3be5a3b8594e8957f421f4caf6d"
+      "5757d070dffcf2045534fdb3447ba9bd"
     ],
     [
       "Vale.X64.Leakage_Ins.update_heap64_val",
@@ -1138,7 +1138,7 @@
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c"
       ],
       0,
-      "a0b2026dd9e57caa6381a5091f4efc4c"
+      "21c9298b82898de571940220e3ec68a2"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_update_heap64_val",
@@ -1192,7 +1192,7 @@
         "typing_Vale.X64.Leakage_Ins.update_heap64_val"
       ],
       0,
-      "1f97d1aca4efc26d31dd08e1b2403197"
+      "0d8a56f4deeeaef9c15a21bdd899d53d"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_update_heap64_domain",
@@ -1255,7 +1255,7 @@
         "typing_Vale.Def.Words_s.nat8"
       ],
       0,
-      "aa82c8771eb4489b7df6191a7f730b46"
+      "7108e2849d34847380db412f4e97a147"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_update_heap128_val",
@@ -1289,7 +1289,7 @@
         "typing_Vale.Def.Words_s.nat32"
       ],
       0,
-      "2242308955c08a109de975aac426da5b"
+      "b63c734e435c5250416615e386fcc44c"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_update_heap128_domain",
@@ -1334,7 +1334,7 @@
         "typing_Vale.X64.Leakage_Ins.valid_addr32"
       ],
       0,
-      "dec6afc27164eacc810d43305eba274e"
+      "436e9eb8b72593ded374138e1718eb41"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_preserve_valid64",
@@ -1359,7 +1359,7 @@
         "typing_Vale.Def.Words_s.nat8"
       ],
       0,
-      "a785fe6b9f86e4f7cf62ef8033309367"
+      "45c4f9aaa72d650426f6c5eed1a17786"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_preserve_valid128",
@@ -1384,7 +1384,7 @@
         "typing_Vale.Def.Words_s.nat8"
       ],
       0,
-      "0beadf98dbdef73fa7f356fdbe91f870"
+      "f7a1eafc59383d9c31b9a429b3a13269"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_instr_set_taints_explicit",
@@ -1602,7 +1602,7 @@
         "typing_tok_Vale.X64.Instruction_s.IOpXmm@tok"
       ],
       0,
-      "2ef4a1e7822f8da15bd96d4d27405365"
+      "a5986e9bf0b76cae73ada6b035c81b37"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_instr_set_taints_implicit",
@@ -1847,7 +1847,7 @@
         "typing_tok_Vale.X64.Instruction_s.IOpFlagsOf@tok"
       ],
       0,
-      "7c163ec713cf2f580e27e65e4540b9c2"
+      "372ad06bc8514a1d352d382fc06a1406"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_instr_set_taints",
@@ -1949,7 +1949,7 @@
         "unit_typing"
       ],
       0,
-      "f7a599b5ad2c305650ea118d6e32ce61"
+      "6310d0b4c65fe303bb61c1b604a99a2a"
     ],
     [
       "Vale.X64.Leakage_Ins.check_if_instr_consumes_fixed_time",
@@ -2015,7 +2015,7 @@
         "typing_Vale.X64.Machine_Semantics_s.ins"
       ],
       0,
-      "8fda51d70082b1ea724d397a7e8611b6"
+      "011a719edc43a887cdd22285e0a2e27d"
     ],
     [
       "Vale.X64.Leakage_Ins.coerce_to_normal",
@@ -2024,7 +2024,7 @@
       0,
       [ "@query" ],
       0,
-      "14dbbe0dba0833d610bb9078d8f30840"
+      "5c82e5a9122b2b412a93674bb08fe6bb"
     ],
     [
       "Vale.X64.Leakage_Ins.check_if_xor_consumes_fixed_time",
@@ -2094,7 +2094,7 @@
         "typing_Vale.X64.Machine_Semantics_s.ins", "unit_typing"
       ],
       0,
-      "85ab02678d7e1beca331066847b0a9ef"
+      "55a0ba0a44811f56ab3ad5d181cb7747"
     ],
     [
       "Vale.X64.Leakage_Ins.check_if_pxor_consumes_fixed_time",
@@ -2162,7 +2162,7 @@
         "typing_Vale.X64.Machine_Semantics_s.ins", "unit_typing"
       ],
       0,
-      "05f71427bcf5be1b9337a4f8211638bf"
+      "330d2a77e14f4b467174b62ad801e26d"
     ],
     [
       "Vale.X64.Leakage_Ins.check_if_vpxor_consumes_fixed_time",
@@ -2230,7 +2230,7 @@
         "typing_Vale.X64.Machine_Semantics_s.ins", "unit_typing"
       ],
       0,
-      "7ddce56e7a011e232fe4d9cd39f35510"
+      "dd8bb6b276409714f2675ca47ab7102a"
     ],
     [
       "Vale.X64.Leakage_Ins.check_if_alloc_consumes_fixed_time",
@@ -2271,7 +2271,7 @@
         "typing_Vale.X64.Machine_Semantics_s.ins"
       ],
       0,
-      "33190cd4771e346777e1312f0e2e5780"
+      "a1eb95f494e58c3e22988f413010973f"
     ],
     [
       "Vale.X64.Leakage_Ins.check_if_dealloc_consumes_fixed_time",
@@ -2312,7 +2312,7 @@
         "typing_Vale.X64.Machine_Semantics_s.ins"
       ],
       0,
-      "77a67ec1a77df49003e9f40237b3dcfe"
+      "56d2b66dc6c829a17405f2758262b03f"
     ],
     [
       "Vale.X64.Leakage_Ins.check_if_push_consumes_fixed_time",
@@ -2460,7 +2460,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Secret@tok"
       ],
       0,
-      "ac533edc21569e4d6c7dacf0d5588b2a"
+      "0cec80cd932cee1d94c88aee6acbf4a1"
     ],
     [
       "Vale.X64.Leakage_Ins.check_if_pop_consumes_fixed_time",
@@ -2642,7 +2642,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Secret@tok", "unit_typing"
       ],
       0,
-      "f9412ba39ba49c00078b096d377d2541"
+      "3024f65154be7ed9b5f5465eccaf7ed4"
     ],
     [
       "Vale.X64.Leakage_Ins.check_if_ins_consumes_fixed_time",
@@ -2683,7 +2683,7 @@
         "projection_inverse_Vale.X64.Machine_Semantics_s.AnnotateXor64_@it"
       ],
       0,
-      "f626a2383e7ececb7d98c02581a23faa"
+      "88ddc6627cd06f45b8a3a68d77296e2a"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_instr_leakage_free",
@@ -2845,7 +2845,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Secret@tok", "unit_typing"
       ],
       0,
-      "56f5b426562ece119bee1a856641dad6"
+      "83996ce8fe5b2d2f63b6e1e06ed56f6f"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_dealloc_leakage_free",
@@ -2932,7 +2932,6 @@
         "kinding_Vale.X64.Bytes_Code_s.ocmp@tok",
         "kinding_Vale.X64.Machine_s.reg@tok",
         "lemma_FStar.FunctionalExtensionality.feq_on_domain",
-        "lemma_FStar.Map.lemma_SelRestrict",
         "lemma_Vale.X64.Leakage_Ins.reveal_machine_eval_code_ins",
         "primitive_Prims.op_AmpAmp", "primitive_Prims.op_Equality",
         "primitive_Prims.op_GreaterThanOrEqual",
@@ -2989,7 +2988,7 @@
         "typing_Vale.X64.Machine_Semantics_s.update_rsp_", "unit_typing"
       ],
       0,
-      "5f5f8cb2cbf9f79230fb5ca3dbb96418"
+      "4766b161ef44a4e4d12705bde555497a"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_push_leakage_free",
@@ -3215,7 +3214,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Secret@tok", "unit_typing"
       ],
       0,
-      "55cb4af83a2d35ed75703391f182c14f"
+      "90a4508e254ca53c99d2f526fe029f60"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_pop_leakage_free",
@@ -3472,7 +3471,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Secret@tok", "unit_typing"
       ],
       0,
-      "0fbce3b541b656a2971000fbc807cf3e"
+      "2e3df4471f774b42a6b7bb9adb1303c7"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_xor_leakage_free",
@@ -3862,7 +3861,7 @@
         "unit_typing"
       ],
       0,
-      "9d75af9ab50a03bdb94c7530927f4c74"
+      "dc086a0d5d38695fcbb898d68e6f2460"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_pxor_leakage_free",
@@ -4219,7 +4218,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "3b7509325f4b04ad1672793f84f03ba9"
+      "57296ab6155fab11c771f3bd837602f3"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_vpxor_leakage_free",
@@ -4564,7 +4563,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "ed446197dcb351b612f6411399db52f2"
+      "06c5c68bb6ffeddbe4a409605011c6b5"
     ],
     [
       "Vale.X64.Leakage_Ins.lemma_ins_leakage_free",
@@ -4707,7 +4706,7 @@
         "typing_Vale.X64.Machine_Semantics_s.update_rsp_", "unit_typing"
       ],
       0,
-      "265a4b28db016a96f0e8b9dcb632f44a"
+      "df890570e825a5ef9920ed528cacb3a7"
     ]
   ]
 ]

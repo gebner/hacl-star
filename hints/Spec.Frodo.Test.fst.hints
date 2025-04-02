@@ -14,7 +14,7 @@
         "typing_Prims.int"
       ],
       0,
-      "550c6604d096e283db51d5d1bdce1e2a"
+      "fd3689e819d574bdef209a3b08a20c24"
     ],
     [
       "Spec.Frodo.Test.test_frodo",
@@ -65,7 +65,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "9711488490c80825c7c02f85ce525889"
+      "33dde174c4efd9b7a90b68072b246aa3"
     ],
     [
       "Spec.Frodo.Test.test_frodo",
@@ -80,7 +80,7 @@
         "typing_Spec.Frodo.Params.crypto_bytes"
       ],
       0,
-      "eabee345d5768115b6f0828aa22dbdb5"
+      "1cdc97fcc722c7fe7b4199027da90d37"
     ],
     [
       "Spec.Frodo.Test.test",
@@ -92,7 +92,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.result"
       ],
       0,
-      "0bdb5312d7f21ec74c38dfd423f1a38d"
+      "a4c19bfa48de5158a5e852c39a1db168"
     ]
   ]
 ]

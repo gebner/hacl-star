@@ -15,7 +15,7 @@
         "projection_inverse_BoxBool_proj_0", "subterm_ordering_Prims.Cons"
       ],
       0,
-      "18eb33f19026968ff925a16558b68ad7"
+      "8d2c6e52ea0ae6468c5946df3f6f9171"
     ],
     [
       "Vale.Transformers.PeepHole.peephole_correct",
@@ -35,7 +35,7 @@
         "typing_Vale.X64.Machine_Semantics_s.ins"
       ],
       0,
-      "3c36a1ce026edd8a7682bc0e47dc94c7"
+      "ae2db0d61ce7782e2d0058f58962b8b2"
     ],
     [
       "Vale.Transformers.PeepHole.coerce_to_normal",
@@ -44,7 +44,7 @@
       0,
       [ "@query" ],
       0,
-      "86667360071e13cb0c20d99fc2eff815"
+      "2a9e23ab8bcf70dcb6d25a3edcc49e51"
     ],
     [
       "Vale.Transformers.PeepHole.lemma_update_to_valid_destination_keeps_it_as_valid_src",
@@ -194,7 +194,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Secret@tok"
       ],
       0,
-      "87d12d51095d1fb8390b4051fe560ed4"
+      "9b6058b6c40aa718cad80dadc6eb5182"
     ],
     [
       "Vale.Transformers.PeepHole.lemma_double_update_reg",
@@ -267,7 +267,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Secret@tok"
       ],
       0,
-      "a2b75e6f66446cf55a0fdcae839d8f96"
+      "fbdb1c22e746202d7f4580c9ad74858e"
     ]
   ]
 ]
