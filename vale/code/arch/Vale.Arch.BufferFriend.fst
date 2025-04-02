@@ -1,4 +1,7 @@
 module Vale.Arch.BufferFriend
+#push-options "--z3version 4.13.3 --ext context_pruning" // 4.8.5 crashes
+#restart-solver
+
 open FStar.Mul
 friend Lib.IntTypes
 friend Lib.RawIntTypes
@@ -48,7 +51,7 @@ let lemma_raw_nat_from_bytes_le_0 (b:BS.bytes) : Lemma
   =
   ()
 
-#reset-options "--z3cliopt smt.arith.nl=true"
+#push-options "--z3cliopt smt.arith.nl=true"
 let lemma_raw_nat_from_bytes_le_n (b:BS.bytes) : Lemma
   (requires length b > 0)
   (ensures BS.nat_from_bytes_le b == Raw.uint_to_nat b.[0] + pow2 8 * (BS.nat_from_bytes_le (slice b 1 (length b))))
@@ -79,7 +82,7 @@ let rec lemma_n_to_be_is_nat_to_bytes (len: nat) (n: nat) =
   );
   assert (equal (FE.n_to_be len n) (of_bytes (BS.nat_to_bytes_be len n)))
 
-#reset-options
+#pop-options
 
 let nat_from_bytes_le_is_four_to_nat b =
   let s = b in
@@ -136,7 +139,9 @@ let nat_from_bytes_le_is_le_bytes_to_nat64 b =
     le_bytes_to_nat64 sn <: int;
     == {le_bytes_to_nat64_reveal ()}
     two_to_nat 32 (seq_to_two_LE s01) <: int;
-    == {assert_norm (two_to_nat 32 (seq_to_two_LE s01) == index s01 0 + pow2 32 * index s01 1)}
+    == {
+      assert_norm (two_to_nat 32 (seq_to_two_LE s01) == int_to_natN _ (index s01 0 + pow2 32 * index s01 1))
+    }
     index s01 0 + pow2 32 * index s01 1;
     == {}
     BS.nat_from_bytes_le (slice b 0 4) + pow2 32 * BS.nat_from_bytes_le (slice b 4 8) <: int;
